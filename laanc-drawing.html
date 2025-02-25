@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>California Map Polygon Drawer</title>
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    /* Map, divider, and bottom container (buttons & vertices) */
+    #map {
+      height: 70%;
+      width: 100%;
+    }
+    
+    #divider {
+      height: 5px;
+      background-color: #ccc;
+      cursor: ns-resize;
+      width: 100%;
+    }
+    
+    #bottom-container {
+      height: 25%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      background-color: #f8f9fa;
+      flex-shrink: 0;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      flex: 1;
+      margin: 0 5px;
+    }
+    
+    button:disabled {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+    
+    #undo-btn { background-color: #f44336; }
+    #done-btn { background-color: #2196F3; }
+    
+    #coordinates-container {
+      padding: 10px;
+      overflow-y: auto;
+      background-color: #f8f9fa;
+      border-top: 1px solid #ddd;
+      flex: 1;
+    }
+    
+    .coordinate-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .coordinate-list li {
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="divider"></div>
+  <div id="bottom-container">
+    <div class="button-container">
+      <button id="undo-btn" disabled>Undo</button>
+      <button id="copy-btn" disabled>Copy</button>
+      <button id="done-btn" disabled>Done</button>
+      <button id="restart-btn">Restart</button>
+    </div>
+    <div id="coordinates-container">
+      <h3>Polygon Vertices (Clockwise from North)</h3>
+      <ul id="coordinate-list" class="coordinate-list">
+        <li>Tap on the map to add vertices...</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Leaflet JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  
+  <script>
+    // Initialize the map centered on California
+    const map = L.map('map').setView([37.8, -120.5], 6);
+    
+    // Use OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 19
+    }).addTo(map);
+    
+    // Set bounds for California to restrict map panning
+    const californiaBounds = [
+      [32.5, -124.5],
+      [42.0, -114.0]
+    ];
+    map.setMaxBounds(californiaBounds);
+    
+    // Define polygon variables
+    let vertices = [];
+    let markers = [];
+    let polyline = null;
+    let polygon = null;
+    
+    // Get DOM elements
+    const undoBtn = document.getElementById('undo-btn');
+    const copyBtn = document.getElementById('copy-btn');
+    const doneBtn = document.getElementById('done-btn');
+    const restartBtn = document.getElementById('restart-btn');
+    const coordinateList = document.getElementById('coordinate-list');
+    const divider = document.getElementById('divider');
+    const mapDiv = document.getElementById('map');
+    const bottomContainer = document.getElementById('bottom-container');
+    
+    // Function to convert decimal degrees to DMS (Degrees, Minutes, Seconds) for display
+    function decimalToDMS(decimal, isLatitude) {
+      const absolute = Math.abs(decimal);
+      const degrees = Math.floor(absolute);
+      const minutesNotTruncated = (absolute - degrees) * 60;
+      const minutes = Math.floor(minutesNotTruncated);
+      const seconds = Math.floor((minutesNotTruncated - minutes) * 60);
+      const direction = isLatitude ? (decimal >= 0 ? "N" : "S") : (decimal >= 0 ? "E" : "W");
+      return `${degrees}° ${minutes}' ${seconds}" ${direction}`;
+    }
+    
+    // Function to format DMS for copy output: "XX:XX:XXN" or "XXX:XX:XXW"
+    function formatDMS(decimal, isLatitude) {
+      const absolute = Math.abs(decimal);
+      const degrees = Math.floor(absolute);
+      const minutesNotTruncated = (absolute - degrees) * 60;
+      const minutes = Math.floor(minutesNotTruncated);
+      const seconds = Math.floor((minutesNotTruncated - minutes) * 60);
+      const direction = isLatitude ? (decimal >= 0 ? "N" : "S") : (decimal >= 0 ? "E" : "W");
+      // Pad degrees: 2 digits for latitude, 3 for longitude
+      const degStr = degrees.toString().padStart(isLatitude ? 2 : 3, '0');
+      const minStr = minutes.toString().padStart(2, '0');
+      const secStr = seconds.toString().padStart(2, '0');
+      return `${degStr}:${minStr}:${secStr}${direction}`;
+    }
+    
+    // Function to update the polyline on the map
+    function updatePolyline() {
+      if (polyline) {
+        map.removeLayer(polyline);
+      }
+      if (vertices.length > 1) {
+        polyline = L.polyline(vertices, { color: 'blue', weight: 3 }).addTo(map);
+      }
+    }
+    
+    // Function to create and display the polygon
+    function createPolygon() {
+      if (polygon) {
+        map.removeLayer(polygon);
+      }
+      if (polyline) {
+        map.removeLayer(polyline);
+      }
+      polygon = L.polygon(vertices, {
+        color: 'blue',
+        fillColor: '#3388ff',
+        fillOpacity: 0.4
+      }).addTo(map);
+    }
+    
+    // Function to sort vertices clockwise from the northernmost point
+    function sortVerticesClockwise() {
+      if (vertices.length < 3) return vertices;
+      let northernmostIndex = 0;
+      for (let i = 1; i < vertices.length; i++) {
+        if (vertices[i].lat > vertices[northernmostIndex].lat) {
+          northernmostIndex = i;
+        }
+      }
+      const northernmost = vertices[northernmostIndex];
+      const otherVertices = vertices.filter((_, index) => index !== northernmostIndex);
+      let centroidLat = 0, centroidLng = 0;
+      for (const vertex of vertices) {
+        centroidLat += vertex.lat;
+        centroidLng += vertex.lng;
+      }
+      centroidLat /= vertices.length;
+      centroidLng /= vertices.length;
+      otherVertices.sort((a, b) => {
+        const angleA = (Math.atan2(a.lng - centroidLng, a.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
+        const angleB = (Math.atan2(b.lng - centroidLng, b.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
+        return angleA - angleB;
+      });
+      return [northernmost, ...otherVertices];
+    }
+    
+    // Function to update the coordinate list display
+    function updateCoordinateList() {
+      coordinateList.innerHTML = '';
+      if (vertices.length === 0) {
+        coordinateList.innerHTML = '<li>Tap on the map to add vertices...</li>';
+        return;
+      }
+      const sortedVertices = sortVerticesClockwise();
+      sortedVertices.forEach((vertex, index) => {
+        const latDMS = decimalToDMS(vertex.lat, true);
+        const lngDMS = decimalToDMS(vertex.lng, false);
+        const li = document.createElement('li');
+        li.textContent = `Vertex ${index + 1}: ${latDMS}, ${lngDMS}`;
+        coordinateList.appendChild(li);
+      });
+    }
+    
+    // ---------- Polygon Validity Check Functions ----------
+    function onSegment(p, q, r) {
+      return (q.lat <= Math.max(p.lat, r.lat) && q.lat >= Math.min(p.lat, r.lat) &&
+              q.lng <= Math.max(p.lng, r.lng) && q.lng >= Math.min(p.lng, r.lng));
+    }
+    
+    function orientation(p, q, r) {
+      let val = (q.lng - p.lng) * (r.lat - q.lat) - (q.lat - p.lat) * (r.lng - q.lng);
+      if (val === 0) return 0;
+      return (val > 0) ? 1 : 2;
+    }
+    
+    function doLinesIntersect(p1, p2, p3, p4) {
+      let o1 = orientation(p1, p2, p3);
+      let o2 = orientation(p1, p2, p4);
+      let o3 = orientation(p3, p4, p1);
+      let o4 = orientation(p3, p4, p2);
+      if (o1 !== o2 && o3 !== o4) return true;
+      if (o1 === 0 && onSegment(p1, p3, p2)) return true;
+      if (o2 === 0 && onSegment(p1, p4, p2)) return true;
+      if (o3 === 0 && onSegment(p3, p1, p4)) return true;
+      if (o4 === 0 && onSegment(p3, p2, p4)) return true;
+      return false;
+    }
+    
+    function isPolygonSimple(vertices) {
+      const n = vertices.length;
+      if (n < 3) return false;
+      for (let i = 0; i < n; i++) {
+        let p1 = vertices[i];
+        let p2 = vertices[(i + 1) % n];
+        for (let j = i + 1; j < n; j++) {
+          if (j === i || j === (i + 1) % n || (i === 0 && j === n - 1)) continue;
+          let p3 = vertices[j];
+          let p4 = vertices[(j + 1) % n];
+          if (doLinesIntersect(p1, p2, p3, p4)) {
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+    // ---------------------------------------------------------
+    
+    // Function to add a new draggable marker at the given location
+    function addMarker(latlng) {
+      const marker = L.marker(latlng, { draggable: true }).addTo(map);
+      markers.push(marker);
+      vertices.push(latlng);
+      
+      // When marker is dragged, update its corresponding vertex and redraw polygon if complete
+      marker.on('dragend', function(e) {
+        const newPos = e.target.getLatLng();
+        const idx = markers.indexOf(marker);
+        if (idx > -1) {
+          vertices[idx] = newPos;
+          updatePolyline();
+          updateCoordinateList();
+          if (polygon) {
+            createPolygon();
+          }
+        }
+      });
+      
+      // If the first marker is clicked, treat as 'Done'
+      marker.on('click', function(e) {
+        if (markers[0] === marker && vertices.length >= 3) {
+          doneBtn.click();
+        }
+      });
+    }
+    
+    // Event handler for map clicks
+    map.on('click', function(e) {
+      if (e.originalEvent.target.classList.contains('leaflet-marker-icon')) return;
+      addMarker(e.latlng);
+      updatePolyline();
+      updateCoordinateList();
+      undoBtn.disabled = vertices.length === 0;
+      doneBtn.disabled = vertices.length < 3;
+      copyBtn.disabled = vertices.length === 0;
+    });
+    
+    // Event handler for Undo button
+    undoBtn.addEventListener('click', function() {
+      if (vertices.length > 0) {
+        vertices.pop();
+        const marker = markers.pop();
+        map.removeLayer(marker);
+        updatePolyline();
+        updateCoordinateList();
+        undoBtn.disabled = vertices.length === 0;
+        doneBtn.disabled = vertices.length < 3;
+        copyBtn.disabled = vertices.length === 0;
+        if (polygon) {
+          map.removeLayer(polygon);
+          polygon = null;
+        }
+      }
+    });
+    
+    // Event handler for Copy button (formatted output)
+    copyBtn.addEventListener('click', function() {
+      const sortedVertices = sortVerticesClockwise();
+      const output = "(" + sortedVertices.map(vertex => {
+        return `${formatDMS(vertex.lat, true)} / ${formatDMS(vertex.lng, false)}`;
+      }).join("; ") + ")";
+      navigator.clipboard.writeText(output).then(function() {
+        alert("Vertices copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy vertices.");
+      });
+    });
+    
+    // Event handler for Restart button
+    restartBtn.addEventListener('click', function() {
+      vertices = [];
+      markers.forEach(marker => map.removeLayer(marker));
+      markers = [];
+      if (polyline) {
+        map.removeLayer(polyline);
+        polyline = null;
+      }
+      if (polygon) {
+        map.removeLayer(polygon);
+        polygon = null;
+      }
+      updateCoordinateList();
+      undoBtn.disabled = true;
+      doneBtn.disabled = true;
+      copyBtn.disabled = true;
+    });
+    
+    // Event handler for Done button with error checking
+    doneBtn.addEventListener('click', function() {
+      if (vertices.length >= 3) {
+        if (!isPolygonSimple(vertices)) {
+          alert("Error: The polygon is self-intersecting. Please adjust the vertices.");
+          return;
+        }
+        createPolygon();
+        updateCoordinateList();
+      }
+    });
+    
+    // ---------- Draggable Divider ----------
+    let isDragging = false;
+    divider.addEventListener('mousedown', function(e) {
+      isDragging = true;
+      document.body.style.cursor = 'ns-resize';
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+      if (!isDragging) return;
+      const totalHeight = window.innerHeight;
+      let newMapHeight = e.clientY;
+      let newBottomHeight = totalHeight - newMapHeight - divider.offsetHeight;
+      if (newMapHeight < 100) { newMapHeight = 100; newBottomHeight = totalHeight - 100 - divider.offsetHeight; }
+      if (newBottomHeight < 100) { newBottomHeight = 100; newMapHeight = totalHeight - 100 - divider.offsetHeight; }
+      mapDiv.style.height = newMapHeight + "px";
+      bottomContainer.style.height = newBottomHeight + "px";
+      map.invalidateSize();
+    });
+    
+    document.addEventListener('mouseup', function(e) {
+      if (isDragging) {
+        isDragging = false;
+        document.body.style.cursor = 'default';
+      }
+    });
+    // -------------------------------------
+  </script>
+</body>
+</html>
