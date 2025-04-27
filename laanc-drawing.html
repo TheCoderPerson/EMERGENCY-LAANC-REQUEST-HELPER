@@ -316,10 +316,32 @@
     #copy-airport-btn {
       background-color: #7B1FA2;
     }
+    
+    /* Toggle button styles */
+    .toggle-btn {
+      background-color: #3f51b5;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 12px;
+      margin-right: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .toggle-btn:hover {
+      background-color: #303f9f;
+    }
+    
+    .map-hidden {
+      height: 0 !important;
+      overflow: hidden;
+    }
   </style>
 </head>
 <body>
   <div id="mode-selection-container">
+    <button id="toggle-map-btn" class="toggle-btn">Hide Map</button>
     <label for="mode-select"><strong>Drawing Mode:</strong></label>
     <select id="mode-select">
       <option value="polygon">Polygon</option>
@@ -561,6 +583,7 @@
     const loadCityCsvBtn = document.getElementById('load-city-csv-btn');
     const cityCsvFileInput = document.getElementById('city-csv-file-input');
     const cityCsvFilename = document.getElementById('city-csv-filename');
+    const toggleMapBtn = document.getElementById('toggle-map-btn');
     
     // Get airport elements
     const airportDisplay = document.getElementById('airport-display');
@@ -1831,10 +1854,35 @@
     // Initialize with default timezone
     timezoneSelect.value = "-8"; // Default to Pacific Time
     
-    // Initialize the application
+    // Initialize the application and load default data
     changeMode('polygon');
     loadDefaultCityData(); // Load default city CSV data on startup
     loadDefaultAirportData(); // Load default airport CSV data on startup
+
+    // Map toggle functionality
+    let isMapVisible = true;
+    toggleMapBtn.addEventListener('click', function() {
+      isMapVisible = !isMapVisible;
+      
+      if (isMapVisible) {
+        // Show map
+        mapDiv.classList.remove('map-hidden');
+        divider.style.display = 'block';
+        bottomContainer.style.height = '25%';
+        toggleMapBtn.textContent = 'Hide Map';
+      } else {
+        // Hide map
+        mapDiv.classList.add('map-hidden');
+        divider.style.display = 'none';
+        bottomContainer.style.height = '100%';
+        toggleMapBtn.textContent = 'Show Map';
+      }
+      
+      // Resize map after toggling to ensure proper rendering
+      setTimeout(function() {
+        map.invalidateSize();
+      }, 100);
+    });
 
     // Function to find the nearest city/state to a given coordinate from loaded CSV data
     function findNearestLocation(lat, lng) {
