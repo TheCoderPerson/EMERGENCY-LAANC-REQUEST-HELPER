@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>California Map Polygon Drawer</title>
+  <title>Emergency LAANC Helper</title>
   
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
@@ -17,6 +17,47 @@
       display: flex;
       flex-direction: column;
       overflow: hidden;
+    }
+    
+    /* Mode selection container */
+    #mode-selection-container {
+      padding: 10px;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #mode-select {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+    
+    /* Radius and Route width inputs */
+    .input-container {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+    
+    .input-container label {
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    
+    .input-container input {
+      width: 60px;
+      padding: 6px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    #radius-container, #route-width-container {
+      display: none;
     }
     
     /* Map, divider, and bottom container (buttons & vertices) */
@@ -46,6 +87,7 @@
       padding: 10px;
       background-color: #f8f9fa;
       flex-shrink: 0;
+      flex-wrap: wrap;
     }
     
     button {
@@ -58,6 +100,7 @@
       cursor: pointer;
       flex: 1;
       margin: 0 5px;
+      margin-bottom: 5px;
     }
     
     button:disabled {
@@ -67,6 +110,8 @@
     
     #undo-btn { background-color: #f44336; }
     #done-btn { background-color: #2196F3; }
+    #load-csv-btn { background-color: #FF9800; }
+    #copy-contact-btn { background-color: #9C27B0; }
     
     #coordinates-container {
       padding: 10px;
@@ -86,9 +131,213 @@
       padding: 5px 0;
       border-bottom: 1px solid #eee;
     }
+    
+    #csv-file-input {
+      display: none;
+    }
+    
+    .data-summary {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #e9f7ef;
+      border-radius: 5px;
+      display: none;
+    }
+    
+    .contact-section, .pilots-section, .observers-section, .drones-section {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #e3f2fd;
+      border-radius: 5px;
+      display: none;
+    }
+    
+    .contact-container, .selection-container {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+    
+    #operator-select, #pilots-select, #observers-select, #drones-select {
+      flex: 1;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-left: 10px;
+    }
+    
+    #pilots-select, #observers-select, #drones-select {
+      height: 100px;
+    }
+    
+    .pilots-section {
+      background-color: #e8f5e9;
+    }
+    
+    .observers-section {
+      background-color: #fff3e0;
+    }
+    
+    .drones-section {
+      background-color: #f3e5f5;
+    }
+    
+    /* Time zone conversion styles */
+    .time-conversion-section {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #e1f5fe;
+      border-radius: 5px;
+    }
+    
+    .time-container {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    #date-input {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    #time-input {
+      width: 80px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    #timezone-select {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .lima-time-display {
+      background-color: #f1f8e9;
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid #dcedc8;
+      font-weight: bold;
+      margin-top: 10px;
+      width: 100%;
+    }
+    
+    .time-container label {
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    
+    /* Altitude input styles */
+    .altitude-section {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #e8eaf6;
+      border-radius: 5px;
+    }
+    
+    .altitude-container {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      gap: 10px;
+    }
+    
+    #altitude-input {
+      width: 80px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    
+    .altitude-container label {
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    
+    #copy-altitude-btn {
+      background-color: #673AB7;
+    }
+    
+    /* Location section styles */
+    .location-section {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #e0f7fa;
+      border-radius: 5px;
+    }
+    
+    .location-container {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      gap: 10px;
+    }
+    
+    #location-display {
+      flex: 1;
+      padding: 8px;
+      background-color: #f1f8e9;
+      border-radius: 4px;
+      border: 1px solid #dcedc8;
+    }
+    
+    #copy-location-btn {
+      background-color: #00897B;
+    }
+    
+    /* Airport section styles */
+    .airport-section {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f3e5f5;
+      border-radius: 5px;
+    }
+    
+    .airport-container {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+      gap: 10px;
+    }
+    
+    #airport-display {
+      flex: 1;
+      padding: 8px;
+      background-color: #f1f8e9;
+      border-radius: 4px;
+      border: 1px solid #dcedc8;
+    }
+    
+    #copy-airport-btn {
+      background-color: #7B1FA2;
+    }
   </style>
 </head>
 <body>
+  <div id="mode-selection-container">
+    <label for="mode-select"><strong>Drawing Mode:</strong></label>
+    <select id="mode-select">
+      <option value="polygon">Polygon</option>
+      <option value="radius">Radius</option>
+      <option value="route">Route</option>
+    </select>
+    
+    <div id="radius-container" class="input-container">
+      <label for="radius-input">Radius (NM):</label>
+      <input type="number" id="radius-input" min="0.1" max="100" step="0.1" value="0.25">
+    </div>
+    
+    <div id="route-width-container" class="input-container">
+      <label for="route-width-input">Width (NM):</label>
+      <input type="number" id="route-width-input" min="0.1" max="100" step="0.1" value="0.25">
+    </div>
+  </div>
+  
   <div id="map"></div>
   <div id="divider"></div>
   <div id="bottom-container">
@@ -97,12 +346,121 @@
       <button id="copy-btn" disabled>Copy</button>
       <button id="done-btn" disabled>Done</button>
       <button id="restart-btn">Restart</button>
+      <button id="load-csv-btn">Load CSV</button>
+      <input type="file" id="csv-file-input" accept=".csv">
     </div>
     <div id="coordinates-container">
       <h3>Polygon Vertices (Clockwise from North)</h3>
       <ul id="coordinate-list" class="coordinate-list">
         <li>Tap on the map to add vertices...</li>
       </ul>
+      <div id="data-summary" class="data-summary">
+        <h3>Loaded Data Summary</h3>
+        <div id="summary-content"></div>
+      </div>
+      <div id="contact-section" class="contact-section">
+        <h3>Operator Point-of-Contact</h3>
+        <div class="contact-container">
+          <button id="copy-contact-btn" disabled>Copy Contact</button>
+          <select id="operator-select">
+            <option value="">Select an operator...</option>
+          </select>
+        </div>
+      </div>
+      <div id="pilots-section" class="pilots-section">
+        <h3>Pilots</h3>
+        <div class="selection-container">
+          <button id="copy-pilots-btn" disabled>Copy Pilots</button>
+          <select id="pilots-select" multiple>
+            <option value="">No pilots available...</option>
+          </select>
+        </div>
+      </div>
+      <div id="observers-section" class="observers-section">
+        <h3>Observers</h3>
+        <div class="selection-container">
+          <button id="copy-observers-btn" disabled>Copy Observers</button>
+          <select id="observers-select" multiple>
+            <option value="">No observers available...</option>
+          </select>
+        </div>
+      </div>
+      <div id="drones-section" class="drones-section">
+        <h3>UAS/Drones</h3>
+        <div class="selection-container">
+          <button id="copy-drones-btn" disabled>Copy Drones</button>
+          <select id="drones-select" multiple>
+            <option value="">No drones available...</option>
+          </select>
+        </div>
+      </div>
+      <div id="altitude-section" class="altitude-section">
+        <h3>Flight Altitude</h3>
+        <div class="altitude-container">
+          <div>
+            <label for="altitude-input">Altitude (AGL):</label>
+            <input type="number" id="altitude-input" min="0" max="400" placeholder="0-400" value="100">
+            <span>ft</span>
+          </div>
+          <button id="copy-altitude-btn">Copy Altitude</button>
+        </div>
+      </div>
+      <div id="location-section" class="location-section">
+        <h3>Nearest Location (from CSV)</h3>
+        <div class="location-container">
+          <div id="location-display">Load City CSV or use default...</div>
+          <button id="copy-location-btn" disabled>Copy Location</button>
+        </div>
+        <div class="location-container" style="margin-top: 10px;">
+          <label for="city-csv-file-input">Load Custom City CSV:</label>
+          <input type="file" id="city-csv-file-input" accept=".csv" style="display: none;">
+          <button id="load-city-csv-btn">Choose File</button>
+          <span id="city-csv-filename" style="margin-left: 10px; font-style: italic;">Using default CityCA.csv</span>
+        </div>
+      </div>
+      <div id="airport-section" class="airport-section">
+        <h3>Nearest Airport (from CSV)</h3>
+        <div class="airport-container">
+          <div id="airport-display">Load Airport CSV or use default...</div>
+          <button id="copy-airport-btn" disabled>Copy Airport</button>
+        </div>
+        <div class="location-container" style="margin-top: 10px;">
+          <label for="airport-csv-file-input">Load Custom Airport CSV:</label>
+          <input type="file" id="airport-csv-file-input" accept=".csv" style="display: none;">
+          <button id="load-airport-csv-btn">Choose File</button>
+          <span id="airport-csv-filename" style="margin-left: 10px; font-style: italic;">Using default AirPortsCA.csv</span>
+        </div>
+      </div>
+      <div id="time-conversion-section" class="time-conversion-section">
+        <h3>Time Conversion</h3>
+        <div class="time-container">
+          <div>
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input">
+          </div>
+          
+          <div>
+            <label for="time-input">Local Time:</label>
+            <input type="text" id="time-input" placeholder="HHMM or HH:MM">
+          </div>
+          
+          <div>
+            <label for="timezone-select">Time Zone:</label>
+            <select id="timezone-select">
+              <option value="-5">Eastern (EST/EDT) UTC - 5</option>
+              <option value="-6">Central (CST/CDT) UTC - 6</option>
+              <option value="-7">Mountain (MST/MDT) UTC - 7</option>
+              <option value="-8">Pacific (PST/PDT) UTC - 8</option>
+              <option value="-9">Alaska (AKST/AKDT) UTC - 9</option>
+              <option value="-10">Hawaii (HST/HDT) UTC - 10</option>
+            </select>
+          </div>
+          
+          <div class="lima-time-display" id="lima-time-display">
+            Enter date and time to see conversion
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   
@@ -126,21 +484,253 @@
     ];
     map.setMaxBounds(californiaBounds);
     
+    // Define drawing mode variables
+    let currentMode = 'polygon';
+    
     // Define polygon variables
     let vertices = [];
     let markers = [];
     let polyline = null;
     let polygon = null;
     
+    // Define radius variables
+    let centerMarker = null;
+    let radiusCircle = null;
+    let radiusValue = 0.25; // Default radius in nautical miles
+    
+    // Define route variables
+    let routePoints = [];
+    let routeMarkers = [];
+    let routePolyline = null;
+    let routeWidth = 0.25; // Default route width in nautical miles
+    let routeBuffer = null;
+    
+    // Define data storage for CSV information
+    let pilots = [];
+    let observers = [];
+    let drones = [];
+    
     // Get DOM elements
+    const modeSelect = document.getElementById('mode-select');
+    const radiusContainer = document.getElementById('radius-container');
+    const radiusInput = document.getElementById('radius-input');
+    const routeWidthContainer = document.getElementById('route-width-container');
+    const routeWidthInput = document.getElementById('route-width-input');
     const undoBtn = document.getElementById('undo-btn');
     const copyBtn = document.getElementById('copy-btn');
     const doneBtn = document.getElementById('done-btn');
     const restartBtn = document.getElementById('restart-btn');
+    const loadCsvBtn = document.getElementById('load-csv-btn');
+    const csvFileInput = document.getElementById('csv-file-input');
     const coordinateList = document.getElementById('coordinate-list');
     const divider = document.getElementById('divider');
     const mapDiv = document.getElementById('map');
     const bottomContainer = document.getElementById('bottom-container');
+    const dataSummary = document.getElementById('data-summary');
+    const summaryContent = document.getElementById('summary-content');
+    const contactSection = document.getElementById('contact-section');
+    const operatorSelect = document.getElementById('operator-select');
+    const copyContactBtn = document.getElementById('copy-contact-btn');
+    const pilotsSection = document.getElementById('pilots-section');
+    const observersSection = document.getElementById('observers-section');
+    const pilotsSelect = document.getElementById('pilots-select');
+    const observersSelect = document.getElementById('observers-select');
+    const copyPilotsBtn = document.getElementById('copy-pilots-btn');
+    const copyObserversBtn = document.getElementById('copy-observers-btn');
+    const dronesSection = document.getElementById('drones-section');
+    const dronesSelect = document.getElementById('drones-select');
+    const copyDronesBtn = document.getElementById('copy-drones-btn');
+    
+    // Time conversion elements
+    const dateInput = document.getElementById('date-input');
+    const timeInput = document.getElementById('time-input');
+    const timezoneSelect = document.getElementById('timezone-select');
+    const limaTimeDisplay = document.getElementById('lima-time-display');
+    
+    // Set default date to today
+    const today = new Date();
+    dateInput.value = today.toISOString().split('T')[0];
+    
+    // Get altitude elements
+    const altitudeInput = document.getElementById('altitude-input');
+    const copyAltitudeBtn = document.getElementById('copy-altitude-btn');
+    
+    // Get location elements
+    const locationDisplay = document.getElementById('location-display');
+    const copyLocationBtn = document.getElementById('copy-location-btn');
+    const loadCityCsvBtn = document.getElementById('load-city-csv-btn');
+    const cityCsvFileInput = document.getElementById('city-csv-file-input');
+    const cityCsvFilename = document.getElementById('city-csv-filename');
+    
+    // Get airport elements
+    const airportDisplay = document.getElementById('airport-display');
+    const copyAirportBtn = document.getElementById('copy-airport-btn');
+    const loadAirportCsvBtn = document.getElementById('load-airport-csv-btn');
+    const airportCsvFileInput = document.getElementById('airport-csv-file-input');
+    const airportCsvFilename = document.getElementById('airport-csv-filename');
+    
+    // City data storage
+    let cityData = [];
+    let currentCityFilename = "default CityCA.csv";
+    
+    // Airport data storage
+    let airportData = [];
+    let currentAirportFilename = "default AirPortsCA.csv";
+    
+    // California airports data - FAA identifiers with coordinates
+    const airports = [
+      { id: "SFO", name: "San Francisco International", lat: 37.6188, lng: -122.3754 },
+      { id: "LAX", name: "Los Angeles International", lat: 33.9416, lng: -118.4085 },
+      { id: "SAN", name: "San Diego International", lat: 32.7336, lng: -117.1897 },
+      { id: "SJC", name: "San Jose International", lat: 37.3639, lng: -121.9289 },
+      { id: "SMF", name: "Sacramento International", lat: 38.6955, lng: -121.5908 },
+      { id: "OAK", name: "Oakland International", lat: 37.7214, lng: -122.2208 },
+      { id: "SNA", name: "John Wayne Airport", lat: 33.6762, lng: -117.8676 },
+      { id: "ONT", name: "Ontario International", lat: 34.0551, lng: -117.6015 },
+      { id: "BUR", name: "Hollywood Burbank Airport", lat: 34.2007, lng: -118.3590 },
+      { id: "FAT", name: "Fresno Yosemite International", lat: 36.7758, lng: -119.7181 },
+      { id: "PSP", name: "Palm Springs International", lat: 33.8303, lng: -116.5067 },
+      { id: "SBA", name: "Santa Barbara Municipal", lat: 34.4262, lng: -119.8418 },
+      { id: "MRY", name: "Monterey Regional", lat: 36.5870, lng: -121.8430 },
+      { id: "ACV", name: "California Redwood Coast-Humboldt County", lat: 40.9781, lng: -124.1086 },
+      { id: "CEC", name: "Del Norte County", lat: 41.7802, lng: -124.2367 },
+      { id: "RDD", name: "Redding Municipal", lat: 40.5088, lng: -122.2934 },
+      { id: "MOD", name: "Modesto City-County", lat: 37.6258, lng: -120.9544 },
+      { id: "SCK", name: "Stockton Metropolitan", lat: 37.8942, lng: -121.2383 },
+      { id: "BFL", name: "Meadows Field", lat: 35.4336, lng: -119.0569 },
+      { id: "VIS", name: "Visalia Municipal", lat: 36.3187, lng: -119.3929 }
+    ];
+    
+    // Function to calculate distance between two points in nautical miles
+    function calculateDistanceNM(lat1, lon1, lat2, lon2) {
+      const R = 6371; // Radius of the earth in km
+      const dLat = deg2rad(lat2 - lat1);
+      const dLon = deg2rad(lon2 - lon1);
+      const a = 
+        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+        Math.sin(dLon/2) * Math.sin(dLon/2); 
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+      const distanceKm = R * c; // Distance in km
+      return distanceKm * 0.539957; // Convert to nautical miles
+    }
+    
+    function deg2rad(deg) {
+      return deg * (Math.PI/180);
+    }
+    
+    // Function to calculate bearing between two points
+    function calculateBearingDegrees(lat1, lon1, lat2, lon2) {
+      const startLat = deg2rad(lat1);
+      const startLng = deg2rad(lon1);
+      const endLat = deg2rad(lat2);
+      const endLng = deg2rad(lon2);
+      
+      const y = Math.sin(endLng - startLng) * Math.cos(endLat);
+      const x = Math.cos(startLat) * Math.sin(endLat) -
+                Math.sin(startLat) * Math.cos(endLat) * Math.cos(endLng - startLng);
+      
+      let bearing = Math.atan2(y, x) * 180 / Math.PI;
+      bearing = (bearing + 360) % 360; // Normalize to 0-360
+      
+      return bearing;
+    }
+    
+    // Function to convert bearing to cardinal direction
+    function getCardinalDirection(bearing) {
+      const directions = ['N', 'NNE', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SSE', 'S', 'SSW', 'SW', 'WSW', 'W', 'WNW', 'NW', 'NNW'];
+      const index = Math.round(bearing / 22.5) % 16;
+      return directions[index];
+    }
+    
+    // Function to find the nearest airport to a given coordinate
+    function findNearestAirport(lat, lng) {
+      if (!airportData || airportData.length === 0) {
+        return null; // No airport data loaded
+      }
+      
+      let nearestAirport = null;
+      let minDistance = Infinity;
+      
+      console.log(`Finding nearest airport to: ${lat.toFixed(6)}, ${lng.toFixed(6)}`); // Log target coords
+      
+      airportData.forEach(airport => {
+        // Check if airport coordinates are valid numbers before calculation
+        if (typeof airport.lat === 'number' && typeof airport.lng === 'number' && !isNaN(airport.lat) && !isNaN(airport.lng)) {
+          const distance = calculateDistanceNM(lat, lng, airport.lat, airport.lng);
+          // console.log(`Checking ${airport.idents || 'N/A'} (${airport.name}): Distance = ${distance.toFixed(1)}nm`); // Log each airport check
+          
+          if (distance < minDistance) {
+            minDistance = distance;
+            nearestAirport = airport;
+            // console.log(`---> New nearest: ${nearestAirport.idents} (${nearestAirport.name}) at ${minDistance.toFixed(1)}nm`); // Log new nearest
+          }
+        } else {
+          console.warn("Skipping airport with invalid coordinates:", airport);
+        }
+      });
+      
+      if (nearestAirport) {
+        // Calculate bearing from airport to location
+        const bearing = calculateBearingDegrees(nearestAirport.lat, nearestAirport.lng, lat, lng);
+        const direction = getCardinalDirection(bearing);
+        
+        // Round distance to 1 decimal place
+        const roundedDistance = Math.round(minDistance * 10) / 10;
+        
+        console.log(`Selected Nearest Airport: ${nearestAirport.idents} (${nearestAirport.name}), Distance: ${roundedDistance}nm, Direction: ${direction}`); // Log final selection
+        
+        return {
+          airport: nearestAirport, // Contains { type, name, lat, lng, idents }
+          distance: roundedDistance,
+          direction: direction
+        };
+      }
+      
+      console.log("No nearest airport found."); // Log if none found
+      return null;
+    }
+    
+    // Function to update airport information based on current drawing
+    function updateAirportInfo(centerPoint) {
+      if (centerPoint && airportData && airportData.length > 0) {
+        const airportInfo = findNearestAirport(centerPoint.lat, centerPoint.lng);
+        
+        // Log the received airportInfo object
+        console.log("Updating airport display with:", airportInfo); 
+        
+        if (airportInfo && airportInfo.airport) {
+          // Correctly use idents for FAA ID and name for the airport name
+          airportDisplay.textContent = `${airportInfo.distance}nm ${airportInfo.direction} of ${airportInfo.airport.idents} (${airportInfo.airport.name})`;
+          copyAirportBtn.disabled = false;
+        } else {
+          airportDisplay.textContent = "No nearest airport found in loaded data.";
+          copyAirportBtn.disabled = true;
+        }
+      } else {
+         if (!airportData || airportData.length === 0) {
+            if (currentAirportFilename.startsWith("Error") || currentAirportFilename.startsWith("Failed")) {
+                airportDisplay.textContent = "Fix airport data loading issue.";
+            } else {
+                airportDisplay.textContent = "Load Airport CSV or use default...";
+            }
+         } else {
+            airportDisplay.textContent = "Draw on map to find nearest airport.";
+         }
+         copyAirportBtn.disabled = true;
+      }
+    }
+    
+    // Event handler for Copy Airport button
+    copyAirportBtn.addEventListener('click', function() {
+      const airportText = airportDisplay.textContent.split(' (')[0]; // Get just the distance, direction and airport ID (idents)
+      
+      navigator.clipboard.writeText(airportText).then(function() {
+        alert("Airport information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy airport information.");
+      });
+    });
     
     // Function to convert decimal degrees to DMS (Degrees, Minutes, Seconds) for display
     function decimalToDMS(decimal, isLatitude) {
@@ -168,72 +758,144 @@
       return `${degStr}:${minStr}:${secStr}${direction}`;
     }
     
-    // Function to update the polyline on the map
-    function updatePolyline() {
-      if (polyline) {
-        map.removeLayer(polyline);
-      }
-      if (vertices.length > 1) {
-        polyline = L.polyline(vertices, { color: 'blue', weight: 3 }).addTo(map);
-      }
+    // Function to convert nautical miles to meters (for Leaflet)
+    function nmToMeters(nm) {
+      return nm * 1852; // 1 nautical mile = 1852 meters
     }
     
-    // Function to create and display the polygon
-    function createPolygon() {
+    // Function to handle mode changes
+    function changeMode(mode) {
+      // Clear all existing drawings
+      clearAllDrawings();
+      
+      // Update current mode
+      currentMode = mode;
+      
+      // Show/hide appropriate input containers
+      radiusContainer.style.display = mode === 'radius' ? 'flex' : 'none';
+      routeWidthContainer.style.display = mode === 'route' ? 'flex' : 'none';
+      
+      // Update button states
+      updateButtonStates();
+      
+      // Update coordinate list display
+      updateCoordinateList();
+    }
+    
+    // Function to clear all drawings
+    function clearAllDrawings() {
+      // Clear polygon elements
+      vertices = [];
+      markers.forEach(marker => map.removeLayer(marker));
+      markers = [];
+      if (polyline) {
+        map.removeLayer(polyline);
+        polyline = null;
+      }
       if (polygon) {
         map.removeLayer(polygon);
+        polygon = null;
       }
-      if (polyline) {
-        map.removeLayer(polyline);
+      
+      // Clear radius elements
+      if (centerMarker) {
+        map.removeLayer(centerMarker);
+        centerMarker = null;
       }
-      polygon = L.polygon(vertices, {
-        color: 'blue',
-        fillColor: '#3388ff',
-        fillOpacity: 0.4
-      }).addTo(map);
-    }
-    
-    // Function to sort vertices clockwise from the northernmost point
-    function sortVerticesClockwise() {
-      if (vertices.length < 3) return vertices;
-      let northernmostIndex = 0;
-      for (let i = 1; i < vertices.length; i++) {
-        if (vertices[i].lat > vertices[northernmostIndex].lat) {
-          northernmostIndex = i;
+      if (radiusCircle) {
+        map.removeLayer(radiusCircle);
+        radiusCircle = null;
+      }
+      
+      // Clear route elements
+      routePoints = [];
+      routeMarkers.forEach(marker => map.removeLayer(marker));
+      routeMarkers = [];
+      if (routePolyline) {
+        map.removeLayer(routePolyline);
+        routePolyline = null;
+      }
+      if (routeBuffer) {
+        if (Array.isArray(routeBuffer)) {
+          routeBuffer.forEach(buffer => map.removeLayer(buffer));
+        } else if (routeBuffer) {
+          map.removeLayer(routeBuffer);
         }
+        routeBuffer = null;
       }
-      const northernmost = vertices[northernmostIndex];
-      const otherVertices = vertices.filter((_, index) => index !== northernmostIndex);
-      let centroidLat = 0, centroidLng = 0;
-      for (const vertex of vertices) {
-        centroidLat += vertex.lat;
-        centroidLng += vertex.lng;
-      }
-      centroidLat /= vertices.length;
-      centroidLng /= vertices.length;
-      otherVertices.sort((a, b) => {
-        const angleA = (Math.atan2(a.lng - centroidLng, a.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
-        const angleB = (Math.atan2(b.lng - centroidLng, b.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
-        return angleA - angleB;
-      });
-      return [northernmost, ...otherVertices];
     }
     
-    // Function to update the coordinate list display
+    // Function to update button states based on current mode and state
+    function updateButtonStates() {
+      switch (currentMode) {
+        case 'polygon':
+          undoBtn.disabled = vertices.length === 0;
+          doneBtn.disabled = vertices.length < 3;
+          copyBtn.disabled = vertices.length === 0;
+          break;
+        case 'radius':
+          undoBtn.disabled = !centerMarker;
+          doneBtn.disabled = !centerMarker;
+          copyBtn.disabled = !centerMarker;
+          break;
+        case 'route':
+          undoBtn.disabled = routePoints.length === 0;
+          doneBtn.disabled = routePoints.length < 2;
+          copyBtn.disabled = routePoints.length < 2;
+          break;
+      }
+    }
+    
+    // Function to update the coordinate list display based on current mode
     function updateCoordinateList() {
       coordinateList.innerHTML = '';
-      if (vertices.length === 0) {
-        coordinateList.innerHTML = '<li>Tap on the map to add vertices...</li>';
-        return;
+      
+      switch (currentMode) {
+        case 'polygon':
+          if (vertices.length === 0) {
+            coordinateList.innerHTML = '<li>Tap on the map to add vertices...</li>';
+            return;
+          }
+          const sortedVertices = sortVerticesClockwise();
+          sortedVertices.forEach((vertex, index) => {
+            const latDMS = decimalToDMS(vertex.lat, true);
+            const lngDMS = decimalToDMS(vertex.lng, false);
+            const li = document.createElement('li');
+            li.textContent = `Vertex ${index + 1}: ${latDMS}, ${lngDMS}`;
+            coordinateList.appendChild(li);
+          });
+          break;
+          
+        case 'radius':
+          if (!centerMarker) {
+            coordinateList.innerHTML = '<li>Tap on the map to place the center point...</li>';
+            return;
+          }
+          const center = centerMarker.getLatLng();
+          const latDMS = decimalToDMS(center.lat, true);
+          const lngDMS = decimalToDMS(center.lng, false);
+          const li = document.createElement('li');
+          li.textContent = `Center: ${latDMS}, ${lngDMS}, Radius: ${radiusValue} NM`;
+          coordinateList.appendChild(li);
+          break;
+          
+        case 'route':
+          if (routePoints.length === 0) {
+            coordinateList.innerHTML = '<li>Tap on the map to add waypoints...</li>';
+            return;
+          }
+          routePoints.forEach((point, index) => {
+            const latDMS = decimalToDMS(point.lat, true);
+            const lngDMS = decimalToDMS(point.lng, false);
+            const li = document.createElement('li');
+            li.textContent = `Waypoint ${index + 1}: ${latDMS}, ${lngDMS}`;
+            coordinateList.appendChild(li);
+          });
+          const widthLi = document.createElement('li');
+          widthLi.textContent = `Route Width: ${routeWidth} NM`;
+          coordinateList.appendChild(widthLi);
+          break;
       }
-      const sortedVertices = sortVerticesClockwise();
-      sortedVertices.forEach((vertex, index) => {
-        const latDMS = decimalToDMS(vertex.lat, true);
-        const lngDMS = decimalToDMS(vertex.lng, false);
-        const li = document.createElement('li');
-        li.textContent = `Vertex ${index + 1}: ${latDMS}, ${lngDMS}`;
-        coordinateList.appendChild(li);
-      });
     }
     
     // ---------- Polygon Validity Check Functions ----------
@@ -280,6 +942,60 @@
     }
     // ---------------------------------------------------------
     
+    // Function to update the polyline on the map
+    function updatePolyline() {
+      if (polyline) {
+        map.removeLayer(polyline);
+      }
+      if (vertices.length > 1) {
+        polyline = L.polyline(vertices, { color: 'blue', weight: 3 }).addTo(map);
+        updateLocation(); // Update location when polyline changes
+      }
+    }
+    
+    // Function to create and display the polygon
+    function createPolygon() {
+      if (polygon) {
+        map.removeLayer(polygon);
+      }
+      if (polyline) {
+        map.removeLayer(polyline);
+      }
+      polygon = L.polygon(vertices, {
+        color: 'blue',
+        fillColor: '#3388ff',
+        fillOpacity: 0.4
+      }).addTo(map);
+      updateLocation(); // Update location when polygon is created
+    }
+    
+    // Function to sort vertices clockwise from the northernmost point
+    function sortVerticesClockwise() {
+      if (vertices.length < 3) return vertices;
+      let northernmostIndex = 0;
+      for (let i = 1; i < vertices.length; i++) {
+        if (vertices[i].lat > vertices[northernmostIndex].lat) {
+          northernmostIndex = i;
+        }
+      }
+      const northernmost = vertices[northernmostIndex];
+      const otherVertices = vertices.filter((_, index) => index !== northernmostIndex);
+      let centroidLat = 0, centroidLng = 0;
+      for (const vertex of vertices) {
+        centroidLat += vertex.lat;
+        centroidLng += vertex.lng;
+      }
+      centroidLat /= vertices.length;
+      centroidLng /= vertices.length;
+      otherVertices.sort((a, b) => {
+        const angleA = (Math.atan2(a.lng - centroidLng, a.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
+        const angleB = (Math.atan2(b.lng - centroidLng, b.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
+        return angleA - angleB;
+      });
+      return [northernmost, ...otherVertices];
+    }
+    
+    // -------------------- POLYGON MODE FUNCTIONS --------------------
     // Function to add a new draggable marker at the given location
     function addMarker(latlng) {
       const marker = L.marker(latlng, { draggable: true }).addTo(map);
@@ -311,73 +1027,662 @@
     // Event handler for map clicks
     map.on('click', function(e) {
       if (e.originalEvent.target.classList.contains('leaflet-marker-icon')) return;
-      addMarker(e.latlng);
-      updatePolyline();
+      
+      switch (currentMode) {
+        case 'polygon':
+          addMarker(e.latlng);
+          updatePolyline();
+          break;
+          
+        case 'radius':
+          // Remove existing center marker if any
+          if (centerMarker) {
+            map.removeLayer(centerMarker);
+          }
+          
+          // Create new center marker
+          centerMarker = L.marker(e.latlng, { draggable: true }).addTo(map);
+          
+          // When marker is dragged, update the circle
+          centerMarker.on('dragend', function() {
+            updateRadiusCircle();
+            updateCoordinateList();
+          });
+          
+          // Create/update the radius circle
+          updateRadiusCircle();
+          break;
+          
+        case 'route':
+          addRouteWaypoint(e.latlng);
+          updateRoutePolyline();
+          break;
+      }
+      
       updateCoordinateList();
-      undoBtn.disabled = vertices.length === 0;
-      doneBtn.disabled = vertices.length < 3;
-      copyBtn.disabled = vertices.length === 0;
+      updateButtonStates();
     });
     
     // Event handler for Undo button
     undoBtn.addEventListener('click', function() {
-      if (vertices.length > 0) {
-        vertices.pop();
-        const marker = markers.pop();
-        map.removeLayer(marker);
-        updatePolyline();
-        updateCoordinateList();
-        undoBtn.disabled = vertices.length === 0;
-        doneBtn.disabled = vertices.length < 3;
-        copyBtn.disabled = vertices.length === 0;
-        if (polygon) {
-          map.removeLayer(polygon);
-          polygon = null;
-        }
+      switch (currentMode) {
+        case 'polygon':
+          if (vertices.length > 0) {
+            vertices.pop();
+            const marker = markers.pop();
+            map.removeLayer(marker);
+            updatePolyline();
+            if (polygon) {
+              map.removeLayer(polygon);
+              polygon = null;
+            }
+          }
+          break;
+          
+        case 'radius':
+          if (centerMarker) {
+            map.removeLayer(centerMarker);
+            centerMarker = null;
+            if (radiusCircle) {
+              map.removeLayer(radiusCircle);
+              radiusCircle = null;
+            }
+          }
+          break;
+          
+        case 'route':
+          if (routePoints.length > 0) {
+            routePoints.pop();
+            const marker = routeMarkers.pop();
+            map.removeLayer(marker);
+            updateRoutePolyline();
+          }
+          break;
       }
+      
+      updateCoordinateList();
+      updateButtonStates();
     });
     
     // Event handler for Copy button (formatted output)
     copyBtn.addEventListener('click', function() {
-      const sortedVertices = sortVerticesClockwise();
-      const output = "(" + sortedVertices.map(vertex => {
-        return `${formatDMS(vertex.lat, true)} / ${formatDMS(vertex.lng, false)}`;
-      }).join("; ") + ")";
-      navigator.clipboard.writeText(output).then(function() {
-        alert("Vertices copied to clipboard!");
-      }).catch(function() {
-        alert("Failed to copy vertices.");
-      });
+      let output = "";
+      
+      switch (currentMode) {
+        case 'polygon':
+          const sortedVertices = sortVerticesClockwise();
+          output = "(" + sortedVertices.map(vertex => {
+            return `${formatDMS(vertex.lat, true)} / ${formatDMS(vertex.lng, false)}`;
+          }).join("; ") + ")";
+          break;
+          
+        case 'radius':
+          if (centerMarker) {
+            const center = centerMarker.getLatLng();
+            output = `${formatDMS(center.lat, true)} / ${formatDMS(center.lng, false)} - ${radiusValue}NM radius`;
+          }
+          break;
+          
+        case 'route':
+          if (routePoints.length >= 2) {
+            output = routePoints.map(point => {
+              return `${formatDMS(point.lat, true)} / ${formatDMS(point.lng, false)}`;
+            }).join("; ") + ` - ${routeWidth}NM wide`;
+          }
+          break;
+      }
+      
+      if (output) {
+        navigator.clipboard.writeText(output).then(function() {
+          alert("Coordinates copied to clipboard!");
+        }).catch(function() {
+          alert("Failed to copy coordinates.");
+        });
+      }
     });
     
     // Event handler for Restart button
     restartBtn.addEventListener('click', function() {
-      vertices = [];
-      markers.forEach(marker => map.removeLayer(marker));
-      markers = [];
-      if (polyline) {
-        map.removeLayer(polyline);
-        polyline = null;
-      }
-      if (polygon) {
-        map.removeLayer(polygon);
-        polygon = null;
-      }
+      clearAllDrawings();
       updateCoordinateList();
-      undoBtn.disabled = true;
-      doneBtn.disabled = true;
-      copyBtn.disabled = true;
+      updateButtonStates();
+      
+      // Reset location display - using the current city data status
+       if (cityData && cityData.length > 0) {
+            locationDisplay.textContent = "Draw on map to find nearest location.";
+        } else if (currentCityFilename.startsWith("Error") || currentCityFilename.startsWith("Failed")) {
+             locationDisplay.textContent = "Fix city data loading issue.";
+        } else {
+            locationDisplay.textContent = "Load City CSV or use default...";
+        }
+      copyLocationBtn.disabled = true;
+      
+      // Reset airport display
+      airportDisplay.textContent = "No airport data available yet";
+      copyAirportBtn.disabled = true;
     });
     
-    // Event handler for Done button with error checking
+    // Event handler for Done button
     doneBtn.addEventListener('click', function() {
-      if (vertices.length >= 3) {
-        if (!isPolygonSimple(vertices)) {
-          alert("Error: The polygon is self-intersecting. Please adjust the vertices.");
-          return;
+      switch (currentMode) {
+        case 'polygon':
+          if (vertices.length >= 3) {
+            if (!isPolygonSimple(vertices)) {
+              alert("Error: The polygon is self-intersecting. Please adjust the vertices.");
+              return;
+            }
+            createPolygon();
+          }
+          break;
+          
+        case 'radius':
+          // Nothing special to do for radius mode when done is clicked
+          updateLocation(); // Update location when done is clicked in radius mode
+          break;
+          
+        case 'route':
+          // Nothing special to do for route mode when done is clicked
+          updateLocation(); // Update location when done is clicked in route mode
+          break;
+      }
+      
+      updateCoordinateList();
+    });
+    
+    // -------------------- RADIUS MODE FUNCTIONS --------------------
+    // Function to create or update the radius circle
+    function updateRadiusCircle() {
+      if (radiusCircle) {
+        map.removeLayer(radiusCircle);
+      }
+      
+      if (centerMarker) {
+        const center = centerMarker.getLatLng();
+        radiusCircle = L.circle(center, {
+          color: 'blue',
+          fillColor: '#3388ff',
+          fillOpacity: 0.4,
+          radius: nmToMeters(radiusValue)
+        }).addTo(map);
+        updateLocation(); // Update location when radius changes
+      }
+    }
+    
+    // Function to handle radius input changes
+    radiusInput.addEventListener('change', function() {
+      const value = parseFloat(radiusInput.value);
+      if (isNaN(value) || value <= 0) {
+        radiusInput.value = "0.25"; // Default value
+        radiusValue = 0.25;
+      } else {
+        radiusValue = value;
+      }
+      
+      updateRadiusCircle();
+      updateCoordinateList();
+    });
+    
+    // -------------------- ROUTE MODE FUNCTIONS --------------------
+    // Function to update the route polyline
+    function updateRoutePolyline() {
+      // Remove existing polyline and buffer
+      if (routePolyline) {
+        map.removeLayer(routePolyline);
+      }
+      
+      // Remove all buffer polygons
+      if (routeBuffer) {
+        if (Array.isArray(routeBuffer)) {
+          routeBuffer.forEach(buffer => map.removeLayer(buffer));
+        } else if (routeBuffer) {
+          map.removeLayer(routeBuffer);
         }
-        createPolygon();
+      }
+      
+      if (routePoints.length > 1) {
+        // Create a thin polyline to show the route centerline
+        routePolyline = L.polyline(routePoints, {
+          color: 'blue',
+          weight: 3,
+          opacity: 0.7
+        }).addTo(map);
+        
+        // Create buffer polygons for each segment
+        const halfWidthMeters = nmToMeters(routeWidth) / 2;
+        let allBufferPolygons = [];
+        
+        for (let i = 0; i < routePoints.length - 1; i++) {
+          const start = routePoints[i];
+          const end = routePoints[i + 1];
+          
+          // Calculate bearing between points
+          const bearing = calculateBearing(start, end);
+          const perpBearing1 = (bearing + 90) % 360;
+          const perpBearing2 = (bearing + 270) % 360;
+          
+          // Calculate the four corners of the buffer rectangle
+          const p1 = calculateDestinationPoint(start, perpBearing1, halfWidthMeters);
+          const p2 = calculateDestinationPoint(start, perpBearing2, halfWidthMeters);
+          const p3 = calculateDestinationPoint(end, perpBearing2, halfWidthMeters);
+          const p4 = calculateDestinationPoint(end, perpBearing1, halfWidthMeters);
+          
+          // Create a polygon for this segment
+          const segmentBuffer = L.polygon([p1, p2, p3, p4], {
+            color: 'blue',
+            fillColor: '#3388ff',
+            fillOpacity: 0.2,
+            weight: 2
+          }).addTo(map);
+          
+          allBufferPolygons.push(segmentBuffer);
+        }
+        
+        // Store all buffer polygons for later removal
+        routeBuffer = allBufferPolygons;
+        
+        // Update location when route changes
+        updateLocation();
+      }
+    }
+    
+    // Function to calculate bearing between two points
+    function calculateBearing(start, end) {
+      const startLat = start.lat * Math.PI / 180;
+      const startLng = start.lng * Math.PI / 180;
+      const endLat = end.lat * Math.PI / 180;
+      const endLng = end.lng * Math.PI / 180;
+      
+      const y = Math.sin(endLng - startLng) * Math.cos(endLat);
+      const x = Math.cos(startLat) * Math.sin(endLat) -
+                Math.sin(startLat) * Math.cos(endLat) * Math.cos(endLng - startLng);
+      
+      let bearing = Math.atan2(y, x) * 180 / Math.PI;
+      bearing = (bearing + 360) % 360; // Normalize to 0-360
+      
+      return bearing;
+    }
+    
+    // Function to calculate destination point given start, bearing and distance
+    function calculateDestinationPoint(start, bearing, distance) {
+      const R = 6371000; // Earth's radius in meters
+      const d = distance / R; // Angular distance
+      const bearingRad = bearing * Math.PI / 180;
+      const lat1 = start.lat * Math.PI / 180;
+      const lng1 = start.lng * Math.PI / 180;
+      
+      const lat2 = Math.asin(Math.sin(lat1) * Math.cos(d) +
+                     Math.cos(lat1) * Math.sin(d) * Math.cos(bearingRad));
+      
+      const lng2 = lng1 + Math.atan2(Math.sin(bearingRad) * Math.sin(d) * Math.cos(lat1),
+                                Math.cos(d) - Math.sin(lat1) * Math.sin(lat2));
+      
+      return L.latLng(lat2 * 180 / Math.PI, lng2 * 180 / Math.PI);
+    }
+    
+    // Function to handle route width input changes
+    routeWidthInput.addEventListener('input', function() {
+      const value = parseFloat(routeWidthInput.value);
+      if (!isNaN(value) && value > 0) {
+        routeWidth = value;
+        updateRoutePolyline();
         updateCoordinateList();
+      }
+    });
+    
+    // Also keep the change event for validation
+    routeWidthInput.addEventListener('change', function() {
+      const value = parseFloat(routeWidthInput.value);
+      if (isNaN(value) || value <= 0) {
+        routeWidthInput.value = "0.25"; // Default value
+        routeWidth = 0.25;
+      } else {
+        routeWidth = value;
+      }
+      
+      updateRoutePolyline();
+      updateCoordinateList();
+    });
+    
+    // Function to add a route waypoint
+    function addRouteWaypoint(latlng) {
+      const marker = L.marker(latlng, { draggable: true }).addTo(map);
+      routeMarkers.push(marker);
+      routePoints.push(latlng);
+      
+      // When marker is dragged, update its corresponding point and redraw route
+      marker.on('dragend', function(e) {
+        const newPos = e.target.getLatLng();
+        const idx = routeMarkers.indexOf(marker);
+        if (idx > -1) {
+          routePoints[idx] = newPos;
+          updateRoutePolyline();
+          updateCoordinateList();
+        }
+      });
+    }
+    
+    // -------------------- EVENT HANDLERS --------------------
+    // Mode selection change handler
+    modeSelect.addEventListener('change', function() {
+      changeMode(modeSelect.value);
+    });
+    
+    // CSV File Handling
+    loadCsvBtn.addEventListener('click', function() {
+      csvFileInput.click();
+    });
+    
+    csvFileInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const csvData = event.target.result;
+        processCSVData(csvData);
+      };
+      reader.readAsText(file);
+    });
+    
+    function processCSVData(csvData) {
+      // Reset existing data
+      pilots = [];
+      observers = [];
+      drones = [];
+      
+      // Split the CSV into lines
+      const lines = csvData.split(/\r\n|\n/);
+      
+      // Process each line
+      lines.forEach(line => {
+        if (!line.trim()) return; // Skip empty lines
+        
+        // Split the line by commas, and trim each value
+        const values = line.split(',').map(val => val.trim());
+        
+        // Check the first character to determine if it's a human or drone
+        const type = values[0].toUpperCase();
+        
+        if (type === 'H') {
+          // Human data: [H], [NAME], [MOBILE], [EMAIL], [P or O], [LICENSE if pilot]
+          const person = {
+            name: values[1] || '',
+            mobile: values[2] || '',
+            email: values[3] || '',
+            role: values[4]?.toUpperCase() || '',
+            license: values[5] || ''
+          };
+          
+          // Add to appropriate array based on role
+          if (person.role === 'P') {
+            pilots.push(person);
+          } else if (person.role === 'O') {
+            observers.push(person);
+          }
+        } else if (type === 'D') {
+          // Drone data: [D], [DRONE TYPE], [REGISTRATION NUMBER]
+          const drone = {
+            type: values[1] || '',
+            registration: values[2] || ''
+          };
+          
+          drones.push(drone);
+        }
+      });
+      
+      // Display a summary of the loaded data
+      displayDataSummary();
+    }
+    
+    function displayDataSummary() {
+      let summaryHTML = `
+        <p><strong>Pilots:</strong> ${pilots.length}</p>
+        <p><strong>Observers:</strong> ${observers.length}</p>
+        <p><strong>Drones:</strong> ${drones.length}</p>
+      `;
+      
+      summaryContent.innerHTML = summaryHTML;
+      dataSummary.style.display = 'block';
+      
+      // Update operator dropdown with loaded humans
+      updateOperatorDropdown();
+      
+      // Update pilots and observers multi-select lists
+      updatePilotsObserversLists();
+      
+      // Update drones multi-select list
+      updateDronesList();
+    }
+    
+    function updateOperatorDropdown() {
+      // Clear existing options except the first one
+      while (operatorSelect.options.length > 1) {
+        operatorSelect.remove(1);
+      }
+      
+      // Combine pilots and observers
+      const allHumans = [...pilots, ...observers];
+      
+      if (allHumans.length > 0) {
+        // Add each human to the dropdown
+        allHumans.forEach((human, index) => {
+          const option = document.createElement('option');
+          option.value = index;
+          option.textContent = `${human.name} (${human.role === 'P' ? 'Pilot' : 'Observer'})`;
+          option.dataset.type = human.role === 'P' ? 'pilot' : 'observer';
+          option.dataset.index = human.role === 'P' ? 
+            pilots.indexOf(human).toString() : 
+            observers.indexOf(human).toString();
+          operatorSelect.appendChild(option);
+        });
+        
+        // Show the contact section and enable the copy button
+        contactSection.style.display = 'block';
+        copyContactBtn.disabled = true;
+        
+        // Add change event to enable/disable copy button
+        operatorSelect.addEventListener('change', function() {
+          copyContactBtn.disabled = !operatorSelect.value;
+        });
+      }
+    }
+    
+    function updatePilotsObserversLists() {
+      // Clear existing options
+      pilotsSelect.innerHTML = '';
+      observersSelect.innerHTML = '';
+      
+      // Add pilots to the pilots select
+      if (pilots.length > 0) {
+        pilots.forEach((pilot, index) => {
+          const option = document.createElement('option');
+          option.value = index;
+          option.textContent = `${pilot.name} (${pilot.license})`;
+          pilotsSelect.appendChild(option);
+        });
+        pilotsSection.style.display = 'block';
+        
+        // Enable/disable copy button based on selection
+        pilotsSelect.addEventListener('change', function() {
+          copyPilotsBtn.disabled = pilotsSelect.selectedOptions.length === 0;
+        });
+      } else {
+        const option = document.createElement('option');
+        option.value = "";
+        option.textContent = "No pilots available...";
+        pilotsSelect.appendChild(option);
+        pilotsSection.style.display = 'block';
+        copyPilotsBtn.disabled = true;
+      }
+      
+      // Add observers to the observers select
+      if (observers.length > 0) {
+        observers.forEach((observer, index) => {
+          const option = document.createElement('option');
+          option.value = index;
+          option.textContent = observer.name;
+          observersSelect.appendChild(option);
+        });
+        observersSection.style.display = 'block';
+        
+        // Enable/disable copy button based on selection
+        observersSelect.addEventListener('change', function() {
+          copyObserversBtn.disabled = observersSelect.selectedOptions.length === 0;
+        });
+      } else {
+        const option = document.createElement('option');
+        option.value = "";
+        option.textContent = "No observers available...";
+        observersSelect.appendChild(option);
+        observersSection.style.display = 'block';
+        copyObserversBtn.disabled = true;
+      }
+    }
+    
+    function updateDronesList() {
+      // Clear existing options
+      dronesSelect.innerHTML = '';
+      
+      // Add drones to the drones select
+      if (drones.length > 0) {
+        drones.forEach((drone, index) => {
+          const option = document.createElement('option');
+          option.value = index;
+          option.textContent = `${drone.type} (${drone.registration})`;
+          dronesSelect.appendChild(option);
+        });
+        dronesSection.style.display = 'block';
+        
+        // Enable/disable copy button based on selection
+        dronesSelect.addEventListener('change', function() {
+          copyDronesBtn.disabled = dronesSelect.selectedOptions.length === 0;
+        });
+      } else {
+        const option = document.createElement('option');
+        option.value = "";
+        option.textContent = "No drones available...";
+        dronesSelect.appendChild(option);
+        dronesSection.style.display = 'block';
+        copyDronesBtn.disabled = true;
+      }
+    }
+    
+    // Event handler for Copy Pilots button
+    copyPilotsBtn.addEventListener('click', function() {
+      const selectedOptions = Array.from(pilotsSelect.selectedOptions);
+      if (selectedOptions.length === 0) return;
+      
+      const selectedPilots = selectedOptions.map(option => {
+        const index = parseInt(option.value);
+        return pilots[index];
+      });
+      
+      const pilotsInfo = selectedPilots.map(pilot => 
+        `Name: ${pilot.name}\nPhone: ${pilot.mobile}\nEmail: ${pilot.email}\nLicense: ${pilot.license}`
+      ).join('\n\n');
+      
+      navigator.clipboard.writeText(pilotsInfo).then(function() {
+        alert("Pilots information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy pilots information.");
+      });
+    });
+    
+    // Event handler for Copy Observers button
+    copyObserversBtn.addEventListener('click', function() {
+      const selectedOptions = Array.from(observersSelect.selectedOptions);
+      if (selectedOptions.length === 0) return;
+      
+      const selectedObservers = selectedOptions.map(option => {
+        const index = parseInt(option.value);
+        return observers[index];
+      });
+      
+      const observersInfo = selectedObservers.map(observer => 
+        `Name: ${observer.name}\nPhone: ${observer.mobile}\nEmail: ${observer.email}`
+      ).join('\n\n');
+      
+      navigator.clipboard.writeText(observersInfo).then(function() {
+        alert("Observers information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy observers information.");
+      });
+    });
+    
+    // Event handler for Copy Contact button
+    copyContactBtn.addEventListener('click', function() {
+      const selectedOption = operatorSelect.options[operatorSelect.selectedIndex];
+      if (!selectedOption.value) return;
+      
+      const type = selectedOption.dataset.type;
+      const index = parseInt(selectedOption.dataset.index);
+      
+      let person;
+      if (type === 'pilot') {
+        person = pilots[index];
+      } else {
+        person = observers[index];
+      }
+      
+      const contactInfo = `Name: ${person.name}\nPhone: ${person.mobile}\nEmail: ${person.email}`;
+      
+      navigator.clipboard.writeText(contactInfo).then(function() {
+        alert("Contact information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy contact information.");
+      });
+    });
+    
+    // Event handler for Copy Drones button
+    copyDronesBtn.addEventListener('click', function() {
+      const selectedOptions = Array.from(dronesSelect.selectedOptions);
+      if (selectedOptions.length === 0) return;
+      
+      const selectedDrones = selectedOptions.map(option => {
+        const index = parseInt(option.value);
+        return drones[index];
+      });
+      
+      const dronesInfo = selectedDrones.map(drone => 
+        `Type: ${drone.type}\nRegistration: ${drone.registration}`
+      ).join('\n\n');
+      
+      navigator.clipboard.writeText(dronesInfo).then(function() {
+        alert("Drone information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy drone information.");
+      });
+    });
+    
+    // Event handler for Copy Altitude button
+    copyAltitudeBtn.addEventListener('click', function() {
+      const altitude = altitudeInput.value.trim();
+      
+      if (!altitude || isNaN(altitude) || altitude < 0 || altitude > 400) {
+        alert("Please enter a valid altitude between 0 and 400 feet AGL.");
+        return;
+      }
+      
+      const altitudeText = `Flight Altitude: ${altitude} feet AGL`;
+      
+      navigator.clipboard.writeText(altitudeText).then(function() {
+        alert("Altitude information copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy altitude information.");
+      });
+    });
+    
+    // Validate altitude input to ensure it's within FAA limits
+    altitudeInput.addEventListener('change', function() {
+      const value = parseInt(altitudeInput.value);
+      if (isNaN(value)) {
+        altitudeInput.value = "100"; // Default value
+      } else if (value < 0) {
+        altitudeInput.value = "0";
+        alert("Altitude cannot be negative.");
+      } else if (value > 400) {
+        altitudeInput.value = "400";
+        alert("Maximum altitude for LAANC authorization is 400 feet AGL.");
       }
     });
     
@@ -407,6 +1712,404 @@
       }
     });
     // -------------------------------------
+    
+    // Time conversion functionality
+    function convertToLimaTime() {
+      const timeValue = timeInput.value.trim();
+      const dateValue = dateInput.value;
+      
+      if (!timeValue || !dateValue) {
+        limaTimeDisplay.innerHTML = "Enter date and time to see conversion";
+        return;
+      }
+      
+      // Parse the time - accept both HHMM and HH:MM formats
+      let hours, minutes;
+      
+      if (timeValue.includes(':')) {
+        // HH:MM format
+        [hours, minutes] = timeValue.split(':').map(num => parseInt(num, 10));
+      } else {
+        // HHMM format
+        const timeStr = timeValue.padStart(4, '0');
+        hours = parseInt(timeStr.substring(0, 2), 10);
+        minutes = parseInt(timeStr.substring(2, 4), 10);
+      }
+      
+      // Validate hours and minutes
+      if (isNaN(hours) || isNaN(minutes) || hours < 0 || hours > 23 || minutes < 0 || minutes > 59) {
+        limaTimeDisplay.innerHTML = "Invalid time format. Use HHMM or HH:MM";
+        return;
+      }
+      
+      // Get the timezone offset
+      const timezoneOffset = parseInt(timezoneSelect.value, 10);
+      
+      // Create a Date object for the selected date and time
+      const localDate = new Date(dateValue);
+      localDate.setHours(hours, minutes, 0, 0);
+      
+      // Convert to UTC/Zulu time by adding the timezone offset
+      const zuluDate = new Date(localDate.getTime() - timezoneOffset * 60 * 60 * 1000);
+      
+      // Convert to Lima time (UTC+11)
+      const limaDate = new Date(zuluDate.getTime() + 11 * 60 * 60 * 1000);
+      
+      // Format the dates
+      const zuluDateStr = zuluDate.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric'
+      });
+      
+      const limaDateStr = limaDate.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric'
+      });
+      
+      // Format the times
+      const zuluTimeStr = zuluDate.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+      
+      const limaTimeStr = limaDate.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+      
+      // Display the results
+      limaTimeDisplay.innerHTML = `
+        <div>Zulu (UTC+0): <strong>${zuluDateStr} ${zuluTimeStr}Z</strong></div>
+        <div>Lima (UTC+11): <strong>${limaDateStr} ${limaTimeStr}L</strong></div>
+      `;
+    }
+    
+    // Add event listeners for time conversion
+    dateInput.addEventListener('change', convertToLimaTime);
+    timeInput.addEventListener('input', convertToLimaTime);
+    timezoneSelect.addEventListener('change', convertToLimaTime);
+    
+    // Initialize with default timezone
+    timezoneSelect.value = "-8"; // Default to Pacific Time
+    
+    // Initialize the application
+    changeMode('polygon');
+    loadDefaultCityData(); // Load default city CSV data on startup
+    loadDefaultAirportData(); // Load default airport CSV data on startup
+
+    // Function to find the nearest city/state to a given coordinate from loaded CSV data
+    function findNearestLocation(lat, lng) {
+       if (!cityData || cityData.length === 0) {
+         return null; // No city data loaded
+       }
+
+      let nearestCity = null;
+      let minDistance = Infinity;
+
+      cityData.forEach(city => {
+        // Check if city coordinates are valid numbers before calculation
+        if (typeof city.lat === 'number' && typeof city.lng === 'number' && !isNaN(city.lat) && !isNaN(city.lng)) {
+          const distance = calculateDistanceNM(lat, lng, city.lat, city.lng);
+          if (distance < minDistance) {
+            minDistance = distance;
+            nearestCity = city;
+          }
+        } else {
+          // console.warn("Skipping city with invalid coordinates:", city);
+        }
+      });
+
+      if (nearestCity) {
+        return {
+          name: nearestCity.name,
+          state: nearestCity.state
+        };
+      }
+
+      return null;
+    }
+
+    // Function to update location based on current drawing
+    function updateLocation() {
+      let centerPoint;
+
+      switch (currentMode) {
+        case 'polygon':
+          if (vertices.length > 0) {
+            let sumLat = 0, sumLng = 0;
+            vertices.forEach(vertex => {
+              sumLat += vertex.lat;
+              sumLng += vertex.lng;
+            });
+            centerPoint = {
+              lat: sumLat / vertices.length,
+              lng: sumLng / vertices.length
+            };
+          }
+          break;
+
+        case 'radius':
+          if (centerMarker) {
+            centerPoint = centerMarker.getLatLng();
+          }
+          break;
+
+        case 'route':
+          if (routePoints.length > 0) {
+            // Use the midpoint or start point of the route
+             if (routePoints.length === 1) {
+                 centerPoint = routePoints[0];
+             } else {
+                 // Simple average of first and last point for centroid approximation
+                 centerPoint = {
+                     lat: (routePoints[0].lat + routePoints[routePoints.length - 1].lat) / 2,
+                     lng: (routePoints[0].lng + routePoints[routePoints.length - 1].lng) / 2
+                 };
+             }
+          }
+          break;
+      }
+
+      if (centerPoint) {
+        // Update Nearest Location using CSV data
+        const locationInfo = findNearestLocation(centerPoint.lat, centerPoint.lng);
+        if (locationInfo) {
+          locationDisplay.textContent = `${locationInfo.name}, ${locationInfo.state}`;
+          copyLocationBtn.disabled = false;
+        } else {
+          locationDisplay.textContent = "No nearest city found in loaded data.";
+          copyLocationBtn.disabled = true;
+        }
+
+        // Update Airport Info (remains the same)
+        updateAirportInfo(centerPoint);
+      } else {
+        // Clear displays if no center point
+        if (cityData && cityData.length > 0) {
+            locationDisplay.textContent = "Draw on map to find nearest location.";
+        } else if (currentCityFilename.startsWith("Error") || currentCityFilename.startsWith("Failed")) {
+             locationDisplay.textContent = "Fix city data loading issue.";
+        }
+        else {
+            locationDisplay.textContent = "Load City CSV or use default...";
+        }
+        copyLocationBtn.disabled = true;
+        airportDisplay.textContent = "No airport data available yet";
+        copyAirportBtn.disabled = true;
+      }
+    }
+
+    // Event handler for Copy Location button
+    copyLocationBtn.addEventListener('click', function() {
+      const locationText = locationDisplay.textContent; // Already in "City Name, State Name" format
+
+      navigator.clipboard.writeText(locationText).then(function() {
+        alert("Location copied to clipboard!");
+      }).catch(function() {
+        alert("Failed to copy location.");
+      });
+    });
+
+    // Function to parse CSV data into city objects
+    function parseCityCSV(csvText) {
+      const lines = csvText.split(/\r\n|\n/);
+      const data = [];
+      // Skip header line if present (assuming format STATE,NAME,LAT,LONG)
+      const startIndex = lines[0].toUpperCase().startsWith('STATE,') ? 1 : 0;
+      for (let i = startIndex; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        const values = line.split(',');
+        if (values.length >= 4) {
+          const lat = parseFloat(values[2]);
+          const lng = parseFloat(values[3]);
+          if (!isNaN(lat) && !isNaN(lng)) {
+            data.push({
+              state: values[0].trim(),
+              name: values[1].trim(),
+              lat: lat,
+              lng: lng
+            });
+          }
+        }
+      }
+      return data;
+    }
+
+    // Function to load default city data from CityCA.csv
+    async function loadDefaultCityData() {
+      try {
+        const response = await fetch('CityCA.csv');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const csvText = await response.text();
+        cityData = parseCityCSV(csvText);
+        console.log(`Loaded ${cityData.length} cities from default CityCA.csv`);
+        currentCityFilename = "default CityCA.csv";
+        cityCsvFilename.textContent = `Using ${currentCityFilename}`;
+        // Trigger location update if a point exists
+        updateLocation();
+      } catch (error) {
+        console.error("Error loading default CityCA.csv:", error);
+        locationDisplay.textContent = "Error loading default city data.";
+        cityCsvFilename.textContent = "Failed to load default CityCA.csv";
+        cityData = []; // Ensure cityData is empty on failure
+      }
+    }
+
+    // Event listener for the custom city CSV load button
+    loadCityCsvBtn.addEventListener('click', function() {
+      cityCsvFileInput.click();
+    });
+
+    // Event listener for the custom city CSV file input change
+    cityCsvFileInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        try {
+          const csvText = event.target.result;
+          cityData = parseCityCSV(csvText);
+          console.log(`Loaded ${cityData.length} cities from ${file.name}`);
+          currentCityFilename = file.name;
+          cityCsvFilename.textContent = `Using ${currentCityFilename}`;
+          locationDisplay.textContent = "City data loaded. Draw or update location.";
+          copyLocationBtn.disabled = true;
+           // Trigger location update if a point exists
+          updateLocation();
+        } catch (parseError) {
+          console.error("Error parsing custom city CSV:", parseError);
+          alert("Error parsing CSV file. Please ensure it's correctly formatted (STATE,NAME,LAT,LONG).");
+          cityCsvFilename.textContent = `Error loading ${file.name}`;
+           // Optionally revert to default or clear data
+           // loadDefaultCityData(); // Or keep existing data
+        }
+      };
+      reader.onerror = function() {
+          console.error("Error reading file:", reader.error);
+          alert("Error reading file.");
+          cityCsvFilename.textContent = `Error reading ${file.name}`;
+      };
+      reader.readAsText(file);
+       // Reset file input value so the same file can be loaded again after an error/change
+      cityCsvFileInput.value = null;
+    });
+
+    // Event handler for Restart button
+    restartBtn.addEventListener('click', function() {
+      clearAllDrawings();
+      updateCoordinateList();
+      updateButtonStates();
+
+      // Reset location display - using the current city data status
+       if (cityData && cityData.length > 0) {
+            locationDisplay.textContent = "Draw on map to find nearest location.";
+        } else if (currentCityFilename.startsWith("Error") || currentCityFilename.startsWith("Failed")) {
+             locationDisplay.textContent = "Fix city data loading issue.";
+        } else {
+            locationDisplay.textContent = "Load City CSV or use default...";
+        }
+      copyLocationBtn.disabled = true;
+
+      // Reset airport display
+      airportDisplay.textContent = "No airport data available yet";
+      copyAirportBtn.disabled = true;
+    });
+
+    // Function to parse CSV data into airport objects
+    function parseAirportCSV(csvText) {
+      const lines = csvText.split(/\r\n|\n/);
+      const data = [];
+      // Skip header line (assuming format ident,type,name,latitude_deg,longitude_deg,municipality)
+      const startIndex = 1; // Always skip the header
+      for (let i = startIndex; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+        const values = line.split(',');
+        if (values.length >= 5) { // Need at least 5 columns
+          const idents = values[0].trim(); // FAA identifier is column 0
+          const type = values[1].trim();   // Type is column 1
+          const name = values[2].trim();   // Name is column 2
+          const lat = parseFloat(values[3]); // Latitude is column 3
+          const lng = parseFloat(values[4]); // Longitude is column 4
+          
+          if (!isNaN(lat) && !isNaN(lng) && idents) { // Check for valid coords and identifier
+            data.push({
+              type: type,
+              name: name,
+              lat: lat,
+              lng: lng,
+              idents: idents
+            });
+          }
+        }
+      }
+      return data;
+    }
+
+    // Function to load default airport data from AirPortsCA.csv
+    async function loadDefaultAirportData() {
+      try {
+        const response = await fetch('AirPortsCA.csv');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const csvText = await response.text();
+        airportData = parseAirportCSV(csvText);
+        console.log(`Loaded ${airportData.length} airports from default AirPortsCA.csv`);
+        currentAirportFilename = "default AirPortsCA.csv";
+        airportCsvFilename.textContent = `Using ${currentAirportFilename}`;
+        updateLocation(); // Trigger update in case a location is already drawn
+      } catch (error) {
+        console.error("Error loading default AirPortsCA.csv:", error);
+        airportDisplay.textContent = "Error loading default airport data.";
+        airportCsvFilename.textContent = "Failed to load default AirPortsCA.csv";
+        airportData = []; // Ensure airportData is empty on failure
+      }
+    }
+
+    // Event listener for the custom airport CSV load button
+    loadAirportCsvBtn.addEventListener('click', function() {
+      airportCsvFileInput.click();
+    });
+
+    // Event listener for the custom airport CSV file input change
+    airportCsvFileInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        try {
+          const csvText = event.target.result;
+          airportData = parseAirportCSV(csvText);
+          console.log(`Loaded ${airportData.length} airports from ${file.name}`);
+          currentAirportFilename = file.name;
+          airportCsvFilename.textContent = `Using ${currentAirportFilename}`;
+          airportDisplay.textContent = "Airport data loaded. Draw or update location.";
+          copyAirportBtn.disabled = true; 
+          updateLocation(); // Trigger update
+        } catch (parseError) {
+          console.error("Error parsing custom airport CSV:", parseError);
+          alert("Error parsing airport CSV file. Ensure format is TYPE,NAME,LAT,LONG,IDENTS.");
+          airportCsvFilename.textContent = `Error loading ${file.name}`;
+        }
+      };
+      reader.onerror = function() {
+          console.error("Error reading file:", reader.error);
+          alert("Error reading file.");
+          airportCsvFilename.textContent = `Error reading ${file.name}`;
+      };
+      reader.readAsText(file);
+      airportCsvFileInput.value = null; // Reset input
+    });
   </script>
 </body>
 </html>
