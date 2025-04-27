@@ -67,8 +67,8 @@
     }
     
     #divider {
-      height: 15px;
-      background-color: #adadad;
+      height: 5px; /* Increased height for easier touch */
+      background-color: #ccc; /* Made slightly darker */
       cursor: ns-resize;
       width: 100%;
     }
@@ -1688,6 +1688,8 @@
     
     // ---------- Draggable Divider ----------
     let isDragging = false;
+    
+    // Mouse events
     divider.addEventListener('mousedown', function(e) {
       isDragging = true;
       document.body.style.cursor = 'ns-resize';
@@ -1711,6 +1713,39 @@
         document.body.style.cursor = 'default';
       }
     });
+    
+    // Touch events for mobile
+    divider.addEventListener('touchstart', function(e) {
+      isDragging = true;
+      e.preventDefault(); // Prevent scrolling
+    }, { passive: false });
+    
+    document.addEventListener('touchmove', function(e) {
+      if (!isDragging) return;
+      e.preventDefault(); // Prevent scrolling
+      
+      const totalHeight = window.innerHeight;
+      const touch = e.touches[0];
+      let newMapHeight = touch.clientY;
+      let newBottomHeight = totalHeight - newMapHeight - divider.offsetHeight;
+      
+      // Apply min heights
+      if (newMapHeight < 100) { newMapHeight = 100; newBottomHeight = totalHeight - 100 - divider.offsetHeight; }
+      if (newBottomHeight < 100) { newBottomHeight = 100; newMapHeight = totalHeight - 100 - divider.offsetHeight; }
+      
+      mapDiv.style.height = newMapHeight + "px";
+      bottomContainer.style.height = newBottomHeight + "px";
+      map.invalidateSize();
+    }, { passive: false });
+    
+    document.addEventListener('touchend', function(e) {
+      if (isDragging) {
+        isDragging = false;
+      }
+    });
+    
+    // Visual indicator for touch devices
+    divider.innerHTML = '<div style="text-align: center; line-height: 15px; font-size: 10px; color: #555;">⬍ Drag to resize ⬆</div>';
     // -------------------------------------
     
     // Time conversion functionality
