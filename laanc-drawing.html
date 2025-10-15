@@ -994,28 +994,40 @@
     
     // Function to sort vertices clockwise from the northernmost point
     function sortVerticesClockwise() {
-      if (vertices.length < 3) return vertices;
-      let northernmostIndex = 0;
-      for (let i = 1; i < vertices.length; i++) {
-        if (vertices[i].lat > vertices[northernmostIndex].lat) {
-          northernmostIndex = i;
+      if (vertices.length < 3) return vertices.slice();
+    
+      // 1) centroid
+      let cx = 0, cy = 0;
+      for (const v of vertices) { cy += v.lat; cx += v.lng; }
+      cy /= vertices.length; cx /= vertices.length;
+    
+      // 2) angle from NORTH, clockwise
+      //    0° at north, 90° east, 180° south, 270° west
+      const withAngles = vertices.map(v => {
+        const dy = v.lat - cy;       // "northing"
+        const dx = v.lng - cx;       // "easting"
+        let ang = Math.atan2(dx, dy);      // note: atan2(x, y) => angle from +Y axis
+        if (ang < 0) ang += 2 * Math.PI;   // normalize to [0, 2π)
+        return { v, ang };
+      });
+    
+      // 3) sort clockwise from north
+      withAngles.sort((a, b) => a.ang - b.ang);
+    
+      // 4) find the northernmost (tie-break by most-easterly)
+      let northIdx = 0;
+      for (let i = 1; i < withAngles.length; i++) {
+        const vi = withAngles[i].v, vn = withAngles[northIdx].v;
+        if (vi.lat > vn.lat || (vi.lat === vn.lat && vi.lng > vn.lng)) {
+          northIdx = i;
         }
       }
-      const northernmost = vertices[northernmostIndex];
-      const otherVertices = vertices.filter((_, index) => index !== northernmostIndex);
-      let centroidLat = 0, centroidLng = 0;
-      for (const vertex of vertices) {
-        centroidLat += vertex.lat;
-        centroidLng += vertex.lng;
-      }
-      centroidLat /= vertices.length;
-      centroidLng /= vertices.length;
-      otherVertices.sort((a, b) => {
-        const angleA = (Math.atan2(a.lng - centroidLng, a.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
-        const angleB = (Math.atan2(b.lng - centroidLng, b.lat - centroidLat) + 2 * Math.PI) % (2 * Math.PI);
-        return angleA - angleB;
-      });
-      return [northernmost, ...otherVertices];
+    
+      // 5) rotate so list starts at northernmost
+      const ordered = withAngles.slice(northIdx).concat(withAngles.slice(0, northIdx))
+                                .map(x => x.v);
+    
+      return ordered;
     }
     
     // -------------------- POLYGON MODE FUNCTIONS --------------------
@@ -2196,3 +2208,4 @@
   </script>
 </body>
 </html>
+
