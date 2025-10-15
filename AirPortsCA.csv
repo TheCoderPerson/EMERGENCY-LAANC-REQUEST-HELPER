@@ -1,0 +1,2418 @@
+ident,type,name,latitude_deg,longitude_deg,municipality
+00CA,small_airport,Goldstone (GTS) Airport,35.35474,-116.885329,Barstow
+00CL,small_airport,Williams Ag Airport,39.427188,-121.763427,Biggs
+00CN,heliport,Kitchen Creek Helibase Heliport,32.7273736,-116.4597417,Pine Valley
+01CA,heliport,SCE Lugo Substation Heliport,34.368241,-117.370059,Hesperia
+01CL,small_airport,Swansboro Country Airport,38.7999,-120.734001,Placerville
+02CA,heliport,Swepi Beta Platform Ellen Heliport,33.58250045776367,-118.1289978,Huntington Beach
+02CL,small_airport,Conover Air Lodge Airport,34.761101,-119.058998,Frazier Park
+03CA,heliport,Grossmont Hospital Heliport,32.779484,-117.006952,La Mesa
+04CA,small_airport,Gray Butte Field,34.566631,-117.670666,Palmdale
+04CL,small_airport,Hunt's Sky Ranch Airport,33.08169937133789,-116.4410019,Julian
+05CA,heliport,Lost Hills Sheriff's Station Heliport,34.136516,-118.714685,Calabasas
+05CL,small_airport,Pope Valley Airport,38.6106987,-122.3909988,Pope Valley
+06CA,heliport,SCE Solar I Heliport,34.868942,-116.832024,Daggett
+06CL,heliport,ABC7-TV Heliport,34.15732,-118.2888,Glendale
+07CL,small_airport,Richvale Airport,39.49769973754883,-121.7710037,Richvale
+08CA,heliport,PG&E Placerville Service Center Heliport,38.695211,-120.826086,Placerville
+08CL,small_airport,Kistler Ranch Airport,37.858272,-120.552079,Jamestown
+08CN,heliport,Tulare Motor Sports #1 Heliport,36.172031,-119.306181,Tulare
+09CA,heliport,Mee Memorial Hospital Heliport,36.205514,-121.132541,King City
+09CL,small_airport,Alta Sierra Airport,39.113800048828125,-121.0569992,Grass Valley
+09CN,heliport,Tulare Motor Sports #2 Heliport,36.182556,-119.313572,Tulare
+0CA2,heliport,VA Greater Los Angeles Health Care Center Heliport,34.049778,-118.456257,Los Angeles
+0CA3,small_airport,Crawford Airport,34.587501525878906,-120.0130005,Santa Ynez
+0CA4,small_airport,Shepherd Farm Airport,34.6222,-120.065002,Santa Ynez
+0CA5,small_airport,Hoffman Private Airport,33.14310073852539,-116.7450027,Santa Ysabel
+0CA6,small_airport,Emory Ranch Airport,32.7494444,-116.0161111,Ocotillo
+0CA9,small_airport,Blech Ranch Airport,35.592797,-120.338058,Shandon
+0CL0,small_airport,Yosemite Hidden Lake Ranch Airport,37.11800003049999,-119.913002,Raymond
+0CL1,small_airport,Krey Field Airport,34.56940079,-117.5559998,Adelanto
+0CL3,small_airport,John Nichols Field Airport,32.633457,-116.890565,Jamul
+0CL4,heliport,Glen Fed Heliport,34.157179,-118.254637,Glendale
+0CL5,heliport,The Atrium Heliport,33.67060089,-117.8580017,Irvine
+0CL6,small_airport,Bohunk's Airpark,34.694584,-118.277106,Lancaster
+0CL7,heliport,Good Samaritan Hospital Heliport,34.054901,-118.264967,Los Angeles
+0CL8,small_airport,Tera Ultralightport,35.591104,-117.631323,Ridgecrest
+0CL9,heliport,Sce San Jacinto Valley Service Center Heliport,33.741100311299995,-117.151001,Romoland
+0CN1,small_airport,Fiorini Ranch Airport,37.452178,-120.764758,Delhi
+0CN2,small_airport,Sutter Butte Dusters Airport,39.228622,-121.688265,Live Oak
+0O0,seaplane_base,San Luis Reservoir Seaplane Base,37.05830001831055,-121.1259995,Los Banos
+0O4,small_airport,Corning Municipal Airport,39.943599700927734,-122.1709976,Corning
+0O9,small_airport,Ward Field,41.845699310302734,-123.9850006,Gasquet
+0Q3,small_airport,Sonoma Valley Airport,38.223499,-122.449997,Schellville/Sonoma
+0Q4,small_airport,Selma Airport,36.581600189208984,-119.6579971,Selma
+0Q9,small_airport,Sonoma Skypark Airport,38.257702,-122.433998,Sonoma
+10CA,heliport,William E Poole Heliport,34.602292,-117.172462,Apple Valley
+10CN,heliport,Adventist Health St Helena Heliport,38.543333,-122.475,St Helena
+11CA,small_airport,Turner Field,36.673301696777344,-119.7220001,Fowler
+11CL,small_airport,Hansen Airport,34.630001068115234,-117.6529999,Adelanto
+11CN,heliport,Shasta Regional Medical Center Heliport,40.585095,-122.387899,Redding
+12CA,small_airport,Faber Vineyards Airport,38.10960006713867,-121.1689987,Lodi
+12CL,small_airport,Newton Field,36.156898498535156,-119.8499985,Stratford
+12CN,small_airport,Richter Airport,39.268306,-122.116689,Maxwell
+13CA,heliport,MH15 Heaps Peak US Forest Service Heliport,34.235211,-117.154799,Lake Arrowhead
+13CL,small_airport,Maine Prairie Airport,38.38130187988281,-121.8239975,Dixon
+14CA,heliport,Hoag Memorial Hospital Heliport,33.625182,-117.930799,Newport Beach
+14CL,heliport,Foothill Presbyterian Hospital Heliport,34.133487,-117.870677,Glendora
+14L,heliport,Devonshire Area Heliport,34.256882,-118.531352,Los Angeles
+15CA,heliport,Stanford Health Care East Heliport,37.435195,-122.174588,Palo Alto
+16CA,heliport,Police Pistol Range Heliport,37.719398498535156,-122.4990005,San Francisco
+16CL,heliport,Mother Lode Service Center Heliport,38.08466,-120.537945,Angels Camp
+17CL,small_airport,Las Trancas Airport,37.088545,-122.273691,Davenport
+18CA,heliport,Twin Cities Community Hospital Heliport,35.55500030517578,-120.7190018,Templeton
+18CL,small_airport,Bowles Airport,39.2859993,-121.6940002,Live Oak
+1C9,small_airport,Frazier Lake Airpark,36.95330047607422,-121.4649963,Hollister
+1CA0,heliport,Boeing Santa Susana Heliport,34.237577,-118.696561,Simi Valley
+1CA1,small_airport,Belridge Strip,35.467905,-119.72203,McKittrick
+1CA3,heliport,GSA Laguna Niguel G/L Helistop,33.561392,-117.715341,Laguna Niguel
+1CA5,heliport,California Title Building Heliport,34.12390137,-118.151001,South Pasadena
+1CA6,small_airport,On the Rocks Airport,32.765098571777344,-116.7229996,Alpine
+1CA7,heliport,L. A. Times Costa Mesa Heliport,33.69390106201172,-117.9169998,Costa Mesa
+1CA9,heliport,Los Angeles County Fire Department Heliport,34.083302,-118.867996,Malibu
+1CL0,heliport,William Archibald Heliport,34.10449981689453,-117.8000031,San Dimas
+1CL1,small_airport,Little Buttes Antique Airfield,34.79410171508789,-118.2779999,Lancaster
+1CL2,small_airport,Pontious Airport,34.942501068115234,-118.1699982,Mojave
+1CL4,heliport,UCI Medical Center Heliport,33.788562,-117.890416,Orange
+1CL5,heliport,Palomar Medical Center Poway Heliport,32.996067,-117.055539,Poway
+1CL6,heliport,Lake Park Helistop,38.547698974609375,-121.3799973,Sacramento
+1CL8,heliport,Marian Regional Medical Center Heliport,34.950507,-120.411583,Santa Maria
+1CL9,heliport,SFI Vernon Heliport,34.001038,-118.212606,Vernon
+1CN6,heliport,BTNW PPR Heliport,34.281967,-117.749786,Azusa
+1O6,small_airport,Dunsmuir Muni-Mott Airport,41.263199,-122.272003,Dunsmuir
+1Q1,small_airport,Eckert Field,36.162498,-119.050003,Strathmore
+1Q5,small_airport,Gravelly Valley Airport,39.449902,-122.955002,Potter Valley
+20CA,heliport,Clayton Heliport,33.603665,-114.644587,Blythe
+20CL,small_airport,Mysterious Valley Airport,38.749298,-122.366997,Pope Valley
+21CA,heliport,CRC-Huntington Beach Heliport,33.683833,-118.031778,Huntington Beach
+21CL,heliport,Sheriff's Heliport,34.70000076293945,-118.0589981,Lancaster
+21CN,heliport,Vermont Corridor County Admin Emergency Helicopter Landing Facility,34.064632,-118.291104,Los Angeles
+22CA,seaplane_base,Commodore Center Seaplane Base,37.878893,-122.512697,Mill Valley
+22CL,small_airport,Double Tree Farm Airport,39.29990005493164,-121.3590012,Marysville
+22CN,heliport,ABC-TV Heliport,34.103466,-118.279366,Los Angeles
+23CL,heliport,Los Angeles County Men's Detention Center Main Jail Heliport,34.06144,-118.228068,Los Angeles
+24CA,heliport,Mesa Heliport,34.2047,-118.170998,La Cañada Flintridge
+24CL,small_airport,Boswell Airport,36.088444,-119.541392,Corcoran
+25CA,small_airport,Loma Madera Ranch Airport,33.17919922,-116.7929993,Santa Ysabel
+25CL,small_airport,Van Dyke Strip,38.867218,-121.489429,Pleasant Grove
+26CA,small_airport,Boeckmann Ranch Airport,38.42689895629883,-121.1719971,Wilton
+26CN,heliport,SCE Vincent Substation Heliport,34.486768,-118.115913,Palmdale
+27CA,small_airport,Holiday Ranch Airport,34.561100006103516,-117.0810013,Apple Valley
+27CL,small_airport,Sopwith Farm Airport,38.747100830078125,-121.572998,Pleasant Grove
+27CN,heliport,SCE Pardee Substation Helistop,34.439531,-118.57928,Santa Clarita
+28CA,small_airport,Dos Palos Airport,36.964044,-120.62994,Dos Palos
+28CN,heliport,San Joaquin Community Hospital Heliport,35.383222,-119.020638,Bakersfield
+29CA,heliport,Landells Heliport,33.25590133666992,-116.4540024,Desert Hot Springs
+29CL,heliport,Childrens Hospital Los Angeles Heliport,34.097338,-118.291039,Los Angeles
+29CN,small_airport,Miller's Mother Lode Airport,38.845032,-120.831075,Georgetown
+2CA0,heliport,Ash Mountain Heliport,36.49580001831055,-118.8339996,Three Rivers
+2CA2,small_airport,Cones Field,34.16279983520508,-116.0479965,Twentynine Palms
+2CA3,small_airport,Crosswinds Airport,34.161001,-115.995648,Twentynine Palms
+2CA4,small_airport,Blackinton Airport,33.25889969,-117.0920029,Valley Center
+2CA5,heliport,Platform Emmy Heliport,33.66230010986328,-118.0449982,Huntington Beach
+2CA6,heliport,K & T 660 Figueroa Partners Heliport,34.049393,-118.259336,Los Angeles
+2CA7,heliport,Prudential Helistop,34.17559814453125,-118.5950012,Woodland Hills
+2CA8,small_airport,B & E Ranch Airport,34.42060089111328,-116.6110001,Yucca Valley
+2CL0,heliport,Commerce Business Park Heliport,33.987549,-118.161483,City of Commerce
+2CL3,small_airport,Longbell Ranch Airport,41.642101,-121.889999,Macdoel
+2CL4,heliport,American Display Heliport,40.522098541259766,-122.3040009,Redding
+2CL5,heliport,Kovr Heliport,38.59159851074219,-121.5449982,West Sacramento
+2CL6,heliport,St John's Regional Medical Center Heliport,34.216615,-119.15733,Oxnard
+2CL7,heliport,Glendale Plaza Emergency Heliport,34.155692,-118.258515,Glendale
+2CL8,heliport,Inland Valley Medical Center Heliport,33.592553,-117.237204,Wildomar
+2CL9,small_airport,Mustang Airport,38.33440017700195,-121.3040009,Galt
+2CN2,heliport,Department of Water and Power Granada Hills Heliport,34.292348,-118.474713,Los Angeles
+2CN3,small_airport,Tenaja Valley Airport,33.511111,-117.328611,Murrieta
+2CN4,small_airport,Wonderful Pistachios & Almonds Airport,35.664623,-119.893518,Lost Hills
+2CN5,heliport,Regional Medical Center Of San Jose H1 Heliport,37.3625,-121.850278,San Jose
+2CN6,heliport,Department of Water & Power Los Angeles Heliport,34.058055,-118.24954,Los Angeles
+2CN7,heliport,Qualcomm Building N Heliport,32.896236,-117.196029,San Diego
+2CN8,small_airport,Lake Arrowhead Airport,34.304167,-117.151389,Lake Arrowhead
+30CA,heliport,Indian Valley Hospital Heliport,40.141201,-120.937226,Greenville
+30CL,heliport,Long Beach Memorial Medical Center Heliport,33.808741,-118.186728,Long Beach
+30CN,heliport,Air Methods Barstow Heliport,34.894777,-117.024867,Barstow
+31CA,heliport,Baldwin Base Heliport,33.69390106201172,-117.8320007,Irvine
+31CL,heliport,Presbyterian Intercommunity Hospital Whittier Heliport,33.971497,-118.049622,Whittier
+32CA,small_airport,Stone Airstrip,36.331538,-119.825177,Lemoore
+32CL,small_airport,Bob's Flying Service Inc Airport,38.83319854736328,-121.7180023,Knights Landing
+32CN,heliport,Pacific Bell-2300 Imperial Hwy Heliport,33.93048,-118.38239,El Segundo
+33CL,small_airport,Oak Country Ranch Airport,35.56829833984375,-120.7969971,Paso Robles
+33CN,heliport,Platform Hillhouse Heliport,34.33110046386719,-119.6039963,Carpinteria
+34CL,heliport,Burney Service Center Heliport,40.893609,-121.651354,Burney
+34CN,small_airport,Bonanza Hills Airport,37.52349853515625,-120.3980026,Snelling
+35CA,heliport,Los Angeles County/USC Medical Center Heliport,34.057766,-118.208096,Los Angeles
+35CN,closed,Farnsworth Ranch Airstrip,39.104237,-121.936515,Grimes
+36CA,small_airport,Stone Land County Airport,36.131900787353516,-119.9860001,Stratford
+36CL,heliport,Tri-City Hospital Heliport,33.185298919677734,-117.2910004,Oceanside
+37CA,small_airport,Billy Joe Airport,33.50699996948242,-117.0709991,Temecula
+37CL,small_airport,Lyall-Roberts Airport,33.324501,-116.989998,Pauma Valley
+37CN,closed,Arnold Ranch Airport,36.914398,-119.786003,Fresno
+38CL,small_airport,Riego Flight Strip,38.75410079956055,-121.5630035,Verona
+38CN,small_airport,Sanborn Airport,39.10929870605469,-121.8840027,Meridian
+39CA,heliport,Sce Palm Springs District Heliport,33.786399841308594,-117.4660034,Cathedral City
+39CL,heliport,Castle Heliport,33.787899017333984,-117.2300034,Perris
+39CN,heliport,Adventist Health Ukiah Valley Heliport,39.153027,-123.202127,Ukiah
+3CA1,heliport,Newport Beach Police Heliport,33.626399993896484,-117.8769989,Newport Beach
+3CA2,heliport,Jamboree Center Helistop,33.677799224853516,-117.836998,Irvine
+3CA6,heliport,Trizec 5670 Wilshire LLC Heliport,34.061962,-118.352146,Los Angeles
+3CA7,small_airport,Metz Airport,36.32830047607422,-121.1869965,Greenfield
+3CA8,heliport,Holy Cross Medical Center Heliport,34.280109,-118.461186,Mission Hills
+3CA9,small_airport,Clark Ranch Airport,36.36330032348633,-121.3099976,Soledad
+3CL0,heliport,UC Davis Medical Center Tower II Heliport,38.554831,-121.455491,Sacramento
+3CL1,heliport,Metropolitan Water District Heliport,34.054704,-118.23636,Los Angeles
+3CL3,heliport,World Trade Center Heliport,33.777801513671875,-118.1999969,Long Beach
+3CL4,heliport,Pasadena Police Benedict Heliport,34.183561,-118.171134,Altadena
+3CL5,heliport,Chase Plaza Heliport,34.037200927734375,-118.2580032,Los Angeles
+3CL7,heliport,Raleigh Enterprises Heliport,34.036324,-118.443555,Los Angeles
+3CL8,heliport,Toyota Helistop,33.856513,-118.31268,Torrance
+3CL9,heliport,SCE Northern Division Heliport,34.286414,-119.170676,Ventura
+3CN2,heliport,Santa Barbara Cottage Hospital Heliport,34.43,-119.724166,Santa Barbara
+3CN4,heliport,Kaiser Permanente Anaheim Medical Center Heliport,33.852,-117.8453,Anaheim
+3CN5,heliport,Los Angeles County Sheriffs Dept South LA Heliport,33.92864,-118.299004,Los Angeles
+3CN7,small_airport,Alta Mesa Airpark,38.379143,-121.221728,Wilton
+3O8,small_airport,Harris Ranch Airport,36.247813,-120.238323,Coalinga
+40CA,heliport,City of Industry Civic Financial Center Heliport,34.024539,-117.95929,City of Industry
+40CL,heliport,"Joby Aero, Inc Heliport",37.024194,-122.156749,Santa Cruz
+40CN,heliport,Loma Linda University Medical Center-Murrieta Heliport,33.614716,-117.169905,Murrieta
+41CA,small_airport,Silver Creek Ranch Airport,40.3176,-123.253998,Silver Flat
+42CA,heliport,John F Kennedy Memorial Hospital Heliport,33.705854,-116.236761,Indio
+42CL,heliport,Costa Mesa Police Department Heliport,33.66310119628906,-117.9039993,Costa Mesa
+42CN,small_airport,Peg Field,36.70909881591797,-119.4049988,Reedley
+42L,heliport,Naa Long Beach Port Helistop,33.76470184326172,-118.1999969,Long Beach
+43CL,small_airport,Dick Dale Skyranch Airport,34.2061,-115.998001,Twentynine Palms
+43L,heliport,Van Nuys County Court Heliport,34.18330001831055,-118.447998,Los Angeles
+44CN,heliport,UCLA Wilshire Glendon Heliport,34.059059,-118.443818,Los Angeles
+44L,heliport,Wilshire Area Heliport,34.047191,-118.342768,Los Angeles
+45CL,small_airport,Hell'er High Water Airport,40.141878,-123.399124,Zenia
+45CN,small_airport,Hermitage Airport,37.880691,-120.194936,Groveland
+46CL,heliport,AT&T Center Heliport,34.039611,-118.261704,Los Angeles
+46CN,small_airport,Crystal Airport,34.484781,-117.825898,Llano
+47CA,heliport,Mountains Community Hospital Heliport,34.265462,-117.16779,Lake Arrowhead
+47CL,heliport,Spears Heliport,34.312935,-118.474331,Sylmar
+48CA,heliport,Huntington Beach Service Center Heliport,33.74530029296875,-118,Westminster
+48CL,heliport,PG&E Grass Valley Service Center Heliport,39.200334,-121.061343,Grass Valley
+49CA,heliport,DCOR Platform Habitat Heliport,34.286619,-119.589343,Carpinteria
+49CL,small_airport,El Peco Ranch Airport,36.90549850463867,-120.177002,Madera
+49CN,small_airport,Rancho Tehama Airport,40.01599884033203,-122.3899994,Red Bluff
+4CA0,heliport,LAPD Hooper Heliport,34.044014,-118.247303,Los Angeles
+4CA1,heliport,City National Bank Heliport,34.047704,-118.254116,Los Angeles
+4CA2,small_airport,Funny Farm Airport,37.94689941,-121.6470032,Brentwood
+4CA3,heliport,Camp Parks Heliport,37.70830154418945,-121.8929977,Pleasanton
+4CA4,heliport,St Francis Medical Center Helistop,33.930301666259766,-118.2030029,Lynwood
+4CA5,heliport,Children's Hospital of Orange County Heliport,33.781502,-117.865598,Orange
+4CA6,heliport,Chevron Refinery Heliport,33.914454,-118.427215,El Segundo
+4CA7,small_airport,Johnsen Airport,39.67070007324219,-121.8860016,Chico
+4CA9,heliport,Randy Champe-Gary Howe Memorial Heliport,33.970101,-118.277622,Los Angeles
+4CL1,heliport,Lyon Heliport,33.613399505615234,-117.5910034,Rancho Santa Margarita
+4CL2,heliport,Wolfranch Heliport,33.50279998779297,-117.3050003,Temecula
+4CL3,small_airport,Antelope Valley Ranch Airport,39.14605,-122.356716,Williams
+4CL4,small_airport,Rabbit Ranch Airport,34.456835,-117.028936,Lucerne Valley
+4CL5,heliport,Mercy San Juan Hospital Heliport,38.669114,-121.314348,Carmichael
+4CL6,heliport,Pat Coyle Memorial Heliport,33.142172,-117.14553,San Marcos
+4CL7,heliport,Inyo County Sheriff Search & Rescue Heliport,37.36579895019531,-118.3679962,Bishop
+4CL8,heliport,Hanford Community Medical Center Helistop,36.329739,-119.659609,Hanford
+4CL9,heliport,Arrowhead Regional Medical Center Heliport,34.075377,-117.349327,Colton
+4CN7,heliport,Children's Hospital of Los Angeles Heliport II,34.097289,-118.288803,Los Angeles
+50CA,heliport,St Mary Medical Center Heliport,33.780949,-118.186094,Long Beach
+50CL,heliport,L A Co Sheriff Lakewood Heliport,33.85079956,-118.1330032,Lakewood
+50CN,heliport,Palmdale Medical Center Heliport,34.582261,-118.145106,Palmdale
+51CA,small_airport,Kelly Airport,34.42359924316406,-116.6169968,Lucerne Valley
+51CL,small_airport,Vetters Sky Ranch Airport,38.230499267578125,-121.2220001,Galt
+52CL,small_airport,Adelanto Airport,34.53749847,-117.4609985,Adelanto
+52CN,small_airport,Ponderosa Sky Ranch Airport,40.343903,-121.772611,Paynes Creek
+53CA,heliport,Hummingbird Nest Heliport,34.281898498535156,-118.6549988,Simi Valley
+53CL,small_airport,Lofty Redwoods Airport,38.85960006713867,-123.5910034,Anchor Bay
+53CN,small_airport,Thayer Aviation Airport,39.074902,-121.917999,Grimes
+54CL,small_airport,Lake Riverside Estates Airport,33.52090072631836,-116.7969971,Anza
+54CN,small_airport,Akin Airport,38.754101,-120.899002,Placerville
+55CN,heliport,Sunset-Glendale Heliport,34.07780075073242,-118.2600021,Los Angeles
+56CL,small_airport,Morris Ag Air SW Airport,33.591726,-114.605663,Blythe
+57CL,small_airport,Boron Airstrip,35.001441,-117.61035,Boron
+57CN,small_airport,Van Vleck Airport,38.46910095214844,-121.0749969,Rancho Murieta
+58CA,heliport,Jay Stephen Hooper Memorial Heliport,34.054500579833984,-118.2289963,Los Angeles
+58CL,small_airport,Borrego Air Ranch Airport,33.1917,-116.276001,Borrego Springs
+58CN,heliport,Jackson Lake Heliport,39.462398529052734,-120.5660019,Jackson Lake
+59CN,small_airport,James Brothers Airport,38.83489990234375,-121.5299988,Pleasant Grove
+59L,heliport,Los Angeles City Hall East Heliport,34.053095,-118.241912,Los Angeles
+5CA0,heliport,Dreamworks Helistop Glendale Heliport,34.15829849243164,-118.2860031,Glendale
+5CA1,heliport,Chevron - San Ardo Heliport,35.956367,-120.869629,San Ardo
+5CA2,heliport,Ord Mountain Heliport,34.67537624,-116.8153498,Barstow
+5CA3,heliport,San Rafel Private Heliport,37.94660186767578,-122.4869995,San Rafel
+5CA4,small_airport,Ludlow Airport,34.728705,-116.158705,Barstow
+5CA7,small_airport,Agro-West Airport,36.334538,-120.247532,Five Points
+5CA8,small_airport,Howard Private Airport,38.256536,-120.931845,Ione
+5CA9,seaplane_base,Konocti  - Clear Lake Seaplane Base,38.977699,-122.718002,Kelseyville
+5CL0,small_airport,Grupe Ranch Airport,37.339615,-119.857463,Mariposa
+5CL1,small_airport,Hart Ranch Airport,35.40470123,-120.5250015,Santa Margarita
+5CL2,heliport,St Louise Regional Hospital Heliport,37.035800933800004,-121.5719986,Gilroy
+5CL3,small_airport,Mapes Ranch Airport,37.667999267578125,-121.1989975,Modesto
+5CL4,heliport,Natividad Medical Center Heliport,36.697493,-121.634556,Salinas
+5CL5,heliport,KCIN Emergency Heliport,33.684512,-117.854721,Irvine
+5CL6,heliport,Edward Roybal Federal Bldg Heliport,34.052882,-118.23923,Los Angeles
+5CL7,small_airport,Gene Wash Reservoir Airport,34.308101654052734,-114.1869965,Parker Dam
+5CL8,small_airport,Creekside Airport,35.17610168457031,-118.9229965,Arvin
+5CL9,small_airport,Table Mountain Field,37.1413,-119.508003,Auberry
+5CN4,small_airport,Vosburgh Airfield,34.9225,-119.57118,New Cuyama
+5CN5,heliport,Palmaz Ranch Heliport,40.036588,-120.763475,Taylorsville
+5Q2,heliport,US Forest Service Chester Heliport,40.28850173949999,-121.2429962,Chester
+60CA,heliport,Q Area Heliport,38.044898986816406,-122.0070038,Concord
+60CL,small_airport,California Highway Patrol Academy Airport,38.594499,-121.568188,West Sacramento
+60CN,heliport,San Gorgonio Memorial Hospital Heliport,33.930759,-116.942874,Banning
+60L,heliport,Los Angeles Fire Department Station 108 Heliport,34.126769,-118.406496,Beverly Hills
+61CA,small_airport,Bauer Airport,34.17470169067383,-116.0670013,Twentynine Palms
+61CL,small_airport,Johnson Brothers Airport,32.672743,-115.561896,Calexico
+61CN,heliport,California Highway Patrol Headquarters Helipad,38.598106,-121.488231,Sacramento
+61L,heliport,Los Angeles Fire Department Station Number 109 Heliport,34.130764,-118.490504,Los Angeles
+62CA,heliport,Bank of America Data Center Heliport,34.053668,-118.253183,Los Angeles
+62CL,small_airport,Flying Pear Ranch Airport,35.407172,-118.501072,Caliente
+62CN,heliport,Trw Manhattan Beach Heliport,33.89699935913086,-118.3830032,Manhattan Beach
+63CA,small_airport,Desert Air Sky Ranch Airport,33.48109817504883,-115.8740005,North Shore
+63CL,small_airport,G3 Ranch Airport,38.71659851074219,-122.1389999,Capay
+63CN,small_airport,Meadowlark Field,37.66130065917969,-121.6940002,Livermore
+64CA,heliport,Tahoe Forest Hospital Heliport,39.324124,-120.200281,Truckee
+64CL,balloonport,Goodyear Blimp Base Airport,33.855333,-118.276234,Gardena
+65CA,heliport,SCE San Joaquin Heliport,36.18299,-119.333578,Tulare
+65CL,small_airport,Al Divine Airport,36.514400482177734,-119.7639999,Caruthers
+65CN,small_airport,Bottimore Ranch Airport,38.303434,-121.250868,Galt
+66CA,small_airport,Rancho San Simeon Airport,35.60770034790039,-121.1100006,Cambria
+66CN,heliport,Northrop Palos Verdes Heliport,33.76060104370117,-118.3880005,Palos Verdes
+67CA,small_airport,Chapman Farms Airport,37.072491,-120.376215,Chowchilla
+67CL,small_airport,Davis Airport,39.20100021362305,-122.0490036,Colusa
+67CN,heliport,El Dorado Irrigation District Heliport,38.76449,-120.54829,Pollock Pines
+68CA,small_airport,Lake California Air Park,40.36109924316406,-122.2160034,Cottonwood
+68CN,small_airport,Porter Ranch Airport,36.02321,-118.096418,Inyokern
+69CA,heliport,Victor Valley Global Medical Center Heliport,34.52776,-117.292743,Victorville
+69CL,small_airport,Medlock Field,38.615501403808594,-121.7470016,Davis
+6CA0,heliport,DoubleTree by Hilton Hotel Los Angeles Downtown Heliport,34.050686,-118.242663,Los Angeles
+6CA1,small_airport,Triple R Ranch Airport,41.742698669433594,-121.8779984,Macdoel
+6CA2,heliport,SCE Rosemead Heliport,34.050056,-118.081087,Rosemead
+6CA3,heliport,Catalina Air-Sea Terminal Heliport,33.74919891,-118.2750015,San Pedro
+6CA4,heliport,East Valley Sheriff's Station Heliport,34.24694,-118.835612,Thousand Oaks
+6CA5,small_airport,Valley Vista Airport,34.33720016479492,-116.5800018,Yucca Valley
+6CA6,small_airport,Eagle Ridge Ranch Airport,38.327701568603516,-120.4769974,Railroad Flat
+6CA8,small_airport,Depue Airport,34.856232,-117.137303,Barstow
+6CA9,heliport,UCLA Emergency Medicine Department Heliport,34.064998626699996,-118.4430008,Los Angeles
+6CL2,heliport,White Pine Heliport,41.330501556396484,-120.0970001,Eagleville
+6CL3,heliport,William Shells County Heliport,34.38029861450195,-118.8690033,Fillmore
+6CL4,small_airport,Manzanita Airport,37.457828,-119.741921,Mariposa
+6CL5,heliport,Majlar Heliport,34.40755,-119.16907,Ojai
+6CL7,heliport,Orange Co Sheriffs Forensics Lab Helistop,33.74750137,-117.8769989,Santa Ana
+6CL8,small_airport,Harley Airport,37.950801849365234,-121.2429962,Stockton
+6CN5,heliport,Los Altos Heliport,34.055566,-117.992526,City of Industry
+6CN6,heliport,Kaiser Permanente South Sacramento Heliport,38.469856,-121.420743,Sacramento
+6Q0,heliport,Columbia Heliport,38.03459930419922,-120.4120026,Columbia
+70CA,heliport,The Wilshire Thayer Heliport,34.062597,-118.432328,Los Angeles
+70CL,small_airport,Amargosa Airport,36.295799255371094,-116.4260025,Death Valley Junction
+71CA,heliport,Fresh Pond Heliport,38.76020050048828,-120.5360031,Pollock Pines
+71CL,small_airport,Gunnersfield Ranch Airport,39.352699279785156,-122.0940018,Delevan
+72CA,heliport,Quincy Helitack Base Heliport,39.98320007324219,-120.9509964,Quincy
+72CL,small_airport,Iron Mountain Pumping Plant Airport,34.13420104980469,-115.1190033,Desert Center
+73CA,small_airport,Bear Valley Airport,38.457706,-120.041991,Bear Valley
+73CL,small_airport,Julian Hinds Pump Plant Airstrip,33.698066,-115.638185,Hayfield
+74L,heliport,Malibu Administrative Center Heliport,34.037484,-118.689364,Malibu
+75CA,heliport,Civic Center Heliport,33.677799224853516,-118,Huntington Beach
+76CA,heliport,Bald Mountain Heliport,38.139856,-120.094662,Long Barn
+76CN,heliport,El Centro Regional Medical Center Heliport,32.779887,-115.568652,El Centro
+77CA,small_airport,Daulton Airport,37.12080001831055,-119.987999,Madera
+77CL,small_airport,Baker & Hall Airport,36.71770095825195,-119.137001,Dunlap
+78CA,heliport,Broadcom Corporation Heliport,33.65980148,-117.7669983,Irvine
+79CA,heliport,Providence St Mary Medical Center Heliport,34.543209,-117.264528,Apple Valley
+79CL,small_airport,Milhous Ranch Airport,39.32490158081055,-121.0759964,North San Juan
+7CA1,small_airport,Abraham Ranch Airport,34.41469955444336,-116.6230011,Lucerne Valley
+7CA2,small_airport,Paradise Lakes Airport,35.176700592041016,-118.927002,Bakersfield
+7CA3,heliport,Mercy Medical Center Heliport,40.572242,-122.396637,Redding
+7CA4,heliport,Desert Regional Medical Center Heliport,33.838461,-116.543899,Palm Springs
+7CA5,heliport,Balch Camp Heliport,36.90629959106445,-119.1289978,Balch Camp
+7CA7,heliport,Brian Chuchua Jeep Heliport,33.86109924316406,-117.8820038,Placentia
+7CA8,heliport,Eisenhower Medical Center Heliport,33.7641,-116.4049,Rancho Mirage
+7CA9,heliport,River Meadow Farm Heliport,38.46189880371094,-122.4150009,Rutherford
+7CL1,heliport,Children's Hospital Oakland Heliport,37.836169,-122.266741,Oakland
+7CL2,heliport,Rogers Helicopters Inc Heliport,36.82379913330078,-119.6679993,Clovis
+7CL4,heliport,Pickel Meadows Expeditionary Airfield Heliport,38.354765,-119.520972,Bridgeport
+7CL9,small_airport,Perryman Airport,38.696463,-120.732858,Placerville
+7L1,heliport,Carson Sheriff Station Heliport,33.83420181274414,-118.262001,Carson
+7L5,heliport,L A County Sheriff's Department Heliport,34.00419998168945,-117.9369965,City of Industry
+80CA,small_airport,Bacchi Valley Industries Airport,38.817133,-120.922541,Lotus
+80CL,heliport,Blythe Service Center Heliport,33.604879,-114.602305,Blythe
+80CN,heliport,US Border Patrol Campo Heliport,32.716072,-116.450054,Pine Valley
+80L,heliport,Los Angeles County Fire Station 123 Heliport,34.38486,-118.41451,Santa Clarita
+81CL,heliport,Sandhill Heliport,37.92129898071289,-122.1959991,Orinda
+81L,heliport,Sheriff's Wayside Heliport,34.463548,-118.609623,Valencia
+82CA,heliport,SCE Moorpark Substation Heliport,34.281799,-118.904542,Moorpark
+82CL,small_airport,Fort Bragg Airport,39.472445,-123.795319,Fort Bragg
+83CA,heliport,The Met Heliport,33.688469,-117.877966,Costa Mesa
+83L,heliport,Southeast Superior Court Heliport,33.91360092163086,-118.072998,Norwalk
+84CA,heliport,Beverly Center Heliport,34.073808,-118.377595,Los Angeles
+84CL,heliport,Century City Heliport,34.06079865,-118.4179993,Los Angeles
+84L,heliport,Norwalk Sheriff Station Heliport,33.915104,-118.069804,Norwalk
+85CA,heliport,Redwood Coast Medical Services Heliport,38.770806,-123.529453,Gualala
+86CL,small_airport,Ernst Field,33.597198486328125,-116.8830032,Hemet
+86CN,heliport,Dignity Health Hospital Mercy Medical Center Heliport,37.340779,-120.46671,Merced
+87CL,heliport,City National Plaza Heliport,34.051544,-118.256949,Los Angeles
+87CN,heliport,Honda of Santa Ana Heliport,33.72710037231445,-117.8359985,Santa Ana
+88CA,heliport,Regional Medical Center San Jose H2 Heliport,37.361464,-121.848503,San Jose
+88CL,heliport,Park Place Heliport,33.673845,-117.843255,Irvine
+8CA0,small_airport,Osborne Airport,34.583793,-117.266693,Victorville
+8CA1,heliport,Merle Norman Cosmetics (Sylmar) Heliport,34.30500030517578,-118.4649963,Sylmar
+8CA2,heliport,Cal Fire Auburn Heliport,38.934085,-121.053779,Auburn
+8CA4,heliport,SCE Eastern Division Heliport,34.104739,-117.351691,Rialto
+8CA6,heliport,Yucca Valley Service Center Heliport,34.124906,-116.413607,Yucca Valley
+8CA7,heliport,Platform Henry Heliport,34.333099365234375,-119.560997,Carpinteria
+8CA8,small_airport,Wallom Field,38.06740188598633,-121.2080002,Lodi
+8CA9,heliport,KGTV-10 Parking Lot Heliport,32.720207,-117.097355,San Diego
+8CL0,small_airport,Nichols Farms Airport,34.58890151977539,-117.8259964,Palmdale
+8CL1,small_airport,Lake Wohlford Resort Airport,33.175891,-117.001868,Escondido
+8CL2,small_airport,Lucchetti Ranch Airport,38.423500061035156,-121.2269974,Elk Grove
+8CL4,heliport,A G Spanos Companies Hq Heliport,38.047638,-121.370251,Stockton
+8CL5,heliport,R I Ai Canoga Park B/2 Helistop,34.23360061645508,-118.586998,Los Angeles
+8CL6,small_airport,Moller Airport,39.28850173950195,-122.189003,Maxwell
+8CL7,heliport,Adventist Health Lodi Memorial Medical Center Heliport,38.122408,-121.28675,Lodi
+90CA,small_airport,Fowler's Airport,38.003501892089844,-121.1190033,Linden
+90CL,small_airport,Diamond M Ranch Airport,39.571225,-122.607513,Elk Creek
+91CA,heliport,Devers Substation Heliport,33.939936,-116.574172,Desert Hot Springs
+92CA,small_airport,Westlake Farms Airport,36.12080001831055,-119.8880005,Stratford
+92CL,small_airport,Moronis Airport,39.10319900512695,-121.8499985,Meridian
+92CN,heliport,Riverside County Sheriff's Department Palm Desert Station Heliport,33.78555,-116.37905,Palm Desert
+93CA,heliport,Fountain Valley Regional Hospital Heliport,33.71500015258789,-117.935997,Fountain Valley
+93CN,heliport,UCSD Jacobs Medical Center Rooftop Heliport,32.877679,-117.226762,"La Jolla, San Diego"
+94CA,heliport,Kaiser Permanente Fontana Medical Center Heliport,34.072585,-117.432514,Fontana
+94CL,heliport,Loma Linda University Medical Center Heliport,34.050241,-117.264141,Loma Linda
+95CA,small_airport,Bonel Airport,35.669256,-120.547936,Paso Robles
+95CL,heliport,Verdugo Hills Hospital Heliport,34.204136,-118.217289,Glendale
+95CN,heliport,Desert Valley Hospital Helipad,34.471609,-117.296843,Victorville
+96CA,heliport,Warner Center Plaza I Helipad,34.178276,-118.60032,Woodland Hills
+96CL,heliport,Ranch Heliport,34.157704,-118.917802,Newbury Park
+97CL,small_airport,Siller Bros Inc Airport,39.460201263427734,-121.5810013,Oroville
+98CA,heliport,Westwood Gateway II Heliport,34.046872,-118.445127,Los Angeles
+98L,heliport,Pomona Police Department Heliport,34.051886,-117.791988,Pomona
+99CA,heliport,San Antonio Regional Hospital Heliport,34.102747,-117.636211,Upland
+99CL,small_airport,El Mirage Field Adelanto Airport,34.62438,-117.600702,El Mirage
+99CN,heliport,Banner Lassen Medical Center Heliport,40.437491,-120.628728,Susanville
+9CA0,small_airport,Psk Ranch Airport,35.11389923095703,-118.5979996,Tehachapi
+9CA1,heliport,SCE Barstow Service Center Heliport,34.87516,-116.995978,Barstow
+9CA2,heliport,Pioneers Memorial Hospital Heliport,32.958457,-115.553106,Brawley
+9CA3,heliport,Recreation and Conference Center Heliport,34.020472,-117.927396,City of Industry
+9CA4,heliport,Hi-Desert Medical Center Heliport,34.131312,-116.275822,Joshua Tree
+9CA5,heliport,California Mart Heliport,34.04029846191406,-118.2559967,Los Angeles
+9CA7,small_airport,Harris River Ranch Airport,36.76720047,-119.435997,Sanger
+9CA8,heliport,Boeing Huntington Beach Heliport,33.74720001220703,-118.0339966,Huntington Beach
+9CA9,heliport,Santa Fe International Corp Heliport,34.081494,-118.149842,Alhambra
+9CL0,small_airport,Turlock Airpark,37.47079849243164,-120.8440018,Turlock
+9CL2,small_airport,Christensen Ranch Airport,36.87160110473633,-121.336998,Hollister
+9CL3,small_airport,Likely Airport,41.239489,-120.526121,Likely
+9CL4,small_airport,Hart Mine Airport,35.287181,-115.19439,Ivanpah
+9CL6,heliport,Children's Hospital Central California Heliport,36.883262,-119.80159,Fresno
+9CL7,small_airport,Old Aerodrome,39.320825,-121.362807,Browns Valley
+9CL8,heliport,Union Eva Heliport,33.66170120239258,-118.0619965,Huntington Beach
+9CL9,small_airport,Spezia Airport,38.21659851074219,-121.5339966,Walnut Grove
+9CN1,heliport,Hazel Hawkins Memorial Hospital Heliport,36.834811,-121.386479,Hollister
+A26,small_airport,Adin Airport,41.18600082397461,-120.9520035,Adin
+A28,small_airport,Fort Bidwell Airport,41.87630081176758,-120.1470032,Fort Bidwell
+C39,seaplane_base,Folsom Lake Seaplane Base,38.70719909667969,-121.1330032,Folsom
+CA00,heliport,Platform Hermosa Heliport,34.455299377441406,-120.6470032,Lompoc
+CA01,heliport,Burney Sheriff's Station Heliport,40.885121,-121.669368,Burney
+CA03,small_airport,Flying M Airport,37.36167,-120.284479,Planada
+CA04,small_airport,Flying N Ranch Airport,40.34629821777344,-122.3389969,Cottonwood
+CA05,small_airport,Machado Dusters Airport,36.16019821166992,-119.8130035,Stratford
+CA06,small_airport,Bates Field,41.421373,-120.568657,Alturas
+CA07,small_airport,Scheidel Ranch Airport,38.84019852,-121.5619965,Pleasant Grove
+CA08,heliport,SCE Energy Control Center Heliport,34.083494,-118.144148,Alhambra
+CA09,small_airport,Round Mountain Ranch Airport,41.885277,-122.843256,Klamath River
+CA11,small_airport,Mc Cloud Airstrip,41.27320099,-122.1220016,Mc Cloud
+CA12,heliport,IPP Adelanto Heliport,34.54846,-117.436321,Adelanto
+CA13,small_airport,Reedley College Airport,36.606871,-119.463526,Reedley
+CA15,heliport,Sierra Nevada Memorial Hospital Heliport,39.227474,-121.04763,Grass Valley
+CA16,small_airport,Holtsmans Airport,38.72909927368164,-121.3889999,Rio Linda
+CA18,small_airport,Sunrise Dusters Airport,38.874987,-121.710172,Robbins
+CA19,small_airport,Camanche Skypark Airport,38.263511,-120.924006,Ione
+CA20,small_airport,Eagle's Nest Airport,38.43258,-121.016507,Ione
+CA21,small_airport,Limberlost Ranch Airport,39.22046,-121.213896,Penn Valley
+CA22,small_airport,Lauppes Strip,38.759300231933594,-121.5849991,Sacramento
+CA23,heliport,Maguire-California Hospital Helipad,34.034999,-118.266202,Los Angeles
+CA24,heliport,Scripps Memorial Hospital La Jolla Heliport,32.886279,-117.225502,La Jolla
+CA25,heliport,Mark Twain St Joseph's Hospital Heliport,38.19071,-120.669215,San Andreas
+CA26,heliport,Hall of Justice Heliport,37.774898529052734,-122.4049988,San Francisco
+CA27,heliport,Alcatraz Heliport,37.825912,-122.421448,San Francisco
+CA28,heliport,University Medical Center Heliport,33.913023,-117.196526,Moreno Valley
+CA29,heliport,Fontana Police Heliport,34.101716,-117.433729,Fontana
+CA31,heliport,Sanger Heliport,36.732200622558594,-119.5550003,Sanger
+CA32,small_airport,San Joaquin Airport,36.606525,-120.219499,San Joaquin
+CA33,heliport,Santa Clara Valley Medical Center Heliport,37.313264,-121.934354,San Jose
+CA35,small_airport,San Rafael Airport,38.01689910888672,-122.5210037,San Rafael
+CA37,heliport,Dominican Hospital Heliport,36.990655,-121.982508,Santa Cruz
+CA38,small_airport,Totem Pole Ranch Airport,39.652182,-120.439873,Calpine
+CA39,small_airport,Belos Cavalos Airport,38.434595,-122.563524,Santa Rosa
+CA40,small_airport,Central Valley Aviation Inc Airport,36.52130126953125,-119.6699982,Selma
+CA41,small_airport,Quinn Airport,36.58330154418945,-119.6399994,Selma
+CA42,small_airport,McConville Airstrip,33.644146,-117.429457,Lake Elsinore
+CA43,heliport,Barton Memorial Hospital Heliport,38.91130065917969,-119.9970016,South Lake Tahoe
+CA44,small_airport,Sequoia Ranch Airport,36.149898529052734,-118.802002,Springville
+CA46,heliport,Cedars-Sinai Medical Center Heliport,34.07628,-118.380788,Los Angeles
+CA47,heliport,San Diego Police Headquarters Heliport,32.715301513671875,-117.151001,San Diego
+CA49,small_airport,Jones Farms Airport,36.20410156,-119.8410034,Stratford
+CA50,heliport,Hughes/Malibu Heliport,34.045201,-118.695034,Malibu
+CA51,small_airport,The Sea Ranch Airport,38.70460129,-123.4329987,The Sea Ranch
+CA53,small_airport,Tews Field,40.67250061035156,-122.3420029,Redding
+CA55,heliport,Mission Hospital Helistop,33.560797,-117.666192,Mission Viejo
+CA56,heliport,Correctional Training Facility Heliport,36.468216,-121.380087,Soledad
+CA57,small_airport,Blake Sky Park Airport,38.458321,-122.050046,Vacaville
+CA58,heliport,Emanuel Medical Center Heliport,37.51259,-120.839244,Turlock
+CA59,small_airport,Vestal Strip,38.79159927368164,-121.5839996,Verona
+CA60,small_airport,Deer Creek Ranch Airport,39.94990158081055,-121.9970016,Vina
+CA61,heliport,SCE High Desert District Heliport,34.476549,-117.288432,Victorville
+CA62,small_airport,McMillan Assault Strip,35.719101,-120.767998,Camp Roberts
+CA63,heliport,John Muir Walnut Creek Medical Center Heliport,37.912845,-122.041449,Walnut Creek
+CA64,heliport,Olive View Medical Center Heliport,34.3268013,-118.4449997,Sylmar
+CA65,heliport,Alta Vista Heliport,36.97050094604492,-121.8619995,Watsonville
+CA66,small_airport,Monterey Bay Academy Airport,36.90610122680664,-121.8430023,Watsonville
+CA67,small_airport,Westley Airport,37.54800033569336,-121.2050018,Westley
+CA68,heliport,Saddleback Memorial Medical Center Heliport,33.608584,-117.709225,Laguna Hills
+CA69,small_airport,Avenal Gliderport,36.00303,-120.142194,Avenal
+CA70,small_airport,Sun Hill Ranch Airport,34.757999420166016,-117.4970016,Helendale
+CA71,small_airport,Horse Shoe A Ranch Airport,38.439775,-120.887933,Drytown
+CA72,heliport,Community Memorial Hospital Heliport,34.274682,-119.259236,Ventura
+CA73,small_airport,Vanderford Ranch Company Airport,39.095699310302734,-121.7160034,Yuba City
+CA74,heliport,Hemet Valley Hospital Helistop,33.751828,-116.960794,Hemet
+CA75,small_airport,Reider Ranch Airport,32.638646,-116.640866,Potrero
+CA76,small_airport,Flying T Ranch Airport,33.07030106,-116.7519989,Ramona
+CA77,heliport,Ridgecrest Regional Hospital Heliport,35.640365,-117.672034,Ridgecrest
+CA78,heliport,City Hall Heliport,33.980641,-117.375628,Riverside
+CA79,heliport,Ritz-Carlton Marina del Rey Heliport,33.984297,-118.450175,Marina del Rey
+CA81,heliport,Riverside Metro Center Heliport,33.982958,-117.375982,Riverside
+CA83,heliport,Gilbert Aviation Heliport,36.44269943237305,-119.3160019,Visalia
+CA84,small_airport,Torrey Pines Gliderport,32.889702,-117.247002,San Diego
+CA85,heliport,Opus Center Irvine Heliport,33.683601,-117.852997,Irvine
+CA86,heliport,Northridge Hospital Heliport,34.220016,-118.532554,Northridge
+CA87,heliport,SCE Songs Mesa Heliport,33.379517,-117.559821,San Clemente
+CA88,small_airport,San Ardo Field,36.026074,-120.908382,San Ardo
+CA89,small_airport,Skylark Airport,33.632272,-117.300868,Lake Elsinore
+CA90,small_airport,Cadiz Airstrip,34.514054,-115.518343,Cadiz
+CA91,heliport,Quinn Heliport,34.008073,-117.343801,Riverside
+CA92,small_airport,Paradise Skypark Airport,39.71029,-121.616528,Paradise
+CA95,heliport,St Joseph Medical Center Heliport,34.155314,-118.327759,Burbank
+CA97,small_airport,Christy Airstrip,34.01888,-119.851625,Santa Cruz Island
+CA98,heliport,Platform Ocs P-0188 Hondo Heliport,34.39070129394531,-120.1220016,Santa Barbara
+CA99,heliport,Aero Long Beach 8 Helipad,33.807162,-118.144573,Long Beach
+CL00,heliport,USC University Hospital Heliport,34.061623,-118.201585,Los Angeles
+CL01,small_airport,Eagle Field,36.899899,-120.667999,Dos Palos
+CL02,heliport,Kilroy Airport Center Heliport,33.929875,-118.384799,El Segundo
+CL03,heliport,Airport Towers Number 1 Heliport,33.916916,-118.395211,El Segundo
+CL04,small_airport,Sky Way Estates Airport,38.410701751708984,-121.2350006,Elk Grove
+CL05,heliport,Wells Fargo Bank Operations Center Heliport,37.547959,-121.979581,Fremont
+CL06,heliport,Glendale Adventist Medical Center Heliport,34.151708,-118.230561,Glendale
+CL07,heliport,Queen Mary Heliport,33.749094,-118.19014,Long Beach
+CL08,heliport,Biltmore Hotel Heliport,34.049326,-118.253676,Los Angeles
+CL10,heliport,Anacapa View Estates Heliport,34.04169845581055,-118.8529968,Malibu
+CL11,small_airport,Ferdun Ranch Airport,38.13460159301758,-121.2200012,Lodi
+CL12,heliport,Saint Vincent Medical Center Heliport,34.063769,-118.272503,Los Angeles
+CL13,small_airport,Brian Ranch Airport,34.51530075073242,-117.762001,Palmdale
+CL14,heliport,Huntington Memorial Hospital Heliport,34.134335,-118.152124,Pasadena
+CL15,heliport,SCE Ridgecrest Service Center Heliport,35.614653,-117.668257,Ridgecrest
+CL16,heliport,Turner Field/Amphibious Base Heliport,32.67844984,-117.1555853,Coronado
+CL17,heliport,Barstow Community Hospital Heliport,34.894051,-117.018276,Barstow
+CL19,heliport,Bank of America Glendale Heliport,34.155373,-118.257008,Glendale
+CL21,heliport,Sutter Amador Hospital Heliport,38.349998474121094,-120.7630005,Jackson
+CL22,heliport,Sheriff's Station Heliport,34.41573,-118.551377,Valencia
+CL23,small_airport,Jones/Ag-Viation Airport,39.459598541259766,-121.6959991,Biggs
+CL24,small_airport,Kindsvater Ranch Airport,36.84989929199219,-119.5100021,Clovis
+CL25,small_airport,7R Ranch Airport,34.935552,-119.451901,New Cuyama
+CL26,heliport,Great Western Helistop,34.238652,-118.565936,Chatsworth
+CL27,heliport,Wells Fargo-El Monte Heliport,34.07021,-118.071873,El Monte
+CL28,heliport,Morongo Basin CHP Heliport,34.134168,-116.273929,Joshua Tree
+CL29,small_airport,Camino Airstrip,34.834999084472656,-114.9570007,Goffs
+CL31,heliport,Caltrans District 7 Heliport,34.05149841308594,-118.2429962,Los Angeles
+CL32,heliport,Garland Center Heliport,34.050972,-118.265542,Los Angeles
+CL33,small_airport,Pauma Valley Air Park,33.31060028076172,-116.9980011,Pauma Valley
+CL35,small_airport,Warner Springs Gliderport Airport,33.2845,-116.675003,Warner Springs
+CL36,small_airport,Allan Ranch Flight Park Ultralightport,38.56940079,-122.8040009,Windsor
+CL37,heliport,Enloe Medical Center Heliport,39.741952,-121.850191,Chico
+CL38,heliport,Swepi Beta Platform Eureka Heliport,33.563899993896484,-118.1179962,Huntington Beach
+CL39,heliport,St. Helena Fire Department Heliport,38.548500061035156,-122.5110016,St Helena
+CL40,heliport,SCE Antelope Valley Service Center Heliport,34.647984,-118.145229,Lancaster
+CL45,heliport,North Net Training Authority Heliport,33.795054,-117.881025,Anaheim
+CL46,small_airport,Quail Lake Sky Park Airport,34.767799377441406,-118.7320023,Gorman/Lancaster
+CL47,heliport,Hoag Heliport,33.233993,-116.968628,Valley Center
+CL49,heliport,International Tower Heliport,34.046641,-118.261814,Los Angeles
+CL50,heliport,Westwood Gateway I Heliport,34.04785,-118.444923,Los Angeles
+CL51,heliport,Santa Rosa Memorial Hospital Heliport,38.44380187988281,-122.7009964,Santa Rosa
+CL52,heliport,San Joaquin General Hospital Heliport,37.887832,-121.282716,Stockton
+CL53,heliport,Redbud Community Hospital Heliport,38.93457,-122.61933,Clearlake
+CL54,heliport,Westside Towers Heliport,34.033279,-118.451849,Los Angeles
+CL55,heliport,SCE Serrano Substation Heliport,33.828505,-117.790578,Orange
+CL56,small_airport,Ranchaero Airport,39.719601,-121.871002,Chico
+CL57,heliport,Torrey Pines Corporate Helistop,32.90890121459961,-117.2429962,San Diego
+CL58,heliport,SCE Southeastern Division Heliport,33.73072,-117.847333,Santa Ana
+CL59,heliport,Camp 11 Heliport,34.438147,-118.287697,Acton
+CL60,heliport,Memorial Hospital Heliport,35.39132,-119.006314,Bakersfield
+CL61,heliport,Kern Medical Center Heliport,35.382484,-118.969656,Bakersfield
+CL62,heliport,Station 125 Heliport,34.151554,-118.697763,Calabasas
+CL63,heliport,Castaic Dam Heliport,34.51720047,-118.598999,Castaic
+CL64,heliport,Washington Hospital Parking Structure Heliport,37.557473,-121.978139,Fremont
+CL65,heliport,H.B.P.D. Heliport,33.69499969482422,-118.0009995,Huntington Beach
+CL66,heliport,Camp 2 Heliport,34.197201,-118.174004,La Cañada Flintridge
+CL67,heliport,Platform Hidalgo Heliport,34.494998931884766,-120.7030029,Lompoc
+CL68,heliport,Platform Harvest Heliport,34.469200134277344,-120.6819992,Lompoc
+CL69,heliport,Sutter Lakeside Hospital Heliport,39.105098724365234,-122.9069977,Lakeport
+CL71,heliport,Hughes/Corporate Heliport,33.966099,-118.424004,Los Angeles
+CL72,heliport,Camp 8 Heliport,34.06200027,-118.6470032,Malibu
+CL74,small_airport,Skyotee Ranch Airport,34.83190155029297,-118.401001,Rosamond
+CL75,heliport,Robert D Cloud Heliport,34.052168,-118.080602,Rosemead
+CL76,heliport,U S Naval Medical Center San Diego Heliport,32.725019,-117.144291,San Diego
+CL77,small_airport,Bonny Doon Village Airport,37.070499420166016,-122.1269989,Santa Cruz
+CL78,heliport,Camp 14 Heliport,34.56610107421875,-118.4769974,Saugus
+CL79,heliport,SCE Tiffany Pines Heliport,37.11723,-119.313374,Shaver Lake
+CL80,heliport,Sherman Oaks Community Hospital Heliport,34.159927,-118.449457,Sherman Oaks
+CL81,heliport,Camp 15 Heliport,34.289398193359375,-118.288002,Sunland
+CL82,heliport,Los Robles Regional Medical Center Heliport,34.206842,-118.88311,Thousand Oaks
+CL83,heliport,Joe Heidrick Heliport,38.66550064086914,-121.8259964,Woodland
+CL84,small_airport,Ahlem Farms Airport,37.388301849365234,-120.927002,Hilmar
+CL85,heliport,Sonoma Raceway Heliport Pad 1,38.158228,-122.456344,Sonoma
+CL86,heliport,McCandless Towers Heliport,37.385503,-121.972414,Santa Clara
+CL87,heliport,Haddicks Heliport,34.027424,-117.966734,City of Industry
+CL91,heliport,Auberry Hydro Service Center Heliport,37.06489944458008,-119.4840012,Auberry
+CL92,heliport,SCE Saddleback Service Center Heliport,33.655253,-117.705844,Irvine
+CL93,heliport,SCE Shaver Summit Heliport,37.163799,-119.292,Shaver Lake
+CL94,heliport,Plumas District Hospital Heliport,39.940253092499994,-120.9620261,Quincy
+CL95,heliport,County Heliport,34.10329818725586,-117.2720032,San Bernardino
+CL96,heliport,Vaca Valley Hospital Heliport,38.35570145,-121.9509964,Vacaville
+CL97,heliport,Mercy Hospital & Medical Center Heliport,32.751285,-117.160628,San Diego
+CL99,heliport,Watsonville Community Hospital Heliport,36.939998626708984,-121.776001,Watsonville
+CN01,heliport,Mendocino Coast District Hospital Heliport,39.431876,-123.799621,Fort Bragg
+CN02,heliport,San Francisco VA Medical Center Heliport,37.783331,-122.506389,San Francisco
+CN06,heliport,Sonoma Raceway Heliport Pad 2,38.155081,-122.450692,Sonoma
+CN11,heliport,Uc Davis Medical Center Life Flight Base Heliport,38.55110168457031,-121.4509964,Sacramento
+CN12,small_airport,Williams Gliderport,39.16350173950195,-122.1320038,Williams
+CN13,small_airport,Borges - Clarksburg Airport,38.443199,-121.509003,Clarksburg
+CN14,heliport,Queen of the Valley Hospital Heliport,38.32386,-122.297165,Napa
+CN15,small_airport,Vineyard Oaks Farm Airport,36.36920166015625,-119.7860031,Lemore
+CN16,heliport,Mercy Hospital of Folsom Heliport,38.670861,-121.142839,Folsom
+CN17,heliport,Rady Childrens Hospital Helipad,32.798675,-117.151868,San Diego
+CN18,heliport,San Bernardino Community Hospital Heliport,34.130694,-117.321667,San Bernardino
+CN19,small_airport,Las Serpientes Airport,37.933101654052734,-121.612999,Knightsen
+CN20,seaplane_base,Ferndale Resort Seaplane Base,39.00299835205078,-122.7969971,Kelseyville
+CN23,small_airport,Harvard Airport,34.961700439453125,-116.6750031,Yermo
+CN25,heliport,The Westin Bonaventure Hotel Heliport,34.052762,-118.255854,Los Angeles
+CN26,heliport,Rodgers Flat Heliport,39.96206,-121.277534,Oroville
+CN27,heliport,Hughes/Canoga Park Heliport,34.221479,-118.627091,Canoga Park
+CN28,heliport,Big Creek Helistop,37.20089,-119.25289,Big Creek
+CN29,small_airport,J-B Airport,37.93519973754883,-121.0149994,Farmington
+CN30,heliport,Oceanside Fire Department Heliport,33.211584,-117.3541661,Oceanside
+CN33,heliport,Airport Imperial Bldg Helistop,33.93030167,-118.3970032,El Segundo
+CN37,small_airport,Kelso Valley Airport,35.38130188,-118.2310028,Mojave
+CN38,small_airport,Flying B Ranch Airport,38.34130096435547,-121.4369965,Franklin
+CN39,heliport,Operating Engineers Pension Trust Building Heliport,34.06217,-118.288073,Los Angeles
+CN40,small_airport,Roosevelt Ranch Heliport,38.812506,-121.81185,Woodland
+CN42,small_airport,Double Creek Ranch Airport,40.445702,-121.882004,Manton
+CN43,heliport,Boeing Anaheim B/250 Heliport,33.85969924926758,-117.8499985,Anaheim
+CN44,small_airport,Flying Bull Airport,37.620231,-121.165331,Modesto
+CN45,heliport,Bear Valley Hospital Heliport,34.246700286865234,-116.8880005,Big Bear Lake
+CN46,heliport,The McConnell Foundation Heliport,40.598201751708984,-122.3320007,Redding
+CN47,heliport,Pacoima Dam Heliport,34.334004,-118.397252,Sylmar
+CN48,heliport,St Joseph's Medical Center Heliport,37.970197,-121.28786,Stockton
+CN49,heliport,Sutter Roseville Medical Center Heliport,38.766623,-121.248044,Roseville
+CN50,heliport,Rady Children's Hospital Cul-de-sac Heliport,32.795978,-117.150761,San Diego
+CN51,heliport,Community Regional Medical Center Heliport,36.743698,-119.785004,Fresno
+CN52,heliport,Oroville Hospital Heliport,39.50743,-121.541572,Oroville
+CN53,heliport,Kings County Houston Ave. Heliport,36.299861,-119.594861,Hanford
+CN55,heliport,Mercy Hospital Southwest Heliport,35.350161,-119.112266,Bakersfield
+CN57,heliport,PG&E HTA-Madera Heliport,36.856591,-119.918726,Madera
+CN62,heliport,CS Ranch Heliport,39.241597,-121.909516,Colusa
+CN70,heliport,CalEnergy Salton Sea Heliport,33.152269,-115.635525,Calipatria
+CN86,small_airport,River Highlands Ranch Airport,39.182051,-121.281526,Grass Valley
+CN88,heliport,Kaiser Permanente Vacaville Heliport,38.3887,-121.9405,Vacaville
+CN90,heliport,API Gateway Heliport,32.675883,-115.372028,Calexico
+CN93,heliport,Sierra Vista Regional Medical Center Heliport,35.293729,-120.665988,San Luis Obispo
+CN95,small_airport,Heritage Field Airport,37.9933056,-121.4922903,Stockton
+CN98,small_airport,Walters Camp Airport,33.245556,-114.710278,Palo Verde
+CN99,small_airport,Del Mar Farms Airport,37.5464444,-121.1585778,Patterson
+CSL,heliport,O'Sullivan Army Heliport,35.3263,-120.7431,Camp San Luis Obispo
+D63,small_airport,Dinsmore Airport,40.492018,-123.59813,Dinsmore
+E20,seaplane_base,Lake Berryessa Seaplane Base,38.550979,-122.227682,Napa
+E36,small_airport,Georgetown Airport,38.92110062,-120.8649979,Georgetown
+E55,small_airport,Ocean Ridge Airport,38.80130005,-123.5299988,Gualala
+E79,small_airport,Sierra Sky Park Airport,36.840177,-119.86943,Fresno
+F25,small_airport,Brownsville Airpark,39.4552,-121.292,Brownsville
+H47,small_airport,Hyampom Airport,40.627601623535156,-123.4710007,Hyampom
+H77,seaplane_base,Bridge Bay Resort Seaplane Base,40.757598876953125,-122.322998,Redding
+HGT,heliport,Tusi (Hunter Liggett) Army Heliport,35.9935,-121.237,Jolon
+JMC,heliport,Commodore Center Heliport,37.87852,-122.51297,Mill Valley
+K0O2,small_airport,Baker Airport,35.287128,-116.081657,Baker
+K0Q5,small_airport,Shelter Cove Airport,40.028167,-124.074305,Shelter Cove
+K1O2,small_airport,Lampson Field,38.99060059,-122.901001,Lakeport
+K1O3,small_airport,Lodi Airport,38.20240021,-121.2679977,Lodi
+K1O5,small_airport,Montague-Yreka Rohrer Field,41.73040009,-122.5459976,Montague
+K1Q2,small_airport,Spalding Airport,40.650169,-120.768524,Susanville
+K1Q4,small_airport,New Jerusalem Airport,37.6791,-121.300003,Tracy
+K2O1,small_airport,Gansner Field,39.943902,-120.945,Quincy
+K2O3,small_airport,Angwin Airport-Parrett Field,38.578499,-122.434998,Angwin
+K2O6,small_airport,Chowchilla Airport,37.11240005493164,-120.2470016,Chowchilla
+K2O7,small_airport,Independence Airport,36.815383,-118.204463,Independence
+K36S,small_airport,Happy Camp Airport,41.79069900512695,-123.3889999,Happy Camp
+K3O1,small_airport,Gustine Airport,37.262699127197266,-120.9629974,Gustine
+K49X,small_airport,Chemehuevi Valley Airport,34.528805,-114.431999,Havasu Lake
+K9L2,small_airport,Edwards Af Aux North Base Airport,34.99079895019531,-117.862999,Edwards
+KA24,small_airport,California Pines Airport,41.41239929,-120.6839981,Alturas
+KA30,small_airport,Scott Valley Airport,41.558201,-122.855003,Etna
+KA32,small_airport,Butte Valley Airport,41.8871994,-121.9759979,Dorris
+KAAT,small_airport,Alturas Municipal Airport,41.482736,-120.565671,Alturas
+KACV,medium_airport,California Redwood Coast-Humboldt County Airport,40.978101,-124.109,Arcata/Eureka
+KAHC,small_airport,Amedee Army Air Field,40.26620102,-120.1529999,Herlong
+KAJO,small_airport,Corona Municipal Airport,33.897701,-117.601997,Corona
+KAPC,small_airport,Napa County Airport,38.2132,-122.280998,Napa
+KAPV,small_airport,Apple Valley Airport,34.575298309299995,-117.185997,Apple Valley
+KAUN,small_airport,Auburn Municipal Airport,38.95479965,-121.0820007,Auburn
+KAVX,small_airport,Catalina Airport,33.4049,-118.416,Avalon
+KBAB,medium_airport,Beale Air Force Base,39.136101,-121.436996,Beale Air Force Base
+KBFL,medium_airport,Meadows Field,35.433601,-119.056999,Bakersfield
+KBIH,medium_airport,Eastern Sierra Regional Airport,37.3731,-118.363998,Bishop
+KBLH,medium_airport,Blythe Airport,33.61920166,-114.7170029,Blythe
+KBLU,small_airport,Blue Canyon Nyack Airport,39.27500153,-120.7099991,Emigrant Gap
+KBNG,small_airport,Banning Municipal Airport,33.922548,-116.850672,Banning
+KBUR,medium_airport,Hollywood Burbank Airport,34.197703,-118.356378,Burbank
+KBWC,small_airport,Brawley Municipal Airport,32.99290085,-115.5169983,Brawley
+KBYS,medium_airport,Bicycle Lake Army Air Field,35.2804985,-116.6299973,Fort Irwin/Barstow
+KC80,small_airport,New Coalinga Municipal Airport,36.16310119628906,-120.2939987,Coalinga
+KC83,small_airport,Byron Airport,37.82647,-121.621699,Byron
+KCCB,small_airport,Upland-Cable Airport,34.111599,-117.688004,Upland
+KCCR,medium_airport,Buchanan Field,37.9897,-122.056999,Concord
+KCEC,medium_airport,Jack Mc Namara Field Airport,41.778929,-124.236403,Crescent City
+KCIC,small_airport,Chico Regional Airport,39.795595,-121.857716,Chico
+KCLR,small_airport,Cliff Hatfield Memorial Airport,33.131500244099996,-115.5210037,Calipatria
+KCMA,medium_airport,Camarillo International Airport,34.213699,-119.094002,Camarillo
+KCNO,small_airport,Chino Airport,33.97470093,-117.637001,Chino
+KCPM,small_airport,Compton Woodley Airport,33.88999939,-118.2440033,Compton
+KCPU,small_airport,Calaveras Co Maury Rasmussen Field,38.14609909057617,-120.6480026,San Andreas
+KCRQ,medium_airport,McClellan-Palomar Airport,33.1283,-117.279999,Carlsbad
+KCVH,small_airport,Hollister Municipal Airport,36.8932991,-121.4100037,Hollister
+KCXL,small_airport,Calexico International Airport,32.66949844,-115.5130005,Calexico
+KD83,small_airport,Boonville Airport,39.01269913,-123.3830032,Boonville
+KD86,small_airport,Sequoia Field,36.44860077,-119.3190002,Visalia
+KDAG,medium_airport,Barstow Daggett Airport,34.85369873,-116.7870026,Daggett
+KDLO,small_airport,Delano Municipal Airport,35.745601654052734,-119.2369995,Delano
+KDVO,small_airport,Marin County Airport - Gnoss Field,38.14360046,-122.5559998,Novato
+KDWA,small_airport,Yolo County Davis Woodland Winters Airport,38.57910156,-121.8570023,Davis/Woodland/Winters
+KE16,small_airport,San Martin Airport,37.08160019,-121.5970001,San Martin
+KE45,small_airport,Pine Mountain Lake Airport,37.861528,-120.178176,Groveland
+KEDU,small_airport,University Airport,38.531502,-121.786489,Davis
+KEDW,medium_airport,Edwards Air Force Base,34.905399,-117.884003,Edwards
+KEED,medium_airport,Needles Airport,34.7663002,-114.6230011,Needles
+KEKA,medium_airport,Murray Field,40.803398,-124.112999,Eureka
+KEMT,small_airport,San Gabriel Valley Airport,34.086102,-118.035004,El Monte
+KF34,small_airport,Firebaugh Airport,36.86000061,-120.4639969,Firebaugh
+KF62,small_airport,Hayfork Airport,40.54710007,-123.1819992,Hayfork
+KF70,small_airport,French Valley Airport,33.5742,-117.127998,Murrieta
+KF72,small_airport,Franklin Field,38.30490112,-121.4300003,Franklin
+KFAT,medium_airport,Fresno Yosemite International Airport,36.776199,-119.718002,Fresno
+KFCH,small_airport,Fresno Chandler Executive Airport,36.732399,-119.82,Fresno
+KFOT,small_airport,Rohnerville Airport,40.55390167,-124.1330032,Fortuna
+KFUL,small_airport,Fullerton Municipal Airport,33.87200165,-117.9800034,Fullerton
+KGOO,small_airport,Nevada County Airport,39.223998,-121.002997,Grass Valley
+KH37,small_airport,Herlong Airport,40.13880157,-120.1790009,Herlong
+KHAF,small_airport,Half Moon Bay Airport,37.513401031499995,-122.5009995,Half Moon Bay
+KHHR,medium_airport,Jack Northrop Field Hawthorne Municipal Airport,33.922798,-118.334999,Hawthorne
+KHJO,small_airport,Hanford Municipal Airport,36.31669998,-119.6279984,Hanford
+KHMT,small_airport,Hemet Ryan Airport,33.73400116,-117.0230026,Hemet
+KHWD,small_airport,Hayward Executive Airport,37.65919876,-122.1220016,Hayward
+KIPL,medium_airport,Imperial County Airport,32.83539,-115.574026,Imperial
+KIYK,small_airport,Inyokern Airport,35.65879822,-117.8300018,Inyokern
+KIZA,small_airport,Santa Ynez Airport,34.60680008,-120.0759964,Santa Ynez
+KKIC,small_airport,Mesa Del Rey Airport,36.22800064,-121.1220016,King City
+KL00,small_airport,Rosamond Skypark Airport,34.8708,-118.209,Rosamond
+KL04,small_airport,Holtville Airport,32.840302,-115.266998,Holtville
+KL05,small_airport,Kern Valley Airport,35.728194,-118.41975,Kernville
+KL06,small_airport,Furnace Creek Airport,36.463799,-116.880997,Death Valley
+KL08,small_airport,Borrego Valley Airport,33.25899887,-116.3209991,Borrego Springs
+KL09,small_airport,Stovepipe Wells Airport,36.604099,-117.158997,Death Valley
+KL17,small_airport,Taft Kern County Airport,35.14147,-119.438624,Taft
+KL19,small_airport,Wasco Kern County Airport,35.61970138549805,-119.3539963,Wasco
+KL22,small_airport,Yucca Valley Airport,34.129659,-116.407411,Yucca Valley
+KL26,small_airport,Hesperia Airport,34.377201,-117.316002,Hesperia
+KL35,small_airport,Big Bear City Airport,34.263802,-116.856003,Big Bear
+KL45,medium_airport,Bakersfield International Airport,35.324799,-118.996002,Bakersfield
+KL62,small_airport,Elk Hills Buttonwillow Airport,35.352699279785156,-119.4789963,Buttonwillow
+KL64,small_airport,Desert Center Airport,33.747609,-115.325117,Desert Center
+KL65,small_airport,Perris Valley Airport,33.760899,-117.218002,Perris
+KL70,small_airport,Agua Dulce Airpark,34.503616,-118.312926,Agua Dulce
+KL71,small_airport,California City Municipal Airport,35.15119934082031,-118.0169983,California City
+KL72,small_airport,Trona Airport,35.8125,-117.3270035,Trona
+KL73,small_airport,Poso Kern County Airport,35.59659957885742,-119.1279984,Famoso
+KL77,small_airport,Chiriaco Summit Airport,33.664729,-115.710819,Chiriaco Summit
+KL88,small_airport,New Cuyama Airport,34.9375,-119.6880035,New Cuyama
+KL94,small_airport,Mountain Valley Airport,35.101101,-118.422997,Tehachapi
+KLAX,large_airport,Los Angeles International Airport,33.942501,-118.407997,Los Angeles
+KLDR,heliport,USCG San Diego Heliport,32.726538,-117.181206,San Diego
+KLGB,medium_airport,Long Beach Airport (Daugherty Field),33.816523,-118.149891,Long Beach
+KLHM,small_airport,Lincoln Regional Karl Harder Field,38.909199,-121.350998,Lincoln
+KLLR,small_airport,Little River Airport,39.262001037597656,-123.7539978,Little River
+KLPC,small_airport,Lompoc Airport,34.66559982,-120.4680023,Lompoc
+KLSN,small_airport,Los Banos Municipal Airport,37.06290054,-120.8690033,Los Banos
+KLVK,small_airport,Livermore Municipal Airport,37.69340134,-121.8199997,Livermore
+KM45,small_airport,Alpine County Airport,38.73469925,-119.7669983,Markleeville
+KM90,small_airport,William Robert Johnston Municipal Airport,36.75859833,-120.3710022,Mendota
+KMAE,small_airport,Madera Municipal Airport,36.98860168,-120.1119995,Madera
+KMCC,medium_airport,McClellan Airfield,38.667599,-121.401001,Sacramento
+KMCE,medium_airport,Merced Regional Macready Field,37.284698,-120.514,Merced
+KMER,medium_airport,Castle Airport,37.38050079,-120.5680008,Merced
+KMHR,medium_airport,Sacramento Mather Airport,38.554744,-121.297989,Sacramento
+KMHV,small_airport,Mojave Airport,35.05939865,-118.1520004,Mojave
+KMIT,small_airport,Shafter Airport - Minter Field,35.507401,-119.192002,Shafter
+KMMH,small_airport,Mammoth Yosemite Airport,37.625381,-118.84306,Mammoth Lakes
+KMOD,medium_airport,Modesto City Co-Harry Sham Field,37.625801,-120.954002,Modesto
+KMPI,small_airport,Mariposa Yosemite Airport,37.51089859,-120.0400009,Mariposa
+KMRY,medium_airport,Monterey Peninsula Airport,36.58700180053711,-121.8430023,Monterey
+KMYF,small_airport,Montgomery-Gibbs Executive Airport,32.8157,-117.139999,San Diego
+KMYV,medium_airport,Yuba County Airport,39.09780121,-121.5699997,Marysville
+KNFG,medium_airport,Camp Pendleton MCAS (Munn Field) Airport,33.30130005,-117.3550034,Oceanside
+KNID,medium_airport,China Lake Naws (Armitage Field) Airport,35.6853981,-117.6920013,China Lake
+KNJK,medium_airport,El Centro NAF Airport (Vraciu Field),32.829201,-115.671996,El Centro
+KNKX,medium_airport,Miramar Marine Corps Air Station - Mitscher Field,32.86840057,-117.1429977,San Diego
+KNLC,medium_airport,Lemoore Naval Air Station (Reeves Field) Airport,36.33300018,-119.9520035,Lemoore
+KNRS,small_airport,Naval Outlying Field Imperial Beach (Ream Field),32.5667,-117.116997,Imperial Beach
+KNSI,small_airport,San Nicolas Island Nolf Airport,33.23979949951172,-119.4580002,San Nicolas Island
+KNTD,medium_airport,Point Mugu Naval Air Station (Naval Base Ventura Co),34.12030029,-119.1210022,Point Mugu
+KNUC,small_airport,San Clemente Island Naval Auxiliary Landing Field,33.02270126,-118.5879974,San Clemente Island
+KNUQ,medium_airport,Moffett Federal Airfield,37.4161,-122.049004,Mountain View
+KNXP,medium_airport,Twentynine Palms Strategic Expeditionary Landing Field,34.2962,-116.162003,Twentynine Palms
+KNZY,medium_airport,North Island Naval Air Station-Halsey Field,32.69919968,-117.2149963,San Diego
+KO02,small_airport,Nervino Airport,39.818501,-120.352997,Beckwourth
+KO05,small_airport,Rogers Field,40.28239822387695,-121.2409973,Chester
+KO08,small_airport,Colusa County Airport,39.17900085,-121.9929962,Colusa
+KO09,small_airport,Round Valley Airport,39.790199,-123.265999,Covelo
+KO15,small_airport,Turlock Municipal Airport,37.48740005493164,-120.6969986,Turlock
+KO16,small_airport,Garberville Airport,40.08599853515625,-123.814003,Garberville
+KO20,small_airport,Kingdon Airpark,38.091599,-121.359001,Lodi
+KO22,small_airport,Columbia Airport,38.030399322499996,-120.4150009,Columbia
+KO24,small_airport,Lee Vining Airport,37.95830154,-119.1070023,Lee Vining
+KO26,small_airport,Lone Pine/Death Valley Airport,36.588299,-118.052002,Lone Pine
+KO27,small_airport,Oakdale Airport,37.75630188,-120.8000031,Oakdale
+KO28,small_airport,Ells Field Willits Municipal Airport,39.451322,-123.372356,Willits
+KO32,small_airport,Reedley Municipal Airport,36.66630172729492,-119.4499969,Reedley
+KO37,small_airport,Haigh Field,39.72119903564453,-122.1470032,Orland
+KO41,small_airport,Watts Woodland Airport,38.673901,-121.872002,Woodland
+KO42,small_airport,Woodlake Airport,36.398799896240234,-119.1070023,Woodlake
+KO46,small_airport,Weed Airport,41.480786,-122.454791,Weed
+KO52,small_airport,Sutter County Airport,39.12369918823242,-121.6050034,Yuba City
+KO54,small_airport,Lonnie Pool Field Weaverville Airport,40.74570083618164,-122.9219971,Weaverville
+KO57,small_airport,Bryant Field,38.26386,-119.222775,Bridgeport
+KO59,small_airport,Cedarville Airport,41.55270004272461,-120.1660004,Cedarville
+KO60,small_airport,Cloverdale Municipal Airport,38.77600098,-122.9929962,Cloverdale
+KO61,small_airport,Cameron Park Airport,38.683998,-120.987999,Cameron Park
+KO69,small_airport,Petaluma Municipal Airport,38.25780106,-122.6060028,Petaluma
+KO70,small_airport,Westover Field Amador County Airport,38.376801,-120.793999,Jackson
+KO79,small_airport,Sierraville Dearwater Airport,39.581001,-120.353996,Sierraville
+KO81,small_airport,Tulelake Municipal Airport,41.88740158081055,-121.3590012,Tulelake
+KO86,small_airport,Trinity Center Airport,40.98320007324219,-122.6940002,Trinity Center
+KO88,small_airport,Rio Vista Municipal Airport,38.19340133666992,-121.7040024,Rio Vista
+KO89,small_airport,Fall River Mills Airport,41.01879883,-121.4329987,Fall River Mills
+KOAK,large_airport,San Francisco Bay Oakland International Airport,37.720085,-122.221184,Oakland
+KOAR,small_airport,Marina Municipal Airport,36.68190002,-121.762001,Marina
+KOKB,small_airport,Oceanside Municipal Airport,33.217947,-117.351683,Oceanside
+KONT,large_airport,Ontario International Airport,34.056,-117.600998,Ontario
+KOVE,small_airport,Oroville Municipal Airport,39.4878006,-121.6220016,Oroville
+KOXR,medium_airport,Oxnard Airport,34.20080185,-119.2070007,Oxnard
+KPAO,medium_airport,Palo Alto Airport,37.461102,-122.114998,Palo Alto
+KPMD,medium_airport,Palmdale Regional Airport / USAF Plant 42 Airport,34.629398,-118.084999,Palmdale
+KPOC,small_airport,Brackett Field,34.09159851,-117.7819977,La Verne
+KPRB,medium_airport,Paso Robles Municipal Airport,35.67290115,-120.6269989,Paso Robles
+KPSP,medium_airport,Palm Springs International Airport,33.8297,-116.507004,Palm Springs
+KPTV,small_airport,Porterville Municipal Airport,36.02959824,-119.0630035,Porterville
+KPVF,small_airport,Placerville Airport,38.7242012,-120.7529984,Placerville
+KRAL,medium_airport,Riverside Municipal Airport,33.9519,-117.445,Riverside
+KRBL,medium_airport,Red Bluff Municipal Airport,40.15069962,-122.2519989,Red Bluff
+KRDD,medium_airport,Redding Municipal Airport,40.50899887,-122.2929993,Redding
+KREI,small_airport,Redlands Municipal Airport,34.08530044555664,-117.1460037,Redlands
+KRHV,small_airport,Reid-Hillview Airport of Santa Clara County,37.332901,-121.8190002,San Jose
+KRIR,small_airport,Flabob Airport,33.9897,-117.411003,Riverside
+KRIU,small_airport,Rancho Murieta Airport,38.48680114746094,-121.1029968,Rancho Murieta
+KRIV,medium_airport,March Air Reserve Base,33.880699,-117.259003,Riverside
+KRNM,small_airport,Ramona Airport,33.0392,-116.915001,Ramona
+KSAC,medium_airport,Sacramento Executive Airport,38.51250076,-121.4929962,Sacramento
+KSAN,large_airport,San Diego International Airport,32.73360062,-117.1900024,San Diego
+KSAS,small_airport,Salton Sea Airport,33.24140167,-115.9520035,Salton City
+KSBA,medium_airport,Santa Barbara Municipal Airport,34.426201,-119.839996,Santa Barbara
+KSBD,medium_airport,San Bernardino International Airport,34.095402,-117.235001,San Bernardino
+KSBP,medium_airport,San Luis County Regional Airport,35.236801147499996,-120.6419983,San Luis Obispo
+KSCK,medium_airport,Stockton Metropolitan Airport,37.893279,-121.238079,Stockton
+KSDM,medium_airport,Brown Field Municipal Airport,32.572639,-116.980019,San Diego
+KSEE,small_airport,Gillespie Field,32.82619858,-116.9720001,San Diego/El Cajon
+KSFO,large_airport,San Francisco International Airport,37.619806,-122.374821,San Francisco
+KSIY,small_airport,Siskiyou County Airport,41.781399,-122.468002,Montague
+KSJC,large_airport,Norman Y. Mineta San Jose International Airport,37.362452,-121.929188,San Jose
+KSLI,medium_airport,Los Alamitos Army Air Field,33.79000092,-118.052002,Los Alamitos
+KSMF,large_airport,Sacramento International Airport,38.6954,-121.591003,Sacramento
+KSMO,medium_airport,Santa Monica Municipal Airport,34.0158,-118.450996,Santa Monica
+KSMX,medium_airport,Santa Maria Public Airport Captain G Allan Hancock Field,34.898899,-120.457001,Santa Maria
+KSNA,large_airport,John Wayne Orange County International Airport,33.675701,-117.867996,Santa Ana
+KSNS,medium_airport,Salinas Municipal Airport,36.66279984,-121.6060028,Salinas
+KSQL,medium_airport,San Carlos Airport,37.51313,-122.250838,San Carlos
+KSTS,medium_airport,Charles M. Schulz Sonoma County Airport,38.50899887,-122.8130035,Santa Rosa
+KSUU,medium_airport,Travis Air Force Base,38.262699,-121.927002,Fairfield
+KSVE,small_airport,Susanville Municipal Airport,40.375702,-120.572998,Susanville
+KSZN,small_airport,Santa Cruz Island Airport,34.06007,-119.915229,Santa Cruz Island
+KSZP,small_airport,Santa Paula Airport,34.34719849,-119.060997,Santa Paula
+KT42,small_airport,Ruth Airport,40.2113,-123.297997,Mad River
+KTCY,small_airport,Tracy Municipal Airport,37.68899917602539,-121.4420013,Tracy
+KTLR,small_airport,Mefford Field,36.15629959,-119.3259964,Tulare
+KTNP,small_airport,Twentynine Palms Airport,34.133901,-115.947347,Twentynine Palms
+KTOA,small_airport,Zamperini Field,33.80339813,-118.3399963,Torrance
+KTRK,medium_airport,Truckee Tahoe Airport,39.318628,-120.140562,Truckee
+KTRM,medium_airport,Jacqueline Cochran Regional Airport,33.62670135,-116.1600037,Palm Springs
+KTSP,small_airport,Tehachapi Municipal Airport,35.13499832,-118.439003,Tehachapi
+KTVL,medium_airport,Lake Tahoe Airport,38.89390182495117,-119.9950027,South Lake Tahoe
+KUDD,small_airport,Bermuda Dunes Airport,33.748492,-116.275027,Bermuda Dunes
+KUKI,medium_airport,Ukiah Municipal Airport,39.125999,-123.200996,Ukiah
+KVBG,medium_airport,Vandenberg Space Force Base,34.737301,-120.584,Lompoc
+KVCB,small_airport,Nut Tree Airport,38.376801,-121.961998,Vacaville
+KVCV,small_airport,Southern California Logistics Airport,34.597499847399995,-117.3830032,Victorville
+KVIS,medium_airport,Visalia Municipal Airport,36.318699,-119.392998,Visalia
+KVNY,medium_airport,Van Nuys Airport,34.20980072,-118.4899979,Van Nuys
+KWHP,small_airport,Whiteman Airport,34.2593,-118.413002,Pacoima
+KWJF,medium_airport,General William J Fox Airfield,34.7411,-118.219002,Lancaster
+KWLW,small_airport,Willows Glenn County Airport,39.51639938,-122.2180023,Willows
+KWVI,small_airport,Watsonville Municipal Airport,36.93569946,-121.7900009,Watsonville
+KZ26,heliport,Camp Roberts Army Heliport,35.791389,-120.742778,San Miguel
+KZ27,heliport,Pyramid Head Helipad,32.8366,-118.381601,San Clemente Island
+L11,seaplane_base,Pebbly Beach Seaplane Base,33.338402,-118.311996,Avalon
+L18,small_airport,Fallbrook Community Airpark,33.35419845581055,-117.2509995,Fallbrook
+L36,small_airport,Rio Linda Airport,38.674999,-121.445,Rio Linda
+L52,small_airport,Oceano County Airport,35.10139846801758,-120.6220016,Oceano
+L53,small_airport,Lodi Airpark,38.08409881591797,-121.3160019,Lodi
+L54,small_airport,Agua Caliente Airport,32.95009994506836,-116.2929993,Agua Caliente Springs
+L61,small_airport,Shoshone Airport,35.968601,-116.268997,Shoshone
+L78,small_airport,Jacumba Airport,32.616001,-116.165001,Jacumba
+L90,small_airport,Ocotillo Airport,33.14594,-116.129755,Ocotillo Wells
+LA22,heliport,PG&E Livermore Training Center Heliport,37.699064,-121.709742,Livermore
+O06,seaplane_base,Lake Oroville Landing Area Seaplane Base,39.56660079956055,-121.4680023,Oroville
+O19,small_airport,Kneeland Airport,40.718639,-123.927298,Kneeland
+O21,small_airport,Hoopa Airport,41.04290008544922,-123.6679993,Hoopa
+O31,small_airport,Healdsburg Municipal Airport,38.6534996,-122.8990021,Healdsburg
+O33,small_airport,Samoa Field Airport,40.780998,-124.211998,Eureka
+O39,small_airport,Ravendale Airport,40.803593,-120.366193,Ravendale
+O55,small_airport,Southard Field,41.139599,-121.124001,Bieber
+O63,small_airport,Exeter Airport,36.243,-119.150002,Exeter
+O85,small_airport,Benton Field,40.57490158,-122.4079971,Redding
+P27,small_airport,Pixley Airport,35.960499,-119.307999,Pixley
+PAI,heliport,Barton Heliport,34.257917,-118.41109,Pacoima
+S51,small_airport,Andy Mc Beth Airport,41.51210021972656,-123.9960022,Klamath Glen
+S74,seaplane_base,Lost Isle Seaplane Base,38.00410079956055,-121.4570007,Stockton
+SYL,heliport,Roberts Army Heliport,35.814999,-120.744003,Camp Roberts/San Miguel
+TWH,seaplane_base,Two Harbors Amphibious Terminal,33.432222222200004,-118.5086111,Two Harbors
+US-0037,closed,Tenco Tractor Airport,38.769299,-121.518997,Sacramento
+US-0058,small_airport,Avery Ranch Airstrip,41.629413537699996,-122.4114168,
+US-0059,small_airport,Chicken Strip,36.807043,-117.781742,Death Valley
+US-0062,heliport,Henry Mayo Newhall Memorial Hospital Rooftop Heliport,34.398616,-118.553566,Valencia
+US-0067,closed,Mosier Airport,38.436001,-121.315002,Elk Grove
+US-0069,closed,Anaheim Police Heliport,33.826401,-117.901001,Anaheim
+US-0071,heliport,SCE San Onofre Heliport,33.371399,-117.560997,Oceanside
+US-0163,small_airport,Panamint Springs Airport,36.338325,-117.467065,Darwin
+US-0188,heliport,Coast Guard Air Station San Francisco,37.632056,-122.389694,San Francisco
+US-0189,heliport,Orange County Global Medical Center Helipad,33.75493056,-117.8327361,Santa Ana
+US-0223,heliport,Sutter Health Memorial Medical Center Heliport,37.669127,-120.972088,Modesto
+US-0225,heliport,Treasure Island Helipad,37.819896,-122.364774,San Francisco
+US-0227,small_airport,Ranger Station Airstrip,34.0373,-120.3493,San Miguel Island
+US-0228,small_airport,Point Bennett Research Station Airstrip,34.04328,-120.41184,San Miguel Island
+US-0229,small_airport,Bechers Bay Airstrip,33.99624,-120.0456,Santa Rosa Island
+US-0248,small_airport,Santa Margarita Ranch Airport,35.3996501,-120.616037,Santa Margarita
+US-0249,small_airport,Hearst San Simeon Airstrip,35.663764,-121.198944,San Simeon
+US-0260,closed,San Clemente Naval Auxiliary Air Station,32.94721,-118.53085,
+US-0264,heliport,Adventist Medical Center Hanford Heliport,36.3233,-119.6672,Hanford
+US-0288,heliport,Antelope Valley Hospital Medical Center Heliport,34.6878,-118.16,Lancaster
+US-0289,heliport,New Barstow Community Hospital Heliport,34.892546,-117.017782,Barstow
+US-0290,heliport,Clovis Community Medical Center Heliport,36.8386,-119.6591,Clovis
+US-0291,heliport,Doctors Medical Center Heliport,37.6654,-120.9975,Modesto
+US-0292,heliport,Good Samaritan Hospital Heliport,37.253217,-121.947479,San Jose
+US-0293,heliport,Harbor/UCLA Medical Center Heliport,33.8292,-118.2926,Torrance
+US-0294,heliport,John C. Fremont Hospital Heliport,37.499753,-119.977789,Mariposa
+US-0295,heliport,John Muir Mt. Diablo Medical Center Heliport,37.9241,-121.7337,Brentwood
+US-0296,heliport,Kaiser Permanente Manteca Heliport,37.7979,-121.2471,Manteca
+US-0297,heliport,Kaiser Permanente Medical Center Santa Clara Heliport,37.334947,-121.999816,Santa Clara
+US-0298,heliport,Kaiser Permanente Modesto Heliport,37.708008,-121.052821,Modesto
+US-0299,heliport,Kaweah Delta District Heliport (A-lll),36.3281,-119.2939,Visalia
+US-0300,heliport,Kern Valley Hospital Heliport,35.6345,-118.4069,Mountain Mesa
+US-0301,heliport,Mad River Community Hospital Heliport,40.895308,-124.090957,Arcata
+US-0308,heliport,Pebbly Beach Seaplane Base Helipad,33.336686,-118.311455,Avalon
+US-0322,closed,Camp San Luis Obispo Army Airfield,35.3321,-120.7483,Camp San Luis Obispo
+US-0330,heliport,Auto Club Speedway Heliport,34.0874,-117.50506,Ontario
+US-0337,heliport,Behring Ranch Heliport,39.3413112,-121.9509333,Colusa
+US-0384,closed,Rasor Airfield,35.13047,-116.20977,Baker
+US-0385,heliport,Marine Corps Community Services Barstow Heliport,34.873565,-116.954883,Barstow
+US-0387,heliport,Adventist Health Howard Memorial Heliport,39.389097,-123.339297,Willits
+US-0404,heliport,Centerport Heliport,33.6716917,-117.8747611,Costa Mesa
+US-0434,heliport,UCSD Health System East Campus Interim Heliport,32.876406,-117.2210194,La Jolla
+US-0462,small_airport,Mercey Hot Springs Airport,36.706512,-120.860132,Firebaugh
+US-0483,closed,Reeves Field,33.75,-118.257001,San Pedro
+US-0507,closed,Natomas Field,38.638237,-121.515236,Sacramento
+US-0556,small_airport,Flying Gluepie Ranch Airport,38.467604,-120.803483,Fiddletown
+US-0598,heliport,Ronald Reagan UCLA Medical Center Helistop,34.066739,-118.446532,Los Angeles
+US-0731,small_airport,Pom Wonderful Airstrip,36.652744,-119.587113,Del Rey
+US-0743,closed,Chateau Thierry Flying Field (1919),33.82469,-118.18795,Long Beach
+US-0799,heliport,Blackwater Heliport,33.499701,-117.041322,Temecula
+US-0840,heliport,Manclark Airway Heliport,33.675027,-117.873166,Costa Mesa
+US-0854,heliport,Loma Ridge Communication Center Heliport,33.765533,-117.744125,Silverado
+US-0864,heliport,Temecula Valley Hospital Heliport,33.480208,-117.107989,Temecula
+US-0915,heliport,Memorial Hospital Los Banos Heliport,37.064535,-120.858965,Los Banos
+US-0916,small_airport,Zamora Airport,38.79925,-121.830694,Woodland
+US-0950,heliport,Rancho Springs Medical Center EMS Landing Site Heliport,33.557747,-117.183369,Murrieta
+US-0954,closed,Benbow Airport,40.06638,-123.78651,Garberville
+US-10016,closed,Burroughs Heliport,35.704102,-119.376999,Wasco
+US-10017,closed,Dixon Airport,34.922199,-119.526001,New Cuyama
+US-10018,closed,Haws Airport,36.9416,-120.242995,Madera
+US-10019,closed,Meadow Airstrip,40.156399,-122.302002,Red Bluff
+US-10020,closed,Long Point Heliport,33.736903,-118.397427,Rancho Palos Verdes
+US-10123,closed,Dick Taylor Airstrip,34.881901,-115.733002,Kelso
+US-10124,closed,Mazza Airport,38.1852,-122.601997,Petaluma
+US-10131,closed,W R Byron Airport,33.679199,-114.643997,Blythe
+US-10132,closed,Cortopassi Airport,38.013802,-121.125999,Linden
+US-10142,closed,Chapin Medical Pad Heliport,33.8936,-117.598,Corona
+US-10145,closed,Parker Center Heliport,34.052162,-118.241177,Los Angeles
+US-10152,closed,Rancho Vallecito Airport,32.970901,-116.408997,Julian
+US-10164,closed,PG&E Auburn Service Center Heliport,38.888,-121.074997,Auburn
+US-10168,closed,Sallaberry Ranch Strip,37.057201,-120.143997,Madera
+US-10190,closed,Yandell Ranch Airport,37.640624,-121.163285,Modesto
+US-10291,closed,Lake Mathews Airport,33.8531,-117.424004,Riverside
+US-10302,closed,Paradise Valley Hospital Heliport,32.683899,-117.082001,National City
+US-10304,closed,Terminal Annex Heliport,34.058102,-118.236,Los Angeles
+US-10310,closed,Naval Hospital Heliport,37.766899,-122.151001,Oakland
+US-10311,closed,Costerisan Farms Airport,35.263302,-119.045998,Bakersfield
+US-10318,closed,Los Angeles Times Helipad,34.050598,-118.246002,Los Angeles
+US-10322,closed,Merle Norman Cosmetics Bldg 3 Heliport,33.9533,-118.380997,Los Angeles
+US-10343,closed,Little Hands Airport,37.803299,-122.028999,San Ramon
+US-10344,closed,O'Connell Brothers Airport,32.959635,-115.544586,Brawley
+US-10358,closed,San Joaquin Sprayers Inc Heliport,35.792999,-119.183998,Delano
+US-10359,closed,San Joaquin Helicopters Heliport,35.7911,-119.230003,Delano
+US-1038,closed,Conner Airport,35.097004,-115.221257,Goffs
+US-10481,closed,Sunrise Dusters Airport,38.818745,-121.714171,Knights Landing
+US-10496,closed,Triangle T Ranch Airport,36.9986,-120.464996,Chowchilla
+US-10509,closed,El Rico Airport,36.042542,-119.64622,Corcoran
+US-10531,closed,J & J Crop Dusters Inc Airport,35.180093,-118.855967,Arvin
+US-10532,closed,Majors Airport,35.5261,-119.101997,Bakersfield
+US-10533,closed,Mark Franz Private Strip,37.1749,-119.609001,O'Neals
+US-10534,closed,Peoria Airport,37.9217,-120.514999,Jamestown
+US-1060,heliport,David Grant USAF Medical Center Heliport,38.270296,-121.970902,Fairfield
+US-10639,closed,R.I. San Bernardino G/L Helistop,34.074501,-117.268997,San Bernardino
+US-10640,closed,Di Giorgio Ranch Airport,35.256901,-118.833,Arvin
+US-10646,closed,Willis Ranch Airport,37.065497,-120.567,Dos Palos
+US-10656,closed,Emmett Field,37.083646,-120.500951,Dos Palos
+US-10686,closed,West Side Field Station Airport,36.338799,-120.110001,Five Points
+US-10687,closed,Du Bois Ranch Airport,36.703602,-120.135002,Kerman
+US-10688,closed,Boeing Canoga Park Heliport,34.188301,-118.600998,Canoga Park
+US-10689,closed,Playa Vista 1 Heliport,33.980801,-118.404999,Culver City
+US-10690,closed,Playa Vista 2 Heliport,33.980111,-118.407721,Culver City
+US-10691,closed,Playa Vista 3 Heliport,33.974998,-118.416,Culver City
+US-10787,closed,7-M Ranch Airport,38.731602,-122.563004,Middletown
+US-10828,closed,Valley Medical Center Heliport,36.737171,-119.752959,Fresno
+US-10835,closed,Swanson Ranch Nr 1 Airport,36.399899,-119.617995,Hanford
+US-10849,closed,Swanson Ranch Number 2 Airport,36.467298,-119.880655,Riverdale
+US-10850,closed,Elwood Onshore Facility Heliport,34.430302,-119.912003,Goleta
+US-10859,closed,High Hill Ranch Heliport,38.741833,-120.718564,Camino
+US-10860,closed,Pines Airpark,33.645599,-117.109333,Winchester
+US-10861,closed,NBC-TV Heliport,34.153599,-118.331001,Burbank
+US-10862,closed,United Ca Bank Data Processing Ops Heliport,34.069698,-118.292,Los Angeles
+US-10863,closed,Bland Field,36.710905,-120.031828,Kerman
+US-10906,closed,Travis Air Force Base Aero Club,38.269688,-121.972081,Fairfield
+US-10931,closed,Sacatar Meadows Airport,35.989899,-118.080002,Inyokern
+US-10946,closed,McCarthy Ranch Heliport,36.847698,-119.824997,Fresno
+US-10975,closed,Tejon Agricultural Airport,34.989101,-118.915001,Lebec
+US-10984,closed,Noltas Airport,39.57927,-122.197929,Willows
+US-10994,closed,Pomona Superior Court Heliport,34.05249863,-117.7490005,Pomona
+US-11004,closed,Johnson Ranch Airport,37.191101,-120.276001,Le Grand
+US-11005,closed,Blair Strip,36.27619,-119.641789,Hanford
+US-11139,closed,Patterson Airport,37.468488,-121.16927,Patterson
+US-11140,closed,Coonrod Ranch Airport,41.6171,-122.319,Montague
+US-11141,closed,U of C - Richmond Field Station Heliport,37.913799,-122.332002,Richmond
+US-11142,closed,Peterson Airport,37.723499,-120.889999,Riverbank
+US-11143,closed,Commodore Heliport,37.810799,-122.415001,San Francisco
+US-11144,closed,Flea Port Heliport,37.3736,-121.879997,San Jose
+US-11145,closed,American Display Heliport,33.55445,-117.608449,Rancho Santa Margarita
+US-11146,closed,Stevinson Strip,37.323827,-120.86287,Stevinson
+US-11147,closed,Jones Heliport,37.979353,-121.229689,Stockton
+US-11148,closed,Ports O'Call Heliport,33.731657,-118.275837,San Pedro
+US-11149,closed,33 Strip,37.670259,-121.327933,Tracy
+US-11150,closed,Gilbreath Bros Duck Club Airport,35.677086,-119.582131,Wasco
+US-11151,closed,San Bernardino County Medical Center Heliport,34.1278,-117.267997,San Bernardino
+US-11152,closed,Corona Regional Medical Center Heliport,33.8731,-117.568001,Corona
+US-11153,closed,First Interstate Bank Building Heliport,33.753601,-117.867996,Santa Ana
+US-11154,closed,Albalisa Dinner Playhouse Inc Heliport,33.766998,-117.917999,Santa Ana
+US-11155,closed,Goleta Valley Community Hospital Heliport,34.433399,-119.810289,Santa Barbara
+US-11157,closed,Sharp Chula Vista Medical Center Heliport,32.619499,-117.023003,Chula Vista
+US-11158,closed,Danby Airstrip,34.555,-115.356003,Danby
+US-11159,closed,Wells Fargo-Cv Heliport,34.041666,-118.272581,Los Angeles
+US-11160,closed,Queensway Bay Heliport,33.754901,-118.194995,Long Beach
+US-11161,closed,First Interstate Bank Heliport,34.2686,-118.718002,Simi Valley
+US-11162,closed,Oakland Convention Center Heliport,37.802399,-122.274002,Oakland
+US-11163,closed,Mission Viejo Company Helistop,33.572201,-117.725998,Aliso Viejo
+US-11164,closed,Boeing Seal Beach (Ground Level) Heliport,33.755454,-118.086982,Seal Beach
+US-11165,closed,Orange County Steel Salvage Heliport,33.848107,-117.85105,Anaheim
+US-11166,closed,VA Medical Center Long Beach Heliport,33.775799,-118.120003,Long Beach
+US-11167,closed,Hollywood Presbyterian Hospital Heliport,34.096428,-118.290323,Los Angeles
+US-11168,closed,Rotor-Aids Maintenance Hangar Heliport,34.202202,-119.203003,Oxnard
+US-11169,closed,Wesinger Ranch Airport,41.447102,-120.584,Alturas
+US-11170,closed,Los Angeles Times - Northridge Heliport,34.238821,-118.56949,Chatsworth
+US-11171,closed,Butte Creek Hog Ranch Airport,39.688801,-121.783997,Chico
+US-11172,closed,Rockwell Facility Heliport,33.758402,-118.085293,Seal Beach
+US-11173,closed,Mono County Medical Heliport,38.252336,-119.230199,Bridgeport
+US-11174,closed,Northrop Anaheim Heliport,33.865002,-117.917,Anaheim
+US-11175,closed,Flying R Airport,38.283001,-121.254997,Galt
+US-11176,closed,Boeing De Soto Heliport,34.234699,-118.584999,Canoga Park
+US-11177,closed,PG&E Fresno Service Center Heliport,36.719234,-119.759928,Fresno
+US-11178,closed,Hughes/Space & Comm. Heliport,33.930306,-118.397909,El Segundo
+US-11179,closed,Shaws Hill Heliport,39.2332,-121.051003,Grass Valley
+US-11231,closed,Elk Grove Airport,38.392399,-121.331001,Elk Grove
+US-1127,heliport,Simi Valley Hospital Heliport,34.289189,-118.746008,Simi Valley
+US-1151,heliport,Riverside County Sheriff Thermal Heliport,33.639378,-116.153028,Thermal
+US-11532,closed,Rialto Municipal Miro Field,34.12929916,-117.4020004,Rialto
+US-11533,closed,Lost Hills Kern County Airport,35.6236,-119.685997,Lost Hills
+US-11560,closed,Roy Williams Airport,34.154202,-116.251999,Joshua Tree
+US-1167,small_airport,Trinkle Agricultural Flying Airport,36.47794,-119.51948,Kingsburg
+US-1185,small_airport,Ala Doble Airport,38.653343,-122.028258,Esparto
+US-1186,heliport,Saint Agnes Medical Center Heliport,36.835911,-119.764797,Fresno
+US-1187,small_airport,Santa Cruz Ranch Airstrip,33.989461,-119.680177,Santa Cruz Island
+US-1188,heliport,Adventist Health Sonora Heliport,37.977058,-120.371939,Sonora
+US-11925,closed,NASA Crows Landing Airport,37.40800095,-121.1090012,Crows Landing
+US-11966,closed,El Toro Marine Corps Air Station,33.67610168,-117.7310028,Santa Ana
+US-11968,closed,Pinnacles Ranch Airport,36.510201,-121.135002,Paicines
+US-1206,heliport,Stanford Health Care-Valleycare Heliport,37.694414,-121.880897,Pleasanton
+US-1224,closed,Inglenook Ranch Airport,38.470568,-122.445683,Rutherford
+US-1232,closed,Eagleville Airport,41.309663,-120.050268,Eagleville
+US-1233,heliport,Rotorcraft Support Inc/RSI Heliport,34.391228,-118.932997,Fillmore
+US-1234,closed,Vidal Junction Airport,34.183619,-114.575086,Vidal Junction
+US-12488,closed,Alameda Naval Air Station,37.78889847,-122.3199997,Alameda
+US-12508,closed,MCAS Tustin,33.70669937,-117.8270035,Tustin
+US-12576,closed,MCOLF Camp Pendleton (Red Beach) Airport,33.285643,-117.456476,Oceanside
+US-12581,closed,Carmel Valley Vintage Airfield,36.481484,-121.729116,Carmel Valley
+US-12587,closed,Sharpe AAF,37.83791667,-121.2728056,Lathrop
+US-12602,closed,Hughes Airport,33.975,-118.417,Culver City
+US-12610,closed,Berkeley Municipal Heliport,37.8666,-122.3065,Oakland
+US-12613,closed,Tri-City Airport,34.0677,-117.2725,San Bernardino
+US-12617,closed,San Fernando Airport,34.289,-118.422,San Fernando
+US-12618,closed,Hamilton Field,38.06,-122.51,San Rafael
+US-12619,closed,Santa Cruz Sky Park,37.0503,-122.0315,Scotts Valley
+US-12636,closed,Crissy Field,37.80376,-122.46389,San Francisco
+US-12648,small_airport,Corcoran Airport,36.102661,-119.594815,Corcoran
+US-12704,small_airport,Cecil Ranch Airport,39.085166,-121.912295,Grimes
+US-1303,heliport,Zuma Beach Emergency Helipad,34.01885,-118.82685,Malibu
+US-1313,heliport,Glendale Galleria Emergency Helipad,34.146228,-118.256723,Glendale
+US-1314,heliport,Glendale City Center Emergency Helipad,34.146987,-118.255468,Glendale
+US-1315,heliport,Glendale Police Helipad,34.147022,-118.249283,Glendale
+US-1316,heliport,330 North Brand Emergency Helipad,34.151351,-118.25461,Glendale
+US-1317,heliport,400 North Brand Emergency Helipad,34.152008,-118.254578,Glendale
+US-1318,heliport,450 North Brand Emergency Helipad,34.152691,-118.254578,Glendale
+US-1329,closed,Desert Center Airport (1929),33.717415,-115.388718,Desert Center
+US-1330,closed,Desert Center Intermediate Field,33.74527,-115.351,Desert Center
+US-1331,closed,Eagle Mountain Pump Plant Landing Strip,33.800814,-115.450966,Desert Center
+US-1332,small_airport,Eagle Mountain Metropolitan Water District Airstrip,33.843954,-115.457447,Desert Center
+US-1333,closed,Rice Army Airfield,34.056144,-114.814081,Rice
+US-1410,heliport,Sheraton Gateway Los Angeles Hotel Helipad,33.946537,-118.391011,Los Angeles
+US-1411,heliport,Skyview Center II Helipad,33.946951,-118.38967,Los Angeles
+US-1412,heliport,Skyview Center I Helipad,33.945919,-118.389734,Los Angeles
+US-1413,heliport,Crowne Plaza Los Angeles Airport Hotel Helipad,33.9459,-118.38897,Los Angeles
+US-1414,heliport,Residence Inn by Marriott Los Angeles Airport Helipad,33.946115,-118.387379,Los Angeles
+US-1415,heliport,Embassy Suites by Hilton Los Angeles International Airport North Helipad,33.94674,-118.38637,Los Angeles
+US-1416,heliport,Hilton Los Angeles Airport Helipad,33.94589,-118.38162,Los Angeles
+US-1417,heliport,5777 West Century Plaza Helipad,33.94717,-118.38255,Los Angeles
+US-1418,heliport,DirecTV LA1 Heliport,33.9304,-118.3858,El Segundo
+US-1419,heliport,Raytheon Heliport,33.91554,-118.38704,El Segundo
+US-1420,heliport,Raytheon Building Helipad,33.93013,-118.39222,El Segundo
+US-1421,heliport,Bundy Olympic Helipad,34.032354,-118.452095,Los Angeles
+US-1422,heliport,Executive Tower Helipad,34.036235,-118.442788,Los Angeles
+US-1423,heliport,Trident Center Heliport,34.037822,-118.443153,Los Angeles
+US-1424,heliport,11300 West Olympic Helipad,34.037747,-118.441356,Los Angeles
+US-1425,heliport,Variety Building Helipad,34.04746,-118.44605,Los Angeles
+US-1426,heliport,Westwood Gateway III Heliport,34.046517,-118.444403,Los Angeles
+US-1433,heliport,Pomona Valley Hospital Medical Center Helipad,34.076759,-117.749464,Pomona
+US-1434,closed,Colton Airpark / Morrow Field,34.074364,-117.363875,Colton
+US-1435,heliport,Loma Linda University Hospital South Helipad,34.048957,-117.263818,Loma Linda
+US-1436,closed,Harvey's Airport,33.617426,-114.832072,Blythe
+US-1437,closed,Heron Field,33.606613,-114.574227,Blythe
+US-1462,heliport,Gateway Los Angeles Helipad,34.04123,-118.470418,Los Angeles
+US-1463,heliport,12400 Wilshire Helipad,34.04175,-118.46974,Los Angeles
+US-1464,heliport,12100 Wilshire Helipad,34.04355,-118.46761,Los Angeles
+US-1465,heliport,Wilshire Bundy Plaza Helipad,34.04407,-118.46821,Los Angeles
+US-1466,heliport,Wilshire Landmark II Helipad,34.04795,-118.46193,Los Angeles
+US-1467,heliport,Wilshire Landmark I Helipad,34.04882,-118.46239,Los Angeles
+US-1468,heliport,Wells Fargo Center Helipad,34.05102,-118.45986,Los Angeles
+US-1469,heliport,One Westwood Helipad,34.05755,-118.44716,Los Angeles
+US-1470,heliport,The Tower Helipad,34.057922,-118.444945,Los Angeles
+US-1471,heliport,UCLA Wilshire Center Helipad,34.058219,-118.44458,Los Angeles
+US-1472,heliport,Murdock Plaza Helipad,34.058397,-118.443984,Los Angeles
+US-1484,closed,Coyote Flats,37.204816,-118.477206,Aspendell
+US-1485,closed,Big Pine Airstrip,37.147044,-118.239841,Big Pine
+US-1487,small_airport,Cinder Cone Dry Lake Bed Airstrip,35.982608,-117.899759,Coso
+US-1488,small_airport,Monache Meadows Airstrip,36.22591,-118.171713,Pearsonville
+US-1489,closed,Templeton Meadows Airstrip,36.32473,-118.22735,Pearsonville
+US-1490,small_airport,Grant Airpark (Olancha Airstrip),36.256092,-117.997112,Olancha
+US-1491,closed,Adamson Field,36.28204,-117.99982,Olancha
+US-1492,closed,Manzanar Airport,36.73689,-118.144784,Manzanar
+US-1494,heliport,Center West Helipad,34.059668,-118.442777,Los Angeles
+US-1496,heliport,W Hollywood Helipad,34.101156,-118.325767,Los Angeles
+US-1497,heliport,1600 Vine Helipad,34.1001,-118.32564,Los Angeles
+US-1498,heliport,Vine Street Tower Helipad,34.10003,-118.32709,Los Angeles
+US-1540,small_airport,Indian Ranch Airport,39.271683,-122.483203,Stonyford
+US-1546,closed,Peterson Chico Airport,39.703357,-121.783383,Chico
+US-1547,closed,Northern California Airways Landing Field / Patrick Field,39.704793,-121.81102,Chico
+US-1554,small_airport,Reeves Airstrip,33.092692,-115.545101,Calipatria
+US-1555,small_airport,Quick Silver Ranch Airport,36.24699,-118.819585,Springville
+US-1567,small_airport,Eden Valley Ranch / Albert Seeno Jr Airstrip,39.627639,-123.185449,Willits
+US-1595,heliport,Fox Plaza Helipad,34.055188,-118.413278,Los Angeles
+US-1596,heliport,The Century Helipad,34.056268,-118.414593,Los Angeles
+US-1597,heliport,Constellation Place Helipad,34.057077,-118.417463,Los Angeles
+US-1598,heliport,2000 Avenue of the Stars Helipad,34.058233,-118.414684,Los Angeles
+US-1617,heliport,Kaiser Permanente Pasadena Heliport,34.150858,-118.141855,Pasadena
+US-1625,small_airport,Schoonover Airstrip,35.9658,-121.19755,King City
+US-1626,closed,Alamo Airstrip,35.96714,-121.18394,King City
+US-1627,closed,Hunter Liggett Army Airfield,35.994883,-121.230998,Jolon
+US-1628,small_airport,Halter Ranch Airport,35.64427,-120.85055,Paso Robles
+US-1629,small_airport,Glamis Landing Strip,32.992719,-114.972482,Glamis
+US-1630,closed,Antelope Valley Intermediate Field,34.78913,-118.65635,Quartz Hill
+US-1636,heliport,Westin Los Angeles Airport Helipad,33.944962,-118.373635,Los Angeles
+US-1637,heliport,Renaissance Los Angeles Airport Helipad,33.94894,-118.385367,Los Angeles
+US-1639,small_airport,Olancha Old State Highway Landout,36.263498,-118.005867,Olancha
+US-1640,small_airport,Tunnel Meadows Airstrip,36.379539,-118.267387,Three Rivers
+US-1641,small_airport,Owens Dry Lake Airstrip,36.52254,-118.034529,Lone Pine
+US-1646,small_airport,Havasu Palms Airstrip,34.394764,-114.280815,Needles
+US-1647,closed,Chemehuevi Landing Field,34.5198,-114.4008,Havasu Lake
+US-1652,closed,Riverview Airport,34.819334,-114.603024,Needles
+US-1653,closed,Walters Ranch Landing Field,34.911731,-114.647527,Needles
+US-1668,closed,Riley Airport,34.84816,-117.13266,Barstow
+US-1669,closed,Chalone Vineyard Airport,36.46537,-121.23436,Paicines
+US-1675,closed,Zzyzx Airstrip,35.143373,-116.107035,Zzyzx
+US-1676,closed,Halloran Springs Landing Strip,35.369311,-115.8947,Halloran Springs
+US-1706,small_airport,Steward Lane Landout,37.14539,-118.26533,Big Pine
+US-1712,heliport,Monterey Island Condominium Helipad,34.157171,-118.253354,Glendale
+US-1713,small_airport,Paulson Ranch Airstrip,38.22114,-119.21496,Bridgeport
+US-1714,heliport,Glendale Gateway Helipad,34.158161,-118.255634,Glendale
+US-1715,heliport,800 North Brand Helipad,34.158076,-118.25446,Glendale
+US-1717,heliport,207 Goode Helipad,34.157037,-118.256401,Glendale
+US-1718,heliport,Embassy Suites by Hilton Helipad,34.157859,-118.257705,Glendale
+US-1719,heliport,Hilton Los Angeles North Helipad,34.15876,-118.256375,Glendale
+US-1721,heliport,550 North Brand Helipad,34.154303,-118.254615,Glendale
+US-1722,heliport,Park Towers West Helipad,34.155608,-118.260924,Glendale
+US-1723,heliport,Park Towers East Helipad,34.15563,-118.260076,Glendale
+US-1724,heliport,500 North Brand Helipad,34.153202,-118.254717,Glendale
+US-1725,heliport,505 North Brand Helipad,34.1533,-118.255436,Glendale
+US-1727,closed,Rancho del Otay Airfield,32.646607,-116.942296,Chula Vista
+US-1734,heliport,Griffith Helipad,34.123556,-118.285321,Los Angeles
+US-1740,closed,Bare Ranch Airport,41.1699,-120.006752,Eagleville
+US-1741,closed,Big Bluff Ranch Airport,40.080278,-122.578056,
+US-1747,small_airport,Breckenridge Airport,35.362732,-118.856117,Bakersfield
+US-1753,heliport,Westwood Place Helipad,34.058781,-118.442126,Los Angeles
+US-1754,heliport,Californian on Wilshire Helipad,34.05933,-118.440101,Los Angeles
+US-1756,heliport,Longford Condominium Helipad,34.059486,-118.439291,Los Angeles
+US-1757,heliport,Carlyle Wilshire Helipad,34.059615,-118.43869,Los Angeles
+US-1758,heliport,The Westford Condos Helipad,34.05981,-118.4381,Los Angeles
+US-1759,heliport,Park Wilshire Helipad,34.060175,-118.436871,Los Angeles
+US-1760,heliport,Remington Towers Helipad,34.060935,-118.437123,Los Angeles
+US-1761,heliport,Wilshire Manning Condominiums Helipad,34.06049,-118.435289,Los Angeles
+US-1762,heliport,Wilshire House Condominiums Helipad,34.061704,-118.434232,Los Angeles
+US-1763,heliport,Wilshire Condominiums Helipad,34.061517,-118.432741,Los Angeles
+US-1764,heliport,Ten Five Sixty Condos Helipad,34.062055,-118.432521,Los Angeles
+US-1765,heliport,Regency Wilshire Condos Helipad,34.062677,-118.433293,Los Angeles
+US-1772,heliport,Wilshire Marquis Condominiums Helipad,34.063366,-118.43303,Los Angeles
+US-1774,heliport,Dorchester Condos Helipad,34.063375,-118.432011,Los Angeles
+US-1776,closed,Alamitos Landing Strip,32.73738,-115.452524,Heber
+US-1777,heliport,Blair House Helipad,34.064317,-118.43141,Los Angeles
+US-1779,heliport,Mirabella Condominium Helipad,34.06565,-118.430187,Los Angeles
+US-1780,heliport,The Grand Condominiums Helipad,34.065877,-118.431185,Los Angeles
+US-1781,heliport,Sterling International Towers Helipad,34.066623,-118.428277,Los Angeles
+US-1782,heliport,La Tour Helipad,34.066876,-118.427795,Los Angeles
+US-1783,heliport,Diplomat Condominiums Helipad,34.067241,-118.426888,Los Angeles
+US-1784,heliport,Beverly West Residences Helipad,34.067645,-118.424968,Los Angeles
+US-1792,closed,Sequoia Resort Airport,36.64191,-119.01,Badger
+US-1794,heliport,Watermarke Tower Helipad,34.046246,-118.261583,Los Angeles
+US-1795,small_airport,Solitude Backcountry Airstrip,38.21736,-119.15894,Bridgeport
+US-1796,small_airport,North Mono Landout,38.1002,-119.05277,Mono City
+US-1797,small_airport,Crestview Backcountry Airstrip,37.78289,-118.99987,Mammoth Lakes
+US-1798,closed,Arcularius Ranch Airport,37.7479,-118.89967,Mammoth Lakes
+US-1799,closed,Hammil Landing Strip,37.6749,-118.40367,Bishop
+US-1800,small_airport,Cinnamon Ranch Airport,37.67707,-118.3894,Bishop
+US-1836,closed,Galway Lake Landing Field,34.53706,-116.46828,Newberry Springs
+US-1837,closed,Galway Lake Landing Field,34.53706,-116.46828,Newberry Springs
+US-1838,small_airport,Soggy Lake Gliderport,34.4574,-116.69426,Lucerne Valley
+US-1839,closed,Landers Airport,34.26952,-116.39218,Landers
+US-1840,closed,Giant Rock International Spaceport,34.32908,-116.38491,Landers
+US-1873,closed,Cambria Pines Airport,35.554736,-121.076609,Cambria
+US-1875,closed,Willow Creek Airport,40.9502,-123.63596,Willow Creek
+US-1876,closed,Anderson Airstrip,41.30297,-123.54835,Orleans
+US-1877,heliport,Apex Helipad,34.045925,-118.262675,Los Angeles
+US-1878,small_airport,Black Butte Airfield,34.50935,-117.72854,Llano
+US-1881,small_airport,Wirt Field,34.53139,-117.75359,Llano
+US-1882,small_airport,Oasis Airport,34.50889,-117.6458,Phelan
+US-1883,small_airport,Antelope Valley Soaring Club Gliderport,34.56135,-117.60316,Phelan
+US-1884,small_airport,Flying J Ranch Airport,34.63041,-117.61809,Adelanto
+US-1885,small_airport,Tadgyro Gyroport,34.65033,-117.63834,Adelanto
+US-1886,small_airport,Snow Airstrip,34.64828,-117.63748,Adelanto
+US-1887,small_airport,El Mirage Auxiliary Airfield,34.64404,-117.59592,Adelanto
+US-1888,small_airport,Bella Vista Airport,34.62758,-117.64694,Adelanto
+US-1892,closed,Border Field,32.53728,-117.11849,San Diego
+US-1893,closed,Tyce Airport,32.62955,-117.10138,Chula Vista
+US-1894,closed,National City Airport,32.65062,-117.1002,National City
+US-1895,closed,Peik's Airport,32.76409,-117.20876,San Diego
+US-1896,closed,Del Mar Airport,32.97089,-117.25278,Del Mar
+US-1897,heliport,Connexion Burbank Helipad,34.1846,-118.30883,Burbank
+US-1898,closed,Lockheed Airport,34.18935,-118.33259,Burbank
+US-1899,closed,Brand Field,34.17809,-118.27883,Glendale
+US-1900,heliport,Chantry Flat Heliport,34.192321,-118.02218,Arcadia
+US-1901,heliport,Mount Wilson Heliport,34.22292,-118.06264,Pasadena
+US-1910,heliport,TCW Tower Helipad,34.046815,-118.262967,Los Angeles
+US-1930,closed,Alhambra Airport,34.07733,-118.11142,Alhambra
+US-1931,closed,Vail Field,34.00313,-118.13506,Commerce
+US-1948,small_airport,Darwin Landing Strip,36.263359,-117.597914,Darwin
+US-1949,closed,Quartz Hill Airport,34.65,-118.206,Lancaster
+US-1996,closed,Selma Landing Field,36.56505,-119.56834,Selma
+US-1997,closed,Paiva Intercity Landing Field,36.59897,-119.56047,Parlier
+US-2025,closed,Condor Field,34.21353,-116.05345,Twentynine Palms
+US-2040,heliport,Airport Courthouse Helistop,33.928321,-118.371354,"Los Angeles33.92843, -118.37135"
+US-2041,closed,Murrieta Hot Springs Airport (1962),33.560365,-117.193926,Murrieta
+US-2042,closed,Naval Outlying Landing Field Sand Hill,32.832747,-115.151615,Holtville
+US-2043,closed,Airport Lake Auxiliary Airfield,35.90233,-117.72971,Ridgecrest
+US-2044,heliport,Aero Long Beach 7 Helipad,33.807906,-118.144564,Long Beach
+US-2045,heliport,Aero Long Beach 4 Helipad,33.807424,-118.145786,Long Beach
+US-2046,heliport,Aero Long Beach 3 Helipad,33.80825,-118.14637,Long Beach
+US-2069,small_airport,Seth's Freedom Field,40.176299,-122.334682,Red Bluff
+US-2070,heliport,717 Olympic Helipad,34.045085,-118.263319,Los Angeles
+US-2098,heliport,The Met Helipad,34.044828,-118.261998,Los Angeles
+US-2099,closed,Culver City (Baker) Airport,33.98883,-118.39902,Culver City
+US-2101,closed,Los Angeles Motordrome,33.96569,-118.44444,Los Angeles
+US-2102,heliport,Airport Towers Number 2 Heliport,33.917749,-118.395247,El Segundo
+US-2103,heliport,Pacific Corporate Towers Heliport,33.919022,-118.395277,El Segundo
+US-2104,closed,Silver Lake Landing Strip,35.33014,-116.09198,Baker
+US-2105,small_airport,Red Pass Ranch Airstrip,35.29002,-116.35214,Fort Irwin
+US-2106,heliport,Platform Esther Heliport,33.71881,-118.11393,Seal Beach
+US-2107,heliport,Platform Edith Heliport,33.59596,-118.14146,Huntington Beach
+US-2108,small_airport,Bartlett Airstrip,36.478642,-118.033521,Lone Pine
+US-2109,small_airport,Sage Flat Landing Strip,36.20935,-117.9757,Olancha
+US-2110,small_airport,Dunmovin Landing Strip,36.08544,-117.95619,Olancha
+US-2111,small_airport,Dunmovin Fallow Alfalfa Landing Field,36.07889,-117.95195,Olancha
+US-2112,small_airport,Dunmovin East Landing Strip,36.07917,-117.94621,Olancha
+US-2113,small_airport,Gills Airstrip,36.06107,-117.95407,Coso Junction
+US-2114,small_airport,Coso Dry Lake Airstrip,36.04032,-117.93444,Coso Junction
+US-2115,small_airport,Little Lake Landing Strip,35.95066,-117.90671,Little Lake
+US-2116,small_airport,Kennedy Meadows South Landing Strip,35.99393,-118.13463,Inyokern
+US-2117,small_airport,Brown Landing Strip,35.78363,-117.84815,Inyokern
+US-2118,closed,Randsburg Wash Road Heliport,35.5223,-117.30581,Randsburg
+US-2119,small_airport,Minnietta Mine Airport,36.24496,-117.4145,Darwin
+US-2120,small_airport,Ballarat Road Landing Strip,36.04214,-117.23249,Ballarat
+US-2121,small_airport,Indian Ranch Road Landing Strip,36.05102,-117.22583,Ballarat
+US-2122,small_airport,Trona Pinnacles Landing Strip,35.62386,-117.37446,Trona
+US-2129,heliport,600 West 9th Street Helipad,34.045108,-118.260891,Los Angeles
+US-2130,heliport,Bullocks Building Helipad,34.046036,-118.259014,Los Angeles
+US-2131,heliport,8th+Hope Helipad,34.046397,-118.259556,Los Angeles
+US-2132,heliport,Sky Lofts Helipad,34.045655,-118.258579,Los Angeles
+US-2168,heliport,Riverside Community Hospital Helipad,33.97742,-117.38164,Riverside
+US-2170,heliport,Transdec Helipad,32.7038,-117.25102,San Diego
+US-2199,closed,Seal Beach Airport (Crawford Field),33.74021,-118.09214,Seal Beach
+US-2200,heliport,Anaheim Bay Helipad,33.73792,-118.094434,Seal Beach
+US-2201,closed,Disneyland Heliport (1955),33.81101,-117.91596,Anaheim
+US-2202,closed,Disneyland Heliport (1957),33.81008,-117.91646,Anaheim
+US-2203,closed,Disneyland Heliport (1960),33.81108,-117.92657,Anaheim
+US-2244,closed,Never Again Airstrip,38.49502,-119.29651,Bridgeport
+US-2319,heliport,Farallon Islands AWRS Helipad,37.697508,-123.002504,San Francisco
+US-2327,closed,Bagdad Intermediate Field,34.57327,-115.87824,Bagdad
+US-2328,small_airport,Bacon Strip Ranch Airport,34.562397,-115.750065,Amboy
+US-2329,closed,Essex Landing Field,34.7516,-115.229,Essex
+US-2330,closed,Fenner Air Strip,34.77119,-115.22119,Essex
+US-2331,closed,Camp Goffs Army Airfield,34.93675,-115.06807,Goffs
+US-2332,closed,Goffs Intermediate Field,34.93492,-115.03168,Goffs
+US-2338,closed,Nipomo Airfield,35.05848,-120.52343,Arroyo Grande
+US-2339,closed,Souza Airfield,35.3876,-120.62918,Santa Margarita
+US-2341,closed,Clark Field,35.24906,-120.65513,San Luis Obispo
+US-2342,closed,Weirs Airstrip,35.18497,-120.59028,San Luis Obispo
+US-2343,closed,Sky Lawn Airport,35.36747,-120.83743,Morro Bay
+US-2344,closed,California Polytechnic State University Airport,35.30858,-120.66782,San Luis Obispo
+US-2345,closed,Paso Robles Airport / Sherwood Field,35.6145,-120.655681,Paso Robles
+US-2346,closed,Sinclair Field / Flying R Ranch Flying Field,35.761,-120.687,San Miguel
+US-2347,small_airport,Pianetta Winery Airstrip,35.82386,-120.70189,San Miguel
+US-2348,closed,Ace Field,34.00923,-118.16631,Commerce
+US-2351,closed,Middle Aguanga Airstrip,33.43924,-116.87318,Aguanga
+US-2352,closed,Sundance Ranch Airstrip,33.48756,-116.92456,Aguanga
+US-2354,closed,White Mountain Landing Strip,33.44706,-116.88483,Aguanga
+US-2355,closed,Anza Landing Strip,33.55215,-116.65045,Anza
+US-2356,closed,Garner Ranch Landing Strip,33.66432,-116.65255,Mountain Center
+US-2357,closed,Montgomery Airfield / Marina Airfield,37.80648,-122.43914,San Francisco
+US-2359,closed,San Mateo Highlands Airfield,37.51205,-122.33948,San Mateo
+US-2361,closed,Bay Meadows Airport,37.54794,-122.29749,San Mateo
+US-2362,closed,San Mateo Airport,37.55874,-122.29772,San Mateo
+US-2363,closed,Belmont Airport,37.52867,-122.27925,Belmont
+US-2364,closed,San Francisco Downtown Heliport,37.79658,-122.39444,San Francisco
+US-2365,closed,Paul Mantz Seaplane Base,37.82548,-122.36425,San Francisco
+US-2366,closed,Treasure Island Naval Auxiliary Airfield,37.82843,-122.36906,San Francisco
+US-2367,closed,Treasure Island (Pan American / Clipper Cove) Seaplane Base,37.81802,-122.36636,San Francisco
+US-2368,closed,Clark Dry Lake Naval Auxiliary Airfield,33.33427,-116.28769,Borrego Springs
+US-2369,closed,White Airport,39.46126,-123.80045,Fort Bragg
+US-2370,closed,Point Arena Hotel Airfield,38.93089,-123.71239,Point Arena
+US-2371,closed,Peterson Redding Airport,40.62972,-122.37489,Redding
+US-2372,closed,Kirkwood Airport,39.79,-122.13,Orland
+US-2373,closed,Williams Intermediate Field,39.09507,-122.15274,Williams
+US-2374,closed,Union Lumber Company Airfield,39.43479,-123.81529,Fort Bragg
+US-2375,closed,Enterprise Sky Park,40.57616,-122.31911,Redding
+US-2376,closed,Redding Sky Ranch,40.50081,-122.37781,Redding
+US-2377,closed,Clearlake Oaks Airport,39.02028,-122.65613,Clearlake Oaks
+US-2379,closed,Pearce Field,38.93443,-122.62324,Clearlake
+US-2380,closed,Clearlake Highlands Airport,38.93559,-122.63218,Clearlake
+US-2381,closed,Calistoga Gliderport,38.5783,-122.571716,Calistoga
+US-2382,closed,Santa Rosa Air Center,38.41448,-122.75771,Santa Rosa
+US-2383,closed,Santa Rosa Municipal Airport / Steiner Field,38.47355,-122.73821,Santa Rosa
+US-2384,closed,Santa Rosa Airpark,38.47711,-122.74073,Santa Rosa
+US-2385,closed,Santa Rosa Coddingtown Airport,38.47464,-122.74122,Santa Rosa
+US-2387,closed,Balfe Ranch Airport,36.87041,-119.57978,Clovis
+US-2388,closed,Coalinga Airport (1927),36.14861,-120.35638,Coalinga
+US-2389,closed,Colburn Airport,36.20034,-119.18968,Lindsay
+US-2390,closed,Cooley Field,37.52572,-122.25248,Redwood City
+US-2392,closed,Sebastopol Airport / Cnopius Field,38.40654,-122.81483,Sebastopol
+US-2393,closed,Paul Hoberg Airport,38.87141,-122.67717,Middletown
+US-2394,closed,Naval Outlying Landing Field Cotati,38.34978,-122.7232,Rohnert Park
+US-2395,closed,Central Airport,33.90771,-118.25059,Compton
+US-2396,closed,Concord Naval Weapons Station Airfield,37.98996,-122.01831,Concord
+US-2397,closed,Concord Airport (1927),37.96969,-121.9949,Concord
+US-2398,closed,San Francisco Bay Airdrome,37.78432,-122.28094,Alameda
+US-2399,closed,Conejo Valley Airport (1926),34.17842,-118.87237,Thousand Oaks
+US-2400,closed,Conejo Valley Airport (1950),34.17774,-118.88193,Thousand Oaks
+US-2401,closed,Rancho Conejo Airport,34.1964,-118.9179,Thousand Oaks
+US-2402,small_airport,Cordell Landing Private Airport,33.0864,-116.46101,Julian
+US-2403,closed,Lockwood Valley Airfield,34.74213,-119.12543,Frazier Park
+US-2404,small_airport,Lockwood Airpark,34.75582,-119.06587,Frazier Park
+US-2406,closed,Cornell Airport,36.03055,-119.02138,Porterville
+US-2407,closed,Stony Bridge Ranch Airport,33.84886,-117.61366,Corona
+US-2409,small_airport,Strain Ranch Airport,39.053056,-122.095556,Arbuckle
+US-2410,small_airport,Pacific Valley Aviation Airport,39.07541,-122.08247,Arbuckle
+US-2411,closed,Crafton Hills Airport,34.03616,-117.07154,Yucaipa
+US-2412,closed,Calimesa Airport,33.974328,-117.052496,Calimesa
+US-2413,closed,Wilmington / Los Angeles Harbor Airport,33.78791,-118.28601,Wilmington
+US-2414,closed,Torrance Field / Bay Cities Airport,33.87376,-118.34798,Torrance
+US-2415,heliport,Holiday Inn Torrance Helipad,33.850971,-118.289446,Torrance
+US-2416,closed,Cranford Airport,33.8603,-118.05436,Cerritos
+US-2417,small_airport,Wonder Valley Landing Strip,34.16051,-115.98728,Twentynine Palms
+US-2418,closed,Cuddeback Dry Lake Landing Strip,35.30088,-117.47107,Atolia
+US-2419,closed,Cuddeback Lake Gunnery Range Landing Strip,35.28064,-117.39824,Atolia
+US-2466,small_airport,Silicz Boyz / Wagy Flat Landing Strip,35.66404,-118.54716,Lake Isabella
+US-2467,small_airport,Carver's Cut Landing Strip,36.00557,-118.49114,Johnsondale
+US-2468,small_airport,Goler Heights Airstrip,35.42767,-117.73328,Randsburg
+US-2469,small_airport,Holland Camp Airstrip,35.46051,-117.79401,Randsburg
+US-2470,small_airport,Rick's Strip,35.62674,-118.26595,Weldon
+US-2548,heliport,Pendry EHLF Helipad,34.094917,-118.373212,West Hollywood
+US-2552,heliport,UC San Diego Medical Center Helipad,32.75418,-117.16552,San Diego
+US-2553,closed,Speer Airport,32.74673,-117.20357,San Diego
+US-2554,closed,Grande Vista Airport,32.58243,-117.06669,San Diego
+US-2555,closed,Wolfe Airpark,32.58559,-117.0526,San Diego
+US-2556,closed,Borderland Field,32.5699,-117.06535,San Diego
+US-2557,closed,US Border Patrol Imperial Beach Heliport,32.56496,-117.10045,Imperial Beach
+US-2568,small_airport,Daley Ranch Airport,33.000601,-116.473357,Julian
+US-2569,small_airport,Butterfield Ranch Private Airstrip,32.98305,-116.435414,Julian
+US-2570,heliport,Cal Fire San Diego Puerta La Cruz Helipad,33.32242,-116.68363,Warner Springs
+US-2580,heliport,Residence Inn by Marriott Los Angeles LA Live Helipad,34.04606,-118.26564,Los Angeles
+US-2581,heliport,Ritz-Carlton Residences Helipad,34.04537,-118.266739,Los Angeles
+US-2582,heliport,Evo South Helipad,34.04043,-118.26346,Los Angeles
+US-2583,heliport,Elleven Helipad,34.041382,-118.262721,Los Angeles
+US-2584,heliport,Luma Helipad,34.041636,-118.263273,Los Angeles
+US-2585,heliport,Oceanwide Plaza Helipad,34.042859,-118.264765,Los Angeles
+US-2586,heliport,California Professional Center Helipad,34.036844,-118.265263,Los Angeles
+US-2587,heliport,Renaissance Tower Helipad,34.043348,-118.260757,Los Angeles
+US-2588,heliport,LEVEL Los Angeles Helipad,34.043788,-118.257657,Los Angeles
+US-2589,heliport,International Jewelry Plaza Helipad,34.047468,-118.252507,Los Angeles
+US-2590,heliport,600 Wilshire Helipad,34.04799,-118.25656,Los Angeles
+US-2591,heliport,655 Hope Helipad,34.0484,-118.25763,Los Angeles
+US-2592,heliport,Wilshire Grand Center Helipad,34.05008,-118.25984,Los Angeles
+US-2593,heliport,Ernst & Young Plaza Helipad,34.04933,-118.26067,Los Angeles
+US-2594,heliport,777 Tower Helipad,34.04859,-118.26136,Los Angeles
+US-2595,heliport,801 Tower Helipad,34.0479,-118.26181,Los Angeles
+US-2596,heliport,800 South Figueroa Helipad,34.047535,-118.26095,Los Angeles
+US-2597,heliport,Titan Offices Helipad,34.050784,-118.263059,Los Angeles
+US-2598,heliport,1100 Wilshire Helipad,34.052152,-118.263802,Los Angeles
+US-2599,heliport,Wedbush Center Helipad,34.05051,-118.26125,Los Angeles
+US-2600,heliport,Figueroa at Wilshire Helipad,34.050793,-118.259298,Los Angeles
+US-2601,heliport,NineFifteen Helipad,34.05102,-118.26006,Los Angeles
+US-2602,heliport,Maunlife Investment Plaza Helipad,34.052139,-118.258134,Los Angeles
+US-2603,heliport,Citigroup Center Helipad,34.05175,-118.25505,Los Angeles
+US-2604,heliport,US Bank Tower Helipad,34.051051,-118.254422,Los Angeles
+US-2605,heliport,400 South Hope Helipad,34.05153,-118.25359,Los Angeles
+US-2606,heliport,Wells Fargo Center South Tower Helipad,34.052104,-118.252673,Los Angeles
+US-2607,heliport,Wells Fargo Center North Tower Helipad,34.052864,-118.251944,Los Angeles
+US-2608,heliport,LA Grand Hotel Helipad,34.054353,-118.255763,Los Angeles
+US-2609,heliport,Promenade Towers South Helipad,34.05723,-118.25365,Los Angeles
+US-2610,heliport,Promenade Towers North Helipad,34.05772,-118.25246,Los Angeles
+US-2611,heliport,Figueroa Plaza West Tower Helipad,34.05897,-118.2517,Los Angeles
+US-2612,heliport,Figueroa Plaza East Tower Helipad,34.05929,-118.25108,Los Angeles
+US-2613,heliport,255 Grand Tower Helipad,34.05368,-118.25156,Los Angeles
+US-2614,heliport,One California Plaza Helipad,34.052259,-118.251396,Los Angeles
+US-2615,heliport,Two California Plaza Helipad,34.051499,-118.251708,Los Angeles
+US-2616,heliport,Metropolis Los Angeles South Helipad,34.048206,-118.263627,Los Angeles
+US-2617,heliport,Metropolis Los Angeles North Helipad,34.048801,-118.263595,Los Angeles
+US-2618,heliport,TenTen Wilshire Helipad,34.05156,-118.26223,Los Angeles
+US-2619,heliport,Little Tokyo Towers Helipad,34.047335,-118.240625,Los Angeles
+US-2620,heliport,420 E 3rd St Helipad,34.046726,-118.242298,Los Angeles
+US-2621,heliport,Ronald Reagan State Building North Helipad,34.0498,-118.24664,Los Angeles
+US-2622,heliport,Ronald Reagan State Building South Helipad,34.04915,-118.24702,Los Angeles
+US-2623,heliport,Helipad at the Emerson,34.054153,-118.251327,Los Angeles
+US-2624,heliport,Museum Tower Helipad,34.053175,-118.249851,Los Angeles
+US-2625,heliport,Omni Los Angeles Hotel Helipad,34.052695,-118.250366,Los Angeles
+US-2626,heliport,Angelus Plaza 300 Helipad,34.051886,-118.250163,Los Angeles
+US-2627,heliport,Angelus Plaza 240 Helipad,34.052415,-118.249685,Los Angeles
+US-2628,heliport,Angelus Plaza 245 Helipad,34.052384,-118.248918,Los Angeles
+US-2629,heliport,Angelus Plaza 200 Helipad,34.05342,-118.2487,Los Angeles
+US-2630,heliport,Olive Building Helipad,34.053762,-118.249181,Los Angeles
+US-2631,heliport,The Vermont East Helipad,34.06145,-118.290712,Los Angeles
+US-2632,heliport,The Vermont West Helipad,34.061264,-118.291308,Los Angeles
+US-2633,heliport,Wilshire Square Two Helipad,34.062028,-118.295696,Los Angeles
+US-2634,heliport,Metroplex Helipad,34.06141,-118.301275,Los Angeles
+US-2635,heliport,Wilshire Serrano Building Helipad,34.06233,-118.306189,Los Angeles
+US-2636,heliport,Solair Condos Helipad,34.062668,-118.308753,Los Angeles
+US-2637,heliport,5055 Wilshire Helipad,34.06246,-118.34042,Los Angeles
+US-2638,closed,Chaplin Airport,34.06152,-118.36445,Los Angeles
+US-2639,heliport,City National Bank Helipad,34.06272,-118.36192,Los Angeles
+US-2640,heliport,6500 Wilshire Helipad,34.06361,-118.370261,Los Angeles
+US-2649,heliport,Smith Barney Tower Helipad,32.874037,-117.212529,San Diego
+US-2650,heliport,Northern Trust Tower Helipad,32.873992,-117.211161,San Diego
+US-2685,heliport,Marriott Marquis San Diego Marina Helipad,32.70784,-117.164962,San Diego
+US-2686,heliport,1620 5th Avenue Helipad,32.722292,-117.160504,San Diego
+US-2687,heliport,DoubleTree San Diego Downtown Helipad,32.722495,-117.165332,San Diego
+US-2688,heliport,Scripps Memorial Hospital Encinitas Helipad,33.037099,-117.285109,Encinitas
+US-2689,heliport,NRG Cabrillo Power Heliport,33.13862,-117.33732,Carlsbad
+US-2690,heliport,Naval Hospital Camp Pendleton Heliport,33.21874,-117.38795,Oceanside
+US-2691,small_airport,Camp Pendleton Highway Strip,33.30775,-117.47198,Oceanside
+US-2692,closed,Camp Pendleton Strip #2,33.26014,-117.43348,Oceanside
+US-2693,closed,NOLF Hourglass Field,32.90932,-117.12168,San Diego
+US-2694,closed,Capistrano Airport (1931),33.47187,-117.67766,Dana Point
+US-2695,closed,Capistrano Airport (1946),33.48549,-117.67644,San Juan Capistrano
+US-2696,closed,Capistrano Airport (1966),33.48506,-117.67154,San Juan Capistrano
+US-2697,heliport,UC San Diego Health Downtown Helipad,32.713296,-117.165068,San Diego
+US-2698,heliport,Koll Center Helipad,32.715327,-117.167642,San Diego
+US-2699,heliport,Emerald Plaza South Helipad,32.716041,-117.166958,San Diego
+US-2700,heliport,Emerald Plaza North Helipad,32.716506,-117.16684,San Diego
+US-2701,heliport,Hall of Justice Helipad,32.71633,-117.166057,San Diego
+US-2702,heliport,Symphony Towers South Helipad,32.718022,-117.157913,San Diego
+US-2703,heliport,Symphony Towers North Helipad,32.718618,-117.157946,San Diego
+US-2704,heliport,Wells Fargo Plaza Helipad,32.71739,-117.160687,San Diego
+US-2705,heliport,Corporate Center Helipad,32.717165,-117.167816,San Diego
+US-2706,heliport,Best Western Plus Bayside Inn Helipad,32.719547,-117.167666,San Diego
+US-2707,heliport,Assault Craft Unit Five Helipad,33.26065,-117.43077,Oceanside
+US-2708,heliport,Camp Pendleton AOL Helipad,33.262499,-117.422497,Oceanside
+US-2709,heliport,Camp Pendleton Stuart Mesa Helipad,33.276385,-117.428699,Oceanside
+US-2710,heliport,Camp Pendleton Las Flores Heliport,33.31945,-117.48939,Oceanside
+US-2711,heliport,Camp Pendleton Gladiator Beach Heliport,33.32833,-117.49861,Oceanside
+US-2712,closed,Cypress Airpark,33.82905,-118.01425,Anaheim
+US-2713,closed,Meadowlark Airport,33.71722,-118.03878,Huntington Beach
+US-2714,closed,Huntington Beach Airport (1932),33.67444,-118.01676,Huntington Beach
+US-2715,closed,Huntington Beach Airport (1946),33.646,-117.979,Huntington Beach
+US-2716,closed,Naval Outlying Landing Field Horse Farm,33.7944,-118.00591,Garden Grove
+US-2717,closed,Naval Outlying Landing Field Haster Field,33.763,-117.965,Garden Grove
+US-2718,heliport,Ocean Club Helipad,33.764907,-118.175478,Long Beach
+US-2719,heliport,Pacific Condominiums Helipad,33.765538,-118.182013,Long Beach
+US-2720,heliport,The Current Helipad,33.76659,-118.184052,Long Beach
+US-2721,heliport,Harbor Place Tower Condos Helipad,33.765904,-118.185854,Long Beach
+US-2722,heliport,Aqua Condominiums East Helipad,33.766028,-118.187292,Long Beach
+US-2723,heliport,Aqua Condominiums West Helipad,33.766104,-118.188246,Long Beach
+US-2724,heliport,Chase Bank Helipad,33.766929,-118.187297,Long Beach
+US-2725,heliport,Westin Long Beach Helipad,33.767344,-118.188161,Long Beach
+US-2726,heliport,Shoreline Square Helipad,33.767696,-118.188933,Long Beach
+US-2727,heliport,180 Building Helipad,33.766171,-118.191272,Long Beach
+US-2728,heliport,Renaissance Long Beach Hotel Helipad,33.767428,-118.191454,Long Beach
+US-2729,heliport,Landmark Square Helipad,33.767491,-118.19323,Long Beach
+US-2730,heliport,Camden Harbor View Apartments East Helipad,33.766555,-118.19477,Long Beach
+US-2731,heliport,Camden Harbor View Apartments West Helipad,33.766555,-118.195199,Long Beach
+US-2732,heliport,West Ocean North Helipad,33.766679,-118.196728,Long Beach
+US-2733,heliport,West Ocean South Helipad,33.766131,-118.196722,Long Beach
+US-2734,heliport,World Trade Center Helipad,33.767803,-118.199828,Long Beach
+US-2735,heliport,Hilton Long Beach Helipad,33.767991,-118.201212,Long Beach
+US-2736,heliport,Molina Center North Helipad,33.766653,-118.199962,Long Beach
+US-2737,heliport,Molina Center South Helipad,33.766345,-118.200349,Long Beach
+US-2738,heliport,Hyatt Regency Long Beach Helipad,33.76288,-118.190355,Long Beach
+US-2739,heliport,Residence Inn by Marriott Long Beach Downtown Helipad,33.75861,-118.20149,Long Beach
+US-2740,closed,NAS Terminal Island Seaplane Base,33.74657,-118.25308,San Pedro
+US-2741,heliport,Defense Fuel Support Point San Pedro Helipad,33.7772,-118.29759,San Pedro
+US-2742,heliport,Point Vicente Lighthouse Helipad,33.74144,-118.41028,Rancho Palos Verdes
+US-2743,heliport,Redondo Generating Station Helipad,33.851183,-118.393858,Redondo Beach
+US-2744,heliport,Marina Pointe Azzurra Helipad,33.985053,-118.445234,Marina del Rey
+US-2745,heliport,Marina Pointe Cove Helipad,33.984778,-118.44487,Marina del Rey
+US-2746,heliport,Marina Pointe Regatta Seaside Helipad,33.984617,-118.444194,Marina del Rey
+US-2747,heliport,Ventura County Medical Center Helipad,34.27657,-119.25264,Ventura
+US-2748,heliport,Mariposa Oil Facility Helipad,34.47638,-120.20636,Goleta
+US-2749,heliport,Platform Heritage Helipad,34.35029,-120.27919,Goleta
+US-2750,heliport,Platform Harmony Helipad,34.37674,-120.16767,Goleta
+US-2751,heliport,Platform Houchin Helipad,34.33503,-119.55301,Carpinteria
+US-2752,heliport,Platform Hogan Helipad,34.33771,-119.54224,Carpinteria
+US-2753,heliport,Dos Cuadras Offshore Oil Platform C Helipad,34.33187,-119.6138,Santa Barbara
+US-2754,heliport,Dos Cuadras Offshore Oil Platform B Helipad,34.3323,-119.62268,Santa Barbara
+US-2755,heliport,Dos Cuadras Offshore Oil Platform A Helipad,34.33289,-119.63195,Santa Barbara
+US-2756,heliport,Platform Gilda Helipad,34.18244,-119.41951,Ventura
+US-2757,heliport,Platform Grace Helipad,34.17959,-119.46911,Ventura
+US-2758,heliport,Platform Gail Helipad,34.12508,-119.40104,Oxnard
+US-2759,heliport,Platform Gina Helipad,34.11736,-119.27705,Oxnard
+US-2760,heliport,Platform Irene Helipad,34.6104,-120.72946,Lompoc
+US-2761,heliport,Diablo Canyon Power Plant Heliport,35.20611,-120.85269,Avila Beach
+US-2762,small_airport,California Valley Airport,35.31455,-120.00185,Santa Margarita
+US-2763,closed,Washburn Ranch Airport,35.12183,-119.77428,Santa Margarita
+US-2764,closed,Goodwin Ranch Airport,35.25091,-119.92184,Santa Margarita
+US-2765,closed,Cambria Air Force Station Helipad,35.5228,-121.06451,Cambria
+US-2766,closed,Hearst Ranch Airport (1929),35.650514,-121.195357,San Simeon
+US-2767,closed,Hearst Ranch Airport (1936),35.64973,-121.186795,San Simeon
+US-2768,heliport,Presidio of Monterey Helipad,36.6069,-121.89832,Monterey
+US-2769,closed,Fort Ord South Parade Ground Army Airfield,36.64987,-121.80715,Seaside
+US-2770,closed,Santa Cruz-Capitola Airport,36.98112,-121.94219,Capitola
+US-2771,heliport,Pillar Point Air Force Station Helipad,37.49699,-122.49875,Half Moon Bay
+US-2772,heliport,UCSF Medical Center at Mission Bay Helipad,37.766614,-122.390361,San Francisco
+US-2773,closed,Ravenswood Substation Helipad,37.49369,-122.13917,Menlo Park
+US-2774,closed,Mountain View Airport,37.41056,-122.10128,Mountain View
+US-2775,closed,Goddard Airport,37.42968,-122.15794,Palo Alto
+US-2776,heliport,Stanford Health Care West Heliport,37.4346,-122.17755,Palo Alto
+US-2777,closed,Warmsprings Airport,37.45608,-121.90538,Milpitas
+US-2778,closed,Naval Outlying Landing Field Heath,37.49812,-121.96178,Fremont
+US-2779,closed,Sky Sailing Airport,37.49703,-121.96212,Fremont
+US-2780,closed,Skyways Airport,37.49488,-121.96135,Fremont
+US-2781,closed,Centerville Airport,37.53132,-121.99066,Fremont
+US-2782,closed,Fremont Airport / King Skylanes Airport,37.45927,-121.929,Fremont
+US-2783,heliport,US Coast Guard Base Alameda Helipad,37.78522,-122.25319,Alameda
+US-2784,closed,Laney College Heliport,37.7962,-122.26339,Oakland
+US-2785,closed,Berkeley Marina Heliport,37.86661,-122.30633,Berkeley
+US-2786,closed,Lafayette Heliport,37.89038,-122.13317,Lafayette
+US-2787,closed,International Science Center Heliport,37.38651,-122.00365,Sunnyvale
+US-2788,closed,Santa Clara Valley Airport,37.39502,-121.99143,Sunnyvale
+US-2789,closed,Alum Rock Airport,37.36621,-121.83423,San Jose
+US-2790,closed,Pacific Airmotive / King Road Airport,37.33473,-121.83576,San Jose
+US-2791,closed,Boulder Creek / Hilton Airport,37.15402,-122.15911,Boulder Creek
+US-2792,closed,Hoover Lake Airstrip,37.153664,-121.444824,Morgan Hill
+US-2793,closed,Hiller Airfield,37.47847,-122.14778,Menlo Park
+US-2794,closed,Morgan Hill Airmen Landing Strip,37.14791,-121.64994,Morgan Hill
+US-2795,closed,Livermore Sky Ranch,37.69402,-121.7939,Livermore
+US-2796,closed,Naval Outlying Landing Field Mays School,37.73441,-121.75263,Livermore
+US-2797,closed,Naval Air Station Livermore,37.68839,-121.70782,Livermore
+US-2798,closed,Hummingbird Haven Airport,37.69674,-121.69333,Livermore
+US-2799,closed,Parks Air Force Base,37.72745,-121.89809,Dublin
+US-2801,closed,Cherry Flat Landing Strip,37.38707,-121.76408,San Jose
+US-2802,closed,Benicia Airport,38.07441,-122.18942,Benicia
+US-2803,closed,Mare Island Naval Shipyard Airfield,38.089,-122.272,Vallejo
+US-2804,closed,Martinez Airport,38.02247,-122.13335,Martinez
+US-2805,closed,Discovery Bay Airport,37.89081,-121.62106,Discovery Bay
+US-2806,closed,Stan's Airpark,38.13091,-122.26658,Vallejo
+US-2807,closed,Vallejo Sky Harbor,38.15464,-122.26029,Vallejo
+US-2808,closed,Sherman Field,37.94918,-122.05622,Pleasant Hill
+US-2809,closed,San Rafael / Marin County Airport,38.01258,-122.51712,San Rafael
+US-2810,closed,San Francisco Bay Airport,37.96349,-122.50261,San Rafael
+US-2811,heliport,United States Coast Guard Pacific Strike Team Helipad,38.05551,-122.51156,Novato
+US-2812,closed,Bowers Field,38.78362,-123.5218,Gualala
+US-2813,closed,Bodega Bay Helipad,38.31679,-123.03269,Bodega Bay
+US-2814,closed,Bodega Bay Seaplane Base,38.31283,-123.05127,Bodega Bay
+US-2815,closed,Pinnegar Field,40.43625,-122.29167,Anderson
+US-2816,closed,Willits Airport (1957),39.41382,-123.34322,Willits
+US-2817,heliport,US Coast Guard Station Bodega Bay Helipad,38.3118,-123.05222,Bodega Bay
+US-2818,small_airport,Hay Ranch Airport,38.87787,-123.6622,Point Arena
+US-2819,heliport,US Coast Guard Point Arena Heliport,38.95295,-123.73728,Point Arena
+US-2820,small_airport,Big Flat Airport,40.13271,-124.18395,Whitethorn
+US-2949,small_airport,Camp Pendleton LHD Practice Strip,33.30005,-117.46926,Oceanside
+US-2950,heliport,Camp Pendleton Horno Heliport,33.38217,-117.47733,Oceanside
+US-2951,heliport,Camp Pendleton School of Infantry Heliport,33.39259,-117.51548,Oceanside
+US-2952,small_airport,Camp Pendleton Helicopter Outlying Landing Field,33.43321,-117.53266,Oceanside
+US-2953,heliport,Camp Talega Heliport,33.4538,-117.56004,San Clemente
+US-2956,heliport,High Desert Hospital Heliport,34.70324,-118.2306,Lancaster
+US-2957,closed,Oban Airport,34.76822,-118.1534,Lancaster
+US-2958,closed,Antelope Valley Airport,34.64935,-118.13319,Lancaster
+US-2959,closed,Bolam Airport,34.48542,-114.40847,Havasu Lake
+US-2986,heliport,USC Medical Center Ground Heliport,34.05973,-118.21178,Los Angeles
+US-3005,small_airport,Salinas Landesert Ranch Airport,34.79996,-118.18028,Lancaster
+US-3006,closed,Liberty Field,34.80337,-118.15847,Rosamond
+US-3024,closed,Chateau Thierry Flying Field (1920),33.8026,-118.18825,Long Beach
+US-3057,heliport,Henry Mayo Newhall Memorial Hospital Garage Heliport,34.39901,-118.5518,Santa Clarita
+US-3058,closed,6S Ranch Airport,34.4214,-118.47214,Santa Clarita
+US-3059,closed,Newhall Airport,34.39814,-118.54721,Santa Clarita
+US-3060,closed,Santa Susana Airport,34.27,-118.7059,Simi Valley
+US-3061,heliport,West Hills Hospital Helipad,34.20319,-118.62904,West Hills
+US-3062,closed,West Hills Co-Op Airport,35.65054,-119.88475,Lost Hills
+US-3063,closed,Semitropic Field,35.59387,-119.48543,Wasco
+US-3064,closed,Crockett and Gambogy Ranch Airport,35.9425,-119.5915,Corcoran
+US-3065,small_airport,South Lake Farms Airport,35.9316,-119.6478,Corcoran
+US-3070,closed,Camp Pilot Knob Airfield,32.76591,-114.75581,Winterhaven
+US-3085,closed,Mission Field,34.133216,-118.035851,Arcadia
+US-3102,heliport,Cal Fire Prado Helitack Base,33.98888,-117.68683,Chino
+US-3103,heliport,Cal Fire Vina Helitack Base,39.928331,-122.027269,Vina
+US-3104,heliport,Cal Fire Alma Helitack Base,37.18357,-121.99059,Los Gatos
+US-3105,heliport,USFS Keenwild Helitack Base,33.71258,-116.71259,Mountain Center
+US-3106,heliport,Cal Fire Kneeland Helitack Base,40.71923,-123.92865,Kneeland
+US-3107,heliport,USFS Happy Camp Helitack Base,41.79131,-123.38567,Happy Camp
+US-3108,heliport,Cal Fire Howard Forest Helitack Base,39.34594,-123.31635,Willits
+US-3109,heliport,Cal Fire Boggs Mountain Helitack Base,38.83352,-122.71835,Kelseyville
+US-3110,heliport,Cal Fire Bieber Helitack Base,41.12331,-121.13534,Bieber
+US-3111,heliport,Cal Fire Bear Valley Helitack Base,36.57165,-121.18473,Paicines
+US-3112,closed,Tannehill Ranch Airport,36.39449,-121.07143,Paicines
+US-3113,small_airport,Bar B Ranch,36.359985,-120.786329,Paicines
+US-3114,closed,Sierra Pacific Airstrip,37.87942,-120.45344,Chinese Camp
+US-3115,closed,Blythe Airport (1936),33.57999,-114.6316,Blythe
+US-3116,heliport,Palo Verde Hospital Helipad,33.61247,-114.59465,Blythe
+US-3117,closed,Blythe Auxiliary Airfield A-4,33.68124,-114.65911,Blythe
+US-3119,closed,Aqueduct Airstrip,34.1976,-114.4862,Vidal
+US-3120,closed,Vidal Airport,34.1099,-114.5013,Vidal
+US-3122,closed,Coxcomb Airfield,33.9244,-115.23942,Desert Center
+US-3123,closed,Camp Ibis Army Airfield,34.97633,-114.83992,Needles
+US-3124,heliport,Colorado River Medical Center Helipad,34.83223,-114.61791,Needles
+US-3155,heliport,Cal Fire Academy Heliport,38.36698,-120.94271,Ione
+US-3156,heliport,Palomar Medical Center Escondido Helipad,33.122321,-117.122054,Escondido
+US-3157,closed,San Marcos Valley Airport,33.1417,-117.18315,San Marcos
+US-3158,closed,McCormick Airfield,33.13664,-117.18667,San Marcos
+US-3159,closed,Carlsbad Airport (1949),33.16458,-117.31925,Carlsbad
+US-3160,closed,Escondido Engle Airport,33.12123,-117.10444,Escondido
+US-3164,heliport,Los Angeles Orthopedic Center Helipad,34.0542,-118.26585,Los Angeles
+US-3165,heliport,Good Samaritan MedIcal Center South Tower Helipad,34.053878,-118.266037,Los Angeles
+US-3166,heliport,Wilshire Bixel Helipad,34.05261,-118.26271,Los Angeles
+US-3167,closed,Dominguez Field,33.85262,-118.24151,Carson
+US-3168,closed,Vultee Field,33.92135,-118.12804,Downey
+US-3169,heliport,La Palma Intercommunity Hospital Helipad,33.84772,-118.03918,La Palma
+US-3170,closed,Grand Central Air Terminal,34.16299,-118.28669,Glendale
+US-3204,closed,Beaumont Airport,33.93364,-116.98589,Beaumont
+US-3209,heliport,Gas Company Tower Helipad,34.05004,-118.25324,Los Angeles
+US-3210,closed,Bell Airport,34.03251,-118.15,East Los Angeles
+US-3219,closed,Quail Creek Airport,36.62636,-121.49164,Salinas
+US-3220,closed,American Legion Airport / Remco Flying Field,36.70047,-121.65798,Salinas
+US-3221,closed,Watsonville Airport (1938),36.86472,-121.77548,Watsonville
+US-3262,heliport,SCE Wildomar Heliport,33.58734,-117.23252,Wildomar
+US-3301,heliport,Getty Center Heliport,34.0798,-118.4752,Los Angeles
+US-3302,heliport,Los Angeles County Sheriff's Department Heliport,34.050838,-118.168329,Los Angeles
+US-3303,heliport,Pacific Design Center Green Building Helipad,34.0833,-118.3827,West Hollywood
+US-3320,heliport,USC Seeley G Mudd Helipad,34.02152,-118.28904,Los Angeles
+US-3332,closed,Greenwood Ridge Airstrip,39.150736,-123.680182,Elk
+US-3335,closed,Harper Dry Lake Airfield,35.0128,-117.28956,Lockhart
+US-3336,closed,Boron Air Force Plant 72 Airfield,35.0523,-117.53939,Boron
+US-3337,closed,Myer Field,35.04,-118.162,Mojave
+US-3338,seaplane_base,Avalon Port Seaplane Base,33.34526,-118.324329,Avalon
+US-3349,closed,Callies Airport,34.06016,-118.14049,El Monte
+US-3352,heliport,Biltmore Tower Helipad,34.04986,-118.25385,Los Angeles
+US-3354,heliport,SunAmerica Center Helipad,34.05866,-118.41667,Los Angeles
+US-3355,heliport,1901 Avenue of the Stars Helipad,34.05949,-118.41766,Los Angeles
+US-3356,heliport,Watt Plaza North Tower Helipad,34.06092,-118.41492,Los Angeles
+US-3357,heliport,Watt Plaza South Tower Helipad,34.0603,-118.414395,Los Angeles
+US-3358,heliport,Northrop Grumman Plaza I Helipad,34.06279,-118.41503,Los Angeles
+US-3359,heliport,Northrop Grumman Plaza II Helipad,34.062196,-118.414682,Los Angeles
+US-3362,heliport,San Bernardino County Fire Station 322 Helipad,34.55838,-117.43871,Adelanto
+US-3363,closed,Devil's Garden Airport,41.52174,-120.66515,Alturas
+US-3366,heliport,DoubleTree Hotel Anaheim Helipad,33.78838,-117.89156,Orange
+US-3367,closed,Zitto Airport,34.1849,-118.3816,North Hollywood
+US-3368,closed,Adams Airport,34.19864,-118.37226,Sun Valley
+US-3369,closed,Wilson Airport,34.20023,-118.3662,Burbank
+US-3370,closed,Indian Dunes Airport,34.424,-118.638,Castaic
+US-3371,closed,Azevedo Landing Strip,37.04828,-120.56577,Santa Rita Park
+US-3372,closed,Eade Landing Strip,36.07927,-120.93144,San Ardo
+US-3373,closed,San Ardo South Landing Strip,36.00366,-120.90472,San Ardo
+US-3377,closed,San Diego Airpark,32.80139,-117.19691,San Diego
+US-3378,heliport,4250 Executive Square Helipad,32.87441,-117.21504,"La Jolla, San Diego"
+US-3379,heliport,Aventine Helipad,32.87078,-117.22717,San Diego
+US-3380,heliport,La Jolla Executive Tower Helipad,32.8738,-117.2157,"La Jolla, San Diego"
+US-3381,heliport,4275 Executive Square Helipad,32.8736,-117.215,"La Jolla, San Diego"
+US-3382,heliport,San Diego Marriott La Jolla Helipad,32.8732,-117.2159,"La Jolla, San Diego"
+US-3383,heliport,La Jolla Center I Helipad,32.874618,-117.206837,San Diego
+US-3384,heliport,La Jolla Center II Helipad,32.8753,-117.2069,San Diego
+US-3395,small_airport,Boneyard Airstrip,37.66337,-122.02126,Hayward
+US-3397,closed,Lake Mountain Landing Strip,40.02128,-123.40367,Zenia
+US-3433,heliport,11645 Wilshire Boulevard Garage Helipad,34.05045,-118.46051,Los Angeles
+US-3447,closed,Westwood Airport (1948),40.30623,-121.03624,Westwood
+US-3448,closed,Westwood Airport (1928),40.29135,-120.93931,Westwood
+US-3452,closed,Rosemead Airport,34.06921,-118.06005,El Monte
+US-3453,heliport,City of Industry Sheriff's Department Helipad,34.02452,-117.95811,City of Industry
+US-3454,closed,La Puente Sky Ranch,34.01199,-117.9318,La Puente
+US-3455,closed,Pomona Airport,34.02792,-117.74687,Pomona
+US-3456,heliport,Lytle Creek Ranger Station Helipad,34.23455,-117.48236,Lytle Creek
+US-3489,closed,Coyote Wells Airport,32.73582,-115.96398,Imperial
+US-3490,closed,Miller's Airport,32.7316,-116.0279,Imperial
+US-3491,closed,Abernathy Airport,32.6587,-116.5022,Campo
+US-3492,small_airport,Rough Acres Ranch Airport,32.697321,-116.267796,Boulevard
+US-3493,small_airport,Lansing Empire Ranch Airport,32.642792,-116.280687,Boulevard
+US-3494,closed,Davis Ranch Airport,32.64734,-116.45559,Campo
+US-3495,closed,Rancho California Airport,33.5023,-117.1608,Temecula
+US-3496,closed,Glen Ivy Ranch Airport,33.758384,-117.493114,Corona
+US-3497,closed,Elsinore Airport,33.658,-117.316,Lake Elsinore
+US-3498,closed,Pechanga Airstrip,33.4713,-117.0979,Temecula
+US-3499,closed,Thompson Airport,33.564906,-117.239885,Murrieta
+US-3500,closed,Norconian Club Airport,33.93,-117.57,Norco
+US-3501,small_airport,Tenaja Ranch Airport,33.4887,-117.368,Murrieta
+US-3502,small_airport,Sky Ranch Airport,33.4597,-117.3749,Fallbrook
+US-3503,small_airport,Garnsay Ranch Airport,33.4552,-117.3146,Fallbrook
+US-3519,closed,Sky Castle Airport,34.70101,-118.39299,Elizabeth Lake
+US-3520,closed,Neenach Landing Strip,34.7722,-118.4945,Neenach
+US-3526,closed,Henderson Field,34.42739,-119.29053,Ojai
+US-3527,closed,Ventura Airpark,34.26,-119.265,Ventura
+US-3528,closed,Carpinteria Airport,34.391,-119.508,Carpinteria
+US-3529,closed,Monrovia Airport,34.13623,-117.990021,Monrovia
+US-3530,closed,Pony Landing Strip,34.37143,-116.60999,Landers
+US-3531,closed,Old Woman Springs Landing Strip,34.40142,-116.71293,Landers
+US-3532,closed,Allen Field,35.05201,-119.02044,Bakersfield
+US-3533,closed,Baker Intermediate Field,35.28001,-116.06142,Baker
+US-3534,closed,E Brown Ranch Airport,34.94062,-118.09318,Mojave
+US-3535,heliport,200 Spectrum Center Helipad,33.65266,-117.74786,Irvine
+US-3536,heliport,300 Spectrum Center Helipad,33.6539,-117.7473,Irvine
+US-3537,heliport,400 Spectrum Center Helipad,33.6542,-117.7457,Irvine
+US-3538,heliport,100 Spectrum Center Helipad,33.6508,-117.7476,Irvine
+US-3539,heliport,20 Pacifica Helipad,33.6507,-117.7498,Irvine
+US-3540,heliport,40 Pacifica Helipad,33.6507,-117.7517,Irvine
+US-3541,closed,Shandin Hills Airport,34.1385,-117.3084,San Bernardino
+US-3542,closed,San Bernardino Airport (1942),34.1753,-117.32101,San Bernardino
+US-3543,closed,Fontana Gilfillan Airport,34.13228,-117.46666,Fontana
+US-3544,closed,Palm Desert Airpark,33.74,-116.4,Rancho Mirage
+US-3545,closed,Indio Airport,33.73048,-116.21313,Indio
+US-3546,closed,North Shore Airport,33.5227,-115.945,Mecca
+US-3547,closed,Palm Springs Municipal Airport,33.8274,-116.53184,Palm Springs
+US-3548,closed,Steven's Desert Airport,33.844,-116.536,Palm Springs
+US-3550,closed,Atwater Municipal Airport (1957),37.336,-120.6032,Atwater
+US-3551,closed,Herring Landing Strip,35.14705,-118.87342,Arvin
+US-3552,closed,Arvin Intermediate Field,35.19915,-118.91692,Arvin
+US-3553,closed,Alturas Airport (1927),41.49884,-120.54248,Alturas
+US-3554,closed,Antioch Airport,37.96475,-121.80128,Antioch
+US-3555,closed,Frogtown Airport,38.04913,-120.51997,Angels Camp
+US-3557,closed,Apple Valley Airport (1948),34.52896,-117.21015,Apple Valley
+US-3559,closed,Atwater Airport (1936),37.32052,-120.59949,Atwater
+US-3560,closed,Auburn Airport (1936),38.9404,-121.05529,Auburn
+US-3561,closed,Hamilton Cove Seaplane Base,33.35395,-118.32962,Avalon
+US-3562,closed,Descanso Bay Seaplane Base,33.35072,-118.32677,Avalon
+US-3563,closed,Two Harbors Airstrip,33.43716,-118.50171,Two Harbors
+US-3564,closed,San Clemente Island Target Airstrip,32.83931,-118.41016,San Clemente Island
+US-3572,small_airport,Adobe Mountain Airport,34.71576,-117.66976,Lancaster
+US-3573,small_airport,El Mirage Valley Landing Strip,34.68552,-117.6367,Adelanto
+US-3574,small_airport,Evans Airstrip,34.65877,-117.63597,Adelanto
+US-3575,small_airport,Hamilton Airstrip,34.65574,-117.63375,Adelanto
+US-3576,closed,Auberry Airport,37.08028,-119.4898,Auberry
+US-3577,small_airport,Topham Ranch-Auberry Private Airport,37.093342,-119.510854,Auberry
+US-3578,small_airport,Hewitson Airport,35.90928,-120.06358,Avenal
+US-3579,small_airport,Reef Station Airport,35.9119,-120.0601,Avenal
+US-3589,small_airport,Kramer Junction Airstrip,34.99831,-117.55786,Boron
+US-3590,closed,Barstow 30-20 Airport,34.91328,-117.02037,Barstow
+US-3591,closed,Williams Well Landing Strip,35.12674,-116.9579,Barstow
+US-3593,closed,Wishon Airport,37.33291,-119.58041,Bass Lake
+US-3594,closed,Silurian Lake Landing Strip,35.53034,-116.17518,Baker
+US-3600,heliport,Palomar Observatory Parking Lot Helipad,33.35906,-116.86697,Palomar Mountain
+US-3601,heliport,Palomar Observatory Road Helipad,33.35762,-116.86436,Palomar Mountain
+US-3605,closed,Calico Ranch Airport,34.92693,-116.766198,Yermo
+US-3606,closed,Bellflower Airport,33.89182,-118.11142,Bellflower
+US-3607,closed,Big Pine Intermediate Field,37.1446,-118.28303,Big Pine
+US-3608,closed,Panorama Airport,34.18664,-118.35617,Burbank
+US-3609,closed,Brea Airport,33.90854,-117.88588,Brea
+US-3611,closed,Ardis Airport,33.90183,-118.13379,Bellflower
+US-3612,closed,Berkeley Municipal Airport (1929),37.88181,-122.30437,Berkeley
+US-3613,closed,Byron Hot Springs Airport,37.8507,-121.6346,Byron
+US-3614,closed,Byron Airport (1955),37.83424,-121.63605,Byron
+US-3620,closed,Benton Landing Field,37.82219,-118.47613,Benton
+US-3621,closed,Fort McDowell East Garrison Heliport,37.86195,-122.42033,Belvedere Tiburon
+US-3622,closed,Angel Island Nike Base Heliport,37.86162,-122.42995,Belvedere Tiburon
+US-3623,closed,Borrego Valley Springs Landing Strip,33.26164,-116.40071,Borrego Springs
+US-3624,closed,Ensign Ranch Airport,33.2345,-116.3575,Borrego Springs
+US-3625,closed,Borrego Hotel Naval Outlying Landing Field,33.09353,-116.10718,Borrego Springs
+US-3630,heliport,Anaheim Convention Center Temporary Heliport,33.80007,-117.9234,Anaheim
+US-3632,closed,Parsons Airport,34.38539,-119.47886,Carpinteria
+US-3635,closed,Calexico North Airfield,32.70028,-115.49504,Calexico
+US-3636,closed,Silver Saddle Ranch Airport,35.22315,-117.76,California City
+US-3637,small_airport,Calpine Airport,39.66152,-120.41848,Calpine
+US-3638,closed,Chico Airport (1936),39.70194,-121.80148,Chico
+US-3639,closed,Shepherd Field,34.01384,-118.05305,City of Industry
+US-3644,closed,Boston Ranch Airport,36.2221,-119.99945,Huron
+US-3645,closed,Boston Field,36.21781,-119.98572,Huron
+US-3646,closed,Murray Field,36.14517,-119.93279,Stratford
+US-3647,closed,Woods Ranch Airport,36.19205,-120.02052,Huron
+US-3648,closed,Huron Field,36.21845,-120.03726,Huron
+US-3649,closed,Willett Field,36.20028,-120.08632,Huron
+US-3650,closed,Indian Field,36.12875,-120.08623,Huron
+US-3651,closed,Kochergen Farms Airport,36.09427,-120.07011,Kettleman City
+US-3652,closed,Oroville Auxiliary Army Airfield Number 5,39.58267,-121.63904,Oroville
+US-3654,closed,Corcoran South Airport,36.08346,-119.54516,Corcoran
+US-3656,closed,Wasioja Airstrip,34.963174,-119.796689,New Cuyama
+US-3657,closed,Russel Ranch Airport,35.00661,-119.82373,New Cuyama
+US-3658,small_airport,Ballinger Canyon Airport,34.88565,-119.46628,New Cuyama
+US-3659,closed,Maricopa Airport (1950),35.05323,-119.40112,Maricopa
+US-3660,closed,Maricopa Airport (1967),35.05388,-119.41114,Maricopa
+US-3661,closed,Bracken Oil Airport,35.06527,-119.40788,Maricopa
+US-3662,closed,La Cresta Airport,35.408,-118.981,Bakersfield
+US-3663,closed,Rio Bravo Airport,35.406104,-118.851829,Bakersfield
+US-3665,closed,Pond Field,35.696,-119.36608,Wasco
+US-3666,closed,Famoso Field,35.64096,-119.21265,McFarland
+US-3667,closed,Jasmin Field,35.73647,-119.12088,Delano
+US-3668,closed,Gardner Field,35.1067,-119.30294,Maricopa
+US-3669,closed,Taft Kern County Auxiliary Airfield Number 2,35.11203,-119.32714,Maricopa
+US-3670,closed,Sunset Airport,35.0928,-119.35488,Maricopa
+US-3671,closed,Parker Field,35.06755,-119.20476,Bakersfield
+US-3672,closed,Cuyama Airport,34.85235,-119.48178,Maricopa
+US-3673,heliport,Mount Pinos Ranger Station Heliport,34.80794,-119.01326,Frazier Park
+US-3678,closed,Alta Airport,36.54021,-119.31607,Dinuba
+US-3707,closed,Yreka Airport,41.73332,-122.63253,Yreka
+US-3709,closed,Van Vleck Tells Peak Airport,38.9523,-120.3002,Kyburz
+US-3715,heliport,Loma Linda University Hospital East Helipad,34.0495,-117.26313,Loma Linda
+US-3716,heliport,Mill Creek Ranger Station Heliport,34.07909,-117.04341,Mentone
+US-3717,closed,Land and Air / Edom Airport,33.81116,-116.39023,Thousand Palms
+US-3718,closed,El Mirador Hotel Airport,33.83699,-116.54622,Palm Springs
+US-3729,closed,Chuckwalla Valley State Prison Helipad,33.56528,-114.90861,Blythe
+US-3766,heliport,Television City Heliport,34.07457,-118.35883,Los Angeles
+US-3767,heliport,Los Angeles County Sheriff West Hollywood Station Heliport,34.08461,-118.38345,West Hollywood
+US-3768,heliport,1 Hotel West Hollywood West Helipad,34.09416,-118.37609,West Hollywood
+US-3769,heliport,1 Hotel West Hollywood East Helipad,34.094274,-118.375556,West Hollywood
+US-3789,closed,Mojave Inyo Airport,35.05317,-118.16972,Mojave
+US-3790,closed,Westlake Medical Center Heliport,34.147162,-118.82096,Westlake Village
+US-3791,closed,Wawona Airport,37.53131,-119.64769,Wawona
+US-3792,closed,Yosemite Airport,37.72308,-119.63577,Yosemite Village
+US-3793,closed,Three Rivers Airport (2nd),36.454,-118.9043,Three Rivers
+US-3794,closed,Three Rivers Airport (1935),36.47526,-118.92131,Three Rivers
+US-3835,closed,Rancho del Cielo / Ronald Reagan Presidential Helipad,34.53054,-120.09272,Goleta
+US-3840,closed,Vacaville Gliderport,38.32528,-122.0202,Vacaville
+US-3846,closed,Garibaldi Brothers Airport,38.17305,-122.1264,Fairfield
+US-3847,closed,Vaca-Dixon Airport,38.40905,-121.90418,Vacaville
+US-3850,small_airport,Goodhart Canyon Airport,33.66015,-116.97385,Hemet
+US-3851,small_airport,Interstate Ag Airport,35.43212,-119.48608,Buttonwillow
+US-3852,small_airport,Buttonwillow Land & Cattle Airport,35.45123,-119.43662,Buttonwillow
+US-3904,heliport,Sutter Medical Center Heliport,38.5705,-121.46965,Sacramento
+US-3910,heliport,Deer Canyon Helipad,34.17145,-117.57604,Rancho Cucamonga
+US-3915,small_airport,Freedom Field Ultralight Park,38.75359,-121.46282,Elverta
+US-3925,small_airport,Camatta Ranch Airstrip,35.47585,-120.30864,Santa Margarita
+US-3926,closed,Paicines Airport,36.71273,-121.24987,Paicines
+US-3927,closed,Panoche Pass Airport,36.63649,-121.01035,Paicines
+US-3928,closed,Panoche Gliderport,36.6102,-120.88171,Paicines
+US-3929,closed,Cooper's Airport,35.17204,-119.5042,Fellows
+US-3930,small_airport,Fellows Taft Airport,35.21078,-119.42475,Taft
+US-3938,small_airport,Grimes Airport,34.80863,-118.22616,Rosamond
+US-3939,small_airport,Augusta Road Airfield,34.84013,-117.46608,Helendale
+US-3940,closed,Earlimart Duster Strip,35.90938,-119.25476,Earlimart
+US-3951,closed,National Guard Airport,34.15059,-118.28229,Los Angeles
+US-3952,closed,Johannesburg Airport,35.36996,-117.62603,Johannesburg
+US-3953,closed,Coburn Airport,36.28677,-121.14599,King City
+US-3954,closed,Palomar Medical Center Downtown Heliport,33.124541,-117.075609,Escondido
+US-3957,closed,Delpert / Norwalk Airport,33.90742,-118.10174,Norwalk
+US-3965,closed,Kendall Jackson Airstrip,37.00578,-120.21575,Madera
+US-3966,closed,Bar 43 Ranch Airport,35.97613,-120.89732,San Ardo
+US-3973,closed,Blue Hill Grade Airstrip,37.227977,-121.371338,Newman
+US-3974,small_airport,Burch Ranch Airport,35.30394,-117.96682,Cantil
+US-3975,closed,Cantil Glider Landing Field,35.29764,-117.98046,Cantil
+US-3976,closed,Munsey Airstrip,35.28485,-117.92778,Cantil
+US-3978,small_airport,Burnt Corral Meadows Private Airstrip,36.22401,-118.49701,Springville
+US-3979,small_airport,Canal View Airport,39.982457,-122.299815,Corning
+US-3980,small_airport,Carter Creek Airstrip,40.169015,-123.562262,Alderpoint
+US-3981,closed,Superior Valley Targeting Airstrip,35.28576,-117.10062,Barstow
+US-3982,small_airport,Sky Valley Ranch Airport,37.992044,-120.672705,Copperopolis
+US-3983,closed,Crazy Creek Gliderport,38.77035,-122.57231,Middletown
+US-3984,small_airport,Crowder Flat Airstrip,41.85371,-120.75739,Davis Creek
+US-3985,closed,Eagle Lake Airport,40.5709,-120.84474,Susanville
+US-3986,small_airport,Belfast Airstrip,40.44897,-120.45313,Litchfield
+US-3993,closed,Owenyo Airstrip,36.67058,-118.0275,Lone Pine
+US-3994,closed,Maltby Airstrip,38.00046,-122.07,Martinez
+US-3995,small_airport,Tremont Airport,38.47747,-121.69693,Davis
+US-4005,small_airport,Antelope Creek Ranch Airport,41.56864,-121.93221,Macdoel
+US-4006,small_airport,Tucker Gulch Airport,36.37915,-120.79599,Paicines
+US-4007,small_airport,Rathburn Mine Airport,39.069893,-122.444422,Clearlake Oaks
+US-4008,small_airport,Isabel Valley Airport,37.323542,-121.538959,Mount Hamilton
+US-4009,small_airport,Kelli Field,34.267975,-116.374219,Landers
+US-4010,small_airport,Paramount Farming Company Airport,35.87048,-119.89446,Kettleman City
+US-4011,closed,Landers South Airport,34.114221,-116.377456,Yucca Valley
+US-4012,small_airport,Long Dave Valley Airport,34.7418,-118.98844,Frazier Park
+US-4013,closed,Hidden Valley Dry Lake Airstrip,34.923608,-116.377635,Baker
+US-4014,small_airport,Old Canyon Airport,35.35926,-120.14002,Santa Margarita
+US-4015,small_airport,Michael Ranch Airport,39.677577,-122.314202,Orland
+US-4016,small_airport,Mann Ranch Airport,40.254804,-124.042969,Honeydew
+US-4017,small_airport,Randsburg East Airport,35.49839,-117.27318,Randsburg
+US-4018,small_airport,Red Hills Airstrip,37.865086,-120.487694,Jamestown
+US-4019,small_airport,Reservoir F Airstrip,41.566446,-120.877072,Canby
+US-4020,small_airport,Ridgecrest Airstrip,35.52307,-117.23247,Randsburg
+US-4021,small_airport,Miller Flat Airport,40.126223,-124.169917,Whitethorn
+US-4022,small_airport,South Likely Airport,41.19157,-120.47164,Likely
+US-4128,closed,Ewing Farms Airport,37.2525,-120.37116,Merced
+US-4135,heliport,Lower Helipad,37.0895,-121.89086,Soquel
+US-4137,heliport,Upper Helipad,37.07779,-121.88369,Soquel
+US-4138,heliport,Kaiser Permanente Antioch Medical Center Helport,37.95192,-121.77434,Antioch
+US-4139,closed,Boron Northwest Airport,35.03872,-117.74543,Boron
+US-4140,closed,Griffin Airport,35.023942,-117.759258,Boron
+US-4141,small_airport,Flying Apple Ranch Airport,35.92571,-121.07256,Lockwood
+US-4142,closed,Roth Airport,35.94072,-121.06692,Lockwood
+US-4143,closed,Greeley Airport,35.42307,-119.23069,Bakerfield
+US-4153,closed,Plato Airfield,34.60815,-117.57165,Adelanto
+US-4154,small_airport,Plato East Airstrip,34.61195,-117.56802,Adelanto
+US-4155,closed,Dairyland Southwest Airport,36.99194,-120.35624,Chowchilla
+US-4156,closed,Kleinhammer Field / Machado Dusters Airport,36.3165,-119.789,Lemoore
+US-4162,closed,Ragan Farms Airport,36.090911,-119.1803,Woodville
+US-4195,closed,Rankin Airport,36.152176,-119.251071,Tulare
+US-4196,closed,Moores Airport,36.24215,-119.34361,Tulare
+US-4217,small_airport,Oasis Ranch Airport,37.49377,-117.911,Big Pine
+US-4220,heliport,6080 Center Drive Helipad,33.97693,-118.39181,Los Angeles
+US-4221,heliport,6100 Center Drive Helipad,33.97728,-118.39244,Los Angeles
+US-4222,heliport,6060 Center Drive Helipad,33.97603,-118.39093,Los Angeles
+US-4223,heliport,Howard Hughes Tower Helipad,33.9785,-118.39368,Los Angeles
+US-4224,heliport,Northpoint Helipad,33.98013,-118.394,Los Angeles
+US-4225,heliport,AON Center Helipad,34.04914,-118.25715,Los Angeles
+US-4226,heliport,550 South Hope Street Helipad,34.04985,-118.25543,Los Angeles
+US-4240,closed,Truckee Intermediate Field,39.35795,-120.1368,Truckee
+US-4244,small_airport,Poway Field Gliderport,32.95455,-117.01223,Poway
+US-4257,heliport,InterContinental Los Angeles Century City Helipad,34.05413,-118.4125,Los Angeles
+US-4275,heliport,Warner Center Marriott Woodland Hills Helipad,34.1788,-118.6038,Woodland Hills
+US-4276,heliport,Warner Center Plaza V Helipad,34.1787,-118.6028,Woodland Hills
+US-4277,heliport,Warner Center Plaza VI Helipad,34.1788,-118.602,Woodland Hills
+US-4278,heliport,Warner Center Plaza III Helipad,34.1788,-118.601,Woodland Hills
+US-4279,heliport,Warner Center Plaza II Helipad,34.1788,-118.5998,Woodland Hills
+US-4280,heliport,Anthem Blue Cross Heliport,34.1806,-118.59942,Woodland Hills
+US-4281,heliport,Warner Corporate Center East Helipad,34.18768,-118.59596,Woodland Hills
+US-4282,heliport,Warner Corporate Center West Helipad,34.1877,-118.5968,Woodland Hills
+US-4283,heliport,Trillium Building East Tower Helipad,34.18512,-118.59616,Woodland Hills
+US-4284,heliport,Trillium Building West Tower Helipad,34.18511,-118.59689,Woodland Hills
+US-4285,heliport,Hilton Woodland Hills/Los Angeles Helipad,34.18621,-118.59672,Woodland Hills
+US-4286,heliport,Farmers Plaza South Helipad,34.18453,-118.60196,Woodland Hills
+US-4287,heliport,Farmers Plaza North Helipad,34.18519,-118.60242,Woodland Hills
+US-4288,heliport,Hilton Los Angeles/Universal City Helipad,34.13639,-118.35808,Universal City
+US-4289,heliport,Universal City Plaza Helipad,34.13832,-118.36186,Universal City
+US-4290,heliport,Lumina Hollywood Helipad,34.09844,-118.31946,Los Angeles
+US-4291,heliport,Emerson College Los Angeles Center Helipad,34.09774,-118.31975,Los Angeles
+US-4292,heliport,Hollywood Proper Residences Helipad,34.0996,-118.32334,Los Angeles
+US-4293,heliport,Loews Hollywood Hotel Helipad,34.10318,-118.33931,Los Angeles
+US-4294,closed,Burdette / Dycer Airport,33.95094,-118.3134,Los Angeles
+US-4295,closed,Aero Corporation of California Airport,33.95369,-118.31349,Los Angeles
+US-4296,heliport,Rambla Pacifico Helipad,34.05663,-118.64903,Malibu
+US-4297,heliport,Malibu Rocky Oaks Estate Vineyards Helipad,34.102798,-118.809142,Malibu
+US-4298,heliport,Pelican Hill Golf Club Helipad,33.5857,-117.8411,Newport Coast
+US-4302,closed,Caddo Airport,34.21828,-118.52302,Reseda
+US-4318,closed,Nelson Lake Targeting Airfield,35.42161,-116.76205,Fort Irwin
+US-4319,small_airport,Nelson Lake Airport,35.427666,-116.761608,Fort Irwin
+US-4398,heliport,Sharp Memorial Hospital Helipad,32.799419,-117.153493,San Diego
+US-4402,heliport,Church of Scientology Creston Base Heliport,35.45286,-120.50436,Creston
+US-4403,small_airport,Soboba Flight Park Gliderport,33.81863,-116.962,San Jacinto
+US-4405,heliport,Church of Scientology Petrolia Base Heliport,40.36984,-124.33114,Ferndale
+US-4421,closed,Doherty Farms Airport,38.92753,-121.92127,Arbuckle
+US-4423,heliport,San Diego Heliport,32.90138,-117.20488,San Diego
+US-4435,heliport,Qualcomm Building T Helipad,32.89487,-117.196063,San Diego
+US-4474,closed,Wente Airport,37.626763,-121.755896,Livermore
+US-4486,heliport,Adventist Health Delano Regional Medical Center Heliport,35.76186,-119.23738,Delano
+US-4501,heliport,Los Angeles Department of Water and Power Mojave Heliport,35.07179,-118.17455,Mojave
+US-4502,heliport,Markleeville Heliport,38.6909,-119.77513,Markleeville
+US-4520,small_airport,West Catlett Airstrip,38.83281,-121.58041,Nicolaus
+US-4526,heliport,Las Pulgas Heliport,33.34502,-117.4077,Oceanside
+US-4533,heliport,Easter Hill Private Helipad,33.780599,-117.781602,North Tustin
+US-4534,heliport,69 Bravo Heliport,34.07494,-118.62757,Topanga
+US-4538,heliport,Henman House Private Helipad,34.08902,-118.88497,Malibu
+US-4549,heliport,Old Naval Hospital Heliport,33.34073,-117.32441,Oceanside
+US-4556,closed,Lone Company Airstrip,38.5263,-119.46167,Walker
+US-4557,closed,Marine Corps Airfield Sunrise Springs,34.29726,-116.26719,Joshua Tree
+US-4594,small_airport,Johns Place Airport,35.21371,-118.00805,California City
+US-4599,small_airport,Dymesich Airport,40.40435,-122.21366,Cottonwood
+US-4610,closed,Valley View Airpark,35.60272,-117.62224,Ridgecrest
+US-4613,closed,Worthington Airport,32.84764,-115.61654,Imperial
+US-4627,closed,Gypsite Springs Airport,35.33588,-117.9381,Cantil
+US-4628,small_airport,Aciero Farms Landing Field,35.37214,-117.81281,Randsburg
+US-4630,small_airport,Helendale Airport,34.82444,-117.30442,Helendale
+US-4631,closed,Hawes Auxiliary Airport,34.92302,-117.37643,Helendale
+US-4634,closed,Hammonton Airport,39.18965,-121.41966,Hammonton
+US-4643,closed,Proctor Lake Emergency Landing Field,35.11556,-118.34671,Tehachapi
+US-4644,small_airport,Oak Creek Canyon Terrace Landing Field,35.04809,-118.36713,Tehachapi
+US-4694,small_airport,Panamint Dry Lake Landing Strip,36.32607,-117.40749,Darwin
+US-4695,closed,Searles Dry Lake Landing Field,35.66469,-117.37088,Trona
+US-4696,closed,Pilot Knob Valley Targeting Airfield,35.57979,-117.04268,Trona
+US-4697,closed,Holsclaw STOL Strip,38.82812,-121.17473,Loomis
+US-4698,small_airport,Hoff Private Airport,35.62417,-118.26155,Weldon
+US-4699,closed,Rancho Escondido Airport,35.53617,-118.20589,Weldon
+US-4703,closed,Pioneer Mine Airport,38.46653,-120.85166,Plymouth
+US-4704,small_airport,Rabbit Lake South Airport,34.44844,-117.00493,Lucerne Valley
+US-4705,small_airport,Rabbit Lake Auxiliary Landing Field,34.45646,-117.01663,Lucerne Valley
+US-4713,closed,Frink / Niland Marina Airport,33.35737,-115.64535,Niland
+US-4715,small_airport,Midland Airport,33.85218,-114.7979,Blythe
+US-4716,small_airport,Midland Airport,33.85218,-114.7979,Blythe
+US-4717,small_airport,Standard Mine / Arlington Mine Airport,33.82033,-114.86336,Blythe
+US-4718,closed,Nevada City Airport,39.27616,-121.02902,Nevada City
+US-4721,closed,Marine Corps Outlying Landing Field Seagle,34.27241,-116.19287,Joshua Tree
+US-4722,heliport,Robert E Bush Naval Hospital Heliport,34.22514,-116.04771,Twentynine Palms
+US-4723,heliport,KD Rifle Range Heliport,34.25878,-116.05158,Twentynine Palms
+US-4724,closed,Bullion Wash Targeting Airstrip,34.4644,-116.22382,Twentynine Palms
+US-4739,closed,Chostner Airport,34.5915,-117.71178,Palmdale
+US-4760,heliport,Elysian Park Helipad,34.08281,-118.23692,Los Angeles
+US-4761,heliport,West Valley Area Heliport,34.19282,-118.54707,Reseda
+US-4769,small_airport,Skydive California Airport,37.731326,-121.335589,Tracy
+US-4813,heliport,Ten Thousand Helipad,34.06332,-118.41443,Los Angeles
+US-4814,heliport,631 South Olive Helipad,34.04762,-118.2552,Los Angeles
+US-4815,heliport,Los Angeles County Men's Detention Center Twin Towers East Heliport,34.05887,-118.22997,Los Angeles
+US-4816,heliport,Los Angeles County Men's Detention Center Twin Towers West Heliport,34.05844,-118.23127,Los Angeles
+US-4817,heliport,Los Angeles County Metropolitan Transit Authority Headquarters Heliport,34.05638,-118.23291,Los Angeles
+US-4818,closed,Pacific Electric Building Heliport,34.04462,-118.24981,Los Angeles
+US-4822,heliport,Cornerstone Plaza Helipad,34.03466,-118.45551,Los Angeles
+US-4823,heliport,Pacific Western Bank Helipad,34.03936,-118.43856,Los Angeles
+US-4825,closed,Searchlight Ferry Airport,35.45909,-114.63057,Golden Valley
+US-4874,heliport,Irwindale Speedway Heliport,34.10835,-117.98662,Irwindale
+US-4978,heliport,Sutter Medical Center Castro Valley Heliport,37.698958,-122.089262,Castro Valley
+US-5121,closed,National Parachute Test Range - Superstition Airfield,32.92009,-115.85875,Imperial
+US-5122,small_airport,WISS Airfield,33.31464,-115.40322,Niland
+US-5123,heliport,LZ Bull Heliport,33.05933,-115.03533,Niland
+US-5124,small_airport,LZ Phantom Airfield,33.16071,-114.97052,Niland
+US-5127,closed,Bud Coffee Field,37.62425,-121.00133,Modesto
+US-5128,closed,Chemurgic Airport,37.47621,-120.91718,Turlock
+US-5129,closed,Fulkerth Airport,37.50385,-121.04254,Crows Landing
+US-5133,closed,Kelso Airfield,35.06847,-115.64281,Kelso
+US-5134,closed,Bessemer Mine Airport,34.57827,-116.55765,Landers
+US-5135,closed,Bagdad Highway Airfield,34.28577,-116.03303,Twentynine Palms
+US-5145,small_airport,Spring Creek Airport,37.6777,-120.27409,Coulterville
+US-5146,small_airport,Granite Dell Airport,37.70834,-120.31877,Coulterville
+US-5147,closed,Oak Flat Mine Airport,37.72115,-120.44696,La Grange
+US-5157,small_airport,Cole Airport,34.38356,-116.55577,Landers
+US-5159,closed,Wonder Valley Airport,36.79213,-119.30959,Sanger
+US-5229,heliport,Peppermint Heliport,36.07365,-118.54167,Springville
+US-5250,heliport,Sierra National Forest Huntington Heliport,37.2427,-119.16603,Lakeshore
+US-5251,heliport,White Bark Helipad at Kaiser Pass,37.29333,-119.08992,Lakeshore
+US-5384,small_airport,Blue Mountain Airfield,33.26611,-115.12672,Niland
+US-5385,heliport,LZ Redwing Heliport,33.28203,-115.06518,Niland
+US-5386,heliport,LZ Burt Heliport,33.27149,-115.07513,Niland
+US-5387,heliport,LZ Goose Heliport,33.24349,-115.07783,Niland
+US-5388,heliport,LZ Owl Heliport,33.22292,-115.09904,Niland
+US-5389,heliport,LZ Jayhawk Heliport,33.23488,-115.1346,Niland
+US-5390,small_airport,Speed Bag UAS Strip,33.27345,-115.41179,Niland
+US-5525,closed,Former Santa Maria Municipal Airport / Hancock Field,34.9441,-120.42155,Santa Maria
+US-5526,heliport,Menifee Valley Medical Center Heliport,33.71839,-117.168,Menifee
+US-5560,closed,Leach Lake Target Airfield,35.59266,-116.681,Fort Irwin
+US-5561,small_airport,Leach Lake West Airfield,35.58115,-116.72465,Fort Irwin
+US-5562,closed,Leach Lake South Airfield,35.56825,-116.68931,Fort Irwin
+US-5575,closed,Harrington Flat Airport,38.86752,-122.74342,Cobb
+US-5607,small_airport,Calpine South Airport,39.63915,-120.42927,Calpine
+US-5608,small_airport,Maddalena Airport,39.82365,-120.28408,Beckwourth
+US-5666,closed,Foresthill Airport,39.01816,-120.83928,Foresthill
+US-5702,heliport,Scorpion Ranch Heliport,34.05199,-119.56434,Santa Cruz Island
+US-5703,heliport,Anacapa Coast Guard Rainshed Heliport,34.01412,-119.36573,Anacapa Island
+US-5732,closed,Raisin City Airport,36.59991,-119.92675,Raisin City
+US-5733,closed,Camden Oilfield Airport,36.47078,-119.83157,Riverdale
+US-5734,closed,Pasajero Farm Airport,36.26251,-120.11244,Huron
+US-5737,closed,Tres Picos Farms Airport,36.42456,-120.32045,Coalinga
+US-5738,closed,Five Points Ranch Airport,36.42518,-120.26511,Five Points
+US-5739,closed,Santa Nella Airport,37.09274,-121.0238,Gustine
+US-5740,heliport,St Elizabeth Community Hospital Heliport,40.148644,-122.220555,Red Bluff
+US-5741,heliport,Twin Cities Community Hospital Heliport,35.55605,-120.71903,Templeton
+US-5742,heliport,Rideout Regional Medical Center Heliport,39.13828,-121.59269,Marysville
+US-5743,closed,Cheim Airport,39.16162,-121.56775,Marysville
+US-5744,small_airport,Theil Air Care Airport,36.80654,-120.6164,Firebaugh
+US-5745,small_airport,Moe's Crop Dusting Airport,38.91093,-121.49484,Nicolaus
+US-5746,closed,DS Dusters Airport,32.74829,-115.41333,Holtville
+US-5747,small_airport,Martins Dusters Airport,39.25746,-122.06951,Colusa
+US-5748,small_airport,Porter Flying Services Airport,39.61668,-121.84831,Chico
+US-5749,small_airport,Giffen Cantua Ranch Airport,36.48307,-120.38482,Cantua Creek
+US-5750,small_airport,Cat Ag Air Airport,37.33698,-121.02807,Newman
+US-5751,heliport,PJ Helicopters Heliport,40.14532,-122.24249,Red Bluff
+US-5752,heliport,NorthBay Medical Center Heliport,38.26128,-122.04829,Fairfield
+US-5753,heliport,California Highway Patrol Academy Heliport,38.59769,-121.56262,West Sacramento
+US-5754,small_airport,Diversified Equipment Airport,34.82029,-117.16971,Barstow
+US-5755,small_airport,Delicato Vineyards Airport,36.14802,-121.08664,King City
+US-5756,small_airport,Western Ag Aviation Airport,36.64116,-120.23306,Tranquillity
+US-5757,small_airport,Azcal Airport,36.18644,-119.95838,Stratford
+US-5758,small_airport,Mid Cal Ag Aviation Airport,36.72123,-120.24715,Kerman
+US-5759,closed,Hoffman Airport,36.76124,-120.03553,Kerman
+US-5760,small_airport,Yribarren Airport,36.7401,-120.01278,Kerman
+US-5761,small_airport,Blair Airport,36.22065,-119.79901,Lemoore
+US-5762,closed,Ianni Strip,36.267,-119.54381,Hanford
+US-5763,closed,Baldwin Airport,36.1339,-119.58009,Corcoran
+US-5764,small_airport,3H Cattle Company Airport,36.18478,-119.57312,Hanford
+US-5765,small_airport,Helm Airport,36.52585,-120.09958,Helm
+US-5766,small_airport,Hughes Ag Airport,36.43886,-119.9001,Riverdale
+US-5767,small_airport,Coit Ranch Airport,36.68997,-120.47319,Mendota
+US-5768,small_airport,Organic Pastures Airport,36.6296,-119.99478,Fresno
+US-5769,closed,Cannon Field,36.77624,-119.77833,Fresno
+US-5770,closed,Furlong Field,36.80508,-119.8657,Fresno
+US-5771,small_airport,Star Pump Airport,36.81383,-120.25874,Madera
+US-5772,small_airport,Haley Flying Service Airport,37.81668,-121.4545,Tracy
+US-5773,small_airport,Kenny's Cropdusting Airport,36.5416,-119.76411,Fresno
+US-5774,small_airport,Sweetser Dusters Airport,38.88396,-121.71373,Robbins
+US-5775,small_airport,Hawke Ag Aviation Airport,37.73585,-120.70723,Oakdale
+US-5776,small_airport,Merced County Mosquito Abatement District Airport,37.07956,-120.72101,Dos Palos
+US-5777,closed,Berryessa Airport,38.57164,-122.22452,Napa
+US-5778,heliport,Colusa Medical Center Heliport,39.20586,-121.99982,Colusa
+US-5779,small_airport,Miller Airport,39.26326,-122.01693,Colusa
+US-5780,small_airport,Carter Airport,39.29623,-122.00925,Colusa
+US-5781,small_airport,Formanos Dusters Airport,39.38862,-122.0357,Colusa
+US-5782,closed,Bounde Creek Airport,39.39532,-122.06344,Colusa
+US-5790,small_airport,American West Aviation Airport,36.44813,-120.01345,Five Points
+US-5791,closed,Woolf Farming Airport,36.188959,-120.122917,Huron
+US-5796,small_airport,Ag Air Airport,37.9387,-121.13013,Stockton
+US-5797,small_airport,Kelcor Airport,36.9253,-121.34465,Hollister
+US-5798,small_airport,Kracker Jack Aviation Airport,39.68054,-122.0004,Glenn
+US-5802,small_airport,Harding Flying Services Airport,38.40514,-121.61308,Clarksburg
+US-5803,small_airport,Val-Air Airport,33.00524,-115.46632,Brawley
+US-5838,heliport,Big Tujunga Dam Heliport,34.29486,-118.18794,Tujunga
+US-5839,heliport,Chilao Fire Station Heliport,34.33227,-118.02669,Palmdale
+US-5840,closed,Green Acres Airport,36.33982,-119.32612,Visalia
+US-5841,heliport,Barley Flats Heliport,34.27659,-118.07217,Palmdale
+US-5846,closed,Polsa Rosa Ranch Airport,34.43245,-118.24093,Acton
+US-5847,heliport,Vallecito Conservation Camp 1 Heliport,38.10667,-120.49207,Angels Camp
+US-5848,heliport,Los Angeles River Ranger District Office Heliport,34.29753,-118.36132,Sylmar
+US-5849,heliport,Mount Gleason Heliport,34.37956,-118.15368,Palmdale
+US-5850,heliport,Josephine Peak Heliport,34.28599,-118.15395,Palmdale
+US-5851,heliport,Santa Cruz Island Navy Heliport,33.99483,-119.63414,Santa Cruz Island
+US-5852,small_airport,Smugglers Cove Airport,34.02831,-119.54093,Santa Cruz Island
+US-5853,heliport,Cal Fire San Diego Campo Fire Station 40 Heliport,32.62909,-116.46888,Campo
+US-5854,closed,Black Meadow Landing Airport,34.34696,-114.19319,Parker Dam
+US-5856,closed,Empire Airport,37.63333,-120.90526,Modesto
+US-5857,closed,Naval Auxiliary Air Station Vernalis,37.59862,-121.3117,Vernalis
+US-5858,closed,Farmco Airport,37.44357,-120.76669,Delhi
+US-5859,closed,Fiorini Airport,37.45767,-120.76659,Delhi
+US-5860,closed,Saint Johns Airport,36.36487,-119.2837,Visalia
+US-5863,heliport,Occidental Peak Heliport,34.23293,-118.07509,Pasadena
+US-5864,closed,Tipton Field,36.00432,-119.22801,Pixley
+US-5866,heliport,Cal Fire San Diego Dulzura Fire Station 30 Heliport,32.64317,-116.77619,Dulzura
+US-5870,closed,Planada Airport,37.29769,-120.32778,Planada
+US-5871,small_airport,Agriland Airport,37.10534,-120.10171,Chowchilla
+US-5872,small_airport,O'Flanagan Airport,37.01784,-120.41533,Chowchilla
+US-5873,small_airport,Kearney Airport,36.59831,-119.50463,Parlier
+US-5874,heliport,Adventist Health Tehachapi Heliport,35.14862,-118.44996,Tehachapi
+US-5875,closed,Chambless Airport,34.56581,-115.54394,Amboy
+US-5881,heliport,Oak Springs Heliport,34.36355,-117.10806,Hesperia
+US-5882,closed,Strathmore Field,36.11303,-119.12049,Porterville
+US-5891,heliport,US Military Gunnery Naval Base Heliport,33.29065,-115.49002,Niland
+US-5892,small_airport,Monolith Airport,34.57805,-116.95685,Lucerne Valley
+US-5893,small_airport,Harrod Airport,34.52872,-116.85341,Lucerne Valley
+US-5894,closed,Butterfield Lake Estates Heliport,33.47892,-116.9612,Aguanga
+US-5993,closed,Yermo Airport,34.90982,-116.81629,Yermo
+US-5994,closed,Calico Guest Ranch Airport,34.91119,-116.85949,Yermo
+US-5995,closed,Corona Airport (1954),33.88047,-117.54645,Corona
+US-6007,closed,Poe Airport,34.79964,-116.50254,Newberry Springs
+US-6009,closed,Murrieta Hot Springs Airport (1953),33.55653,-117.15196,Murrieta
+US-6021,closed,Summer Home Airport,37.81894,-121.20594,Manteca
+US-6022,closed,Sacramento Sky Ranch Airport,38.50041,-121.43467,Sacramento
+US-6023,closed,Fairfield Suisun Airpark,38.24842,-122.0253,Suisun City
+US-6024,closed,Woodland East Airport,38.68632,-121.73404,Woodland
+US-6025,heliport,Glenn Medical Center Heliport,39.52202,-122.20848,Willows
+US-6026,closed,Sacramento National Wildlife Refuge Airport,39.42516,-122.18508,Willows
+US-6030,closed,State Forestry Airport,38.55402,-121.68075,Davis
+US-6031,closed,El Macero Airport,38.54388,-121.67631,Davis
+US-6032,closed,Best Airport,38.76592,-121.76597,Woodland
+US-6033,closed,Capitol Sky Park,38.58363,-121.52238,Sacramento
+US-6045,closed,Pearland Airport,34.55134,-118.06123,Palmdale
+US-6046,closed,Galbraith Airport,34.57433,-118.12195,Palmdale
+US-6059,heliport,Marine Corps Logistics Base Barstow Heliport,34.8974,-116.87729,Daggett
+US-6060,closed,Calaveras County San Andreas Airport,38.18585,-120.66882,San Andreas
+US-6061,closed,Taft-Kern County Auxiliary Airport,35.06959,-119.09173,Bakersfield
+US-6062,small_airport,Skydive San Joaquin Valley Airport,35.097819,-119.070961,Bakersfield
+US-6063,closed,Oranges Airport,38.02948,-121.31807,Stockton
+US-6064,closed,West Lane Airport,38.01322,-121.28869,Stockton
+US-6065,closed,Jackson Ranch Airport,41.47993,-122.41349,Weed
+US-6096,closed,Skyline / Perkins Airport,38.54334,-121.39825,Sacramento
+US-6097,closed,Reed Army Airfield,38.51748,-121.39682,Sacramento
+US-6098,closed,Del Paso / Lindbergh Airport,38.63794,-121.39154,Sacramento
+US-6099,closed,North Sacramento Airport,38.62489,-121.4641,Sacramento
+US-6100,closed,Fair Oaks Airport,38.60802,-121.26697,Rancho Cordova
+US-6101,closed,Jensen Airport,38.51003,-121.50509,Sacramento
+US-6155,small_airport,Five Points Airport,36.42548,-120.1034,Five Points
+US-6183,closed,Cole Airstrip,42.00084,-122.64161,Hornbrook
+US-6184,closed,Skyridge Airport,38.88024,-121.07212,Auburn
+US-6185,closed,Fair Oaks Airport / Phoenix Field,38.65688,-121.21984,Fair Oaks
+US-6186,heliport,Sutter Delta Medical Center Heliport,37.98361,-121.80152,Antioch
+US-6188,closed,Rio Vista Airport (1952),38.17056,-121.68784,Rio Vista
+US-6222,small_airport,Leese Airport,41.87532,-122.41478,Montague
+US-6250,heliport,Alder Springs Forest Service Heliport,39.65092,-122.72652,Elk Creek
+US-6251,small_airport,Elk Creek Airport,39.59483,-122.56487,Elk Creek
+US-6252,small_airport,Butler Airport,39.5857,-122.58237,Elk Creek
+US-6253,closed,Wild Horse Ranch Airport,40.31771,-122.79805,Platina
+US-6254,small_airport,Stonyford Airport,39.36099,-122.57941,Stonyford
+US-6255,small_airport,Montgomery Creek Airport,39.40638,-122.50112,Stonyford
+US-6294,heliport,Golden Oak Ranch Heliport,34.3834,-118.46875,Santa Clarita
+US-6295,heliport,Montecito Ranch Private Heliport,34.41918,-119.58493,Carpinteria
+US-6296,closed,Cal-Aero Port,32.84411,-115.55694,Imperial
+US-6303,closed,Washington Hospital Heliport,37.55643,-121.97826,Fremont
+US-6304,heliport,Rancho Escondido Heliport,37.62386,-121.6992,Livermore
+US-6305,heliport,Landells Heliport,33.92264,-116.45348,Desert Hot Springs
+US-6307,closed,Hamilton Ranch Airport,37.3708,-121.46941,Livermore
+US-6309,heliport,Santa Paula Hospital Heliport,34.36601,-119.06421,Santa Paula
+US-6371,closed,Los Angeles Fire Department Station 88 Heliport,34.162966,-118.46808,Sherman Oaks
+US-6510,small_airport,Dry Lake Airport,41.67554,-121.26808,Tulelake
+US-6517,small_airport,Black Mountain Open Space Gliderport,32.98795,-117.12226,San Diego
+US-6518,heliport,Cameron Fire Station Heliport,32.72041,-116.46468,Pine Valley
+US-6557,heliport,Thirst Hill Heliport,32.8833,-118.45121,San Clemente Island
+US-6567,small_airport,Ship Ashore Airport,41.93628,-124.18942,Smith River
+US-6578,closed,Kettenpom Airport,40.16097,-123.46385,Zenia
+US-6613,heliport,Wildrose Ranger Station Heliport,36.2653,-117.18292,Death Valley
+US-6615,small_airport,Belcher Airport,38.76993,-122.5559,Middletown
+US-6664,heliport,Golden Acorn Plaza Heliport,32.70376,-116.35715,Campo
+US-6675,heliport,US Border Patrol Boulevard Heliport,32.68334,-116.29272,Boulevard
+US-6687,small_airport,Earthquake Valley Glider Landing Zone,33.05897,-116.4207,Julian
+US-6688,small_airport,Coyote Canyon Airport,33.32817,-116.37135,Borrego Springs
+US-6689,small_airport,Blair Valley Landing Field,33.0325,-116.40269,Julian
+US-6690,small_airport,Little Blair Valley Landing Field,33.02664,-116.3886,Julian
+US-6691,closed,Naval Auxiliary Air Station Salton Sea,33.19351,-115.86565,Salton City
+US-6692,closed,Little Dixie Airport,35.48893,-117.95616,Inyokern
+US-6693,small_airport,South Coles Levee Oilfield Airport,35.262,-119.26404,Bakersfield
+US-6694,closed,Oropeza Airport,33.4381,-116.88491,Aguanga
+US-6695,heliport,Saint Andrews Abbey Heliport,34.45517,-117.87341,Valyermo
+US-6696,heliport,Hyundai Motor Group California Proving Grounds Heliport,35.05544,-118.01914,California City
+US-6697,small_airport,Hewitson-McGlishaw Ranch Airport,35.84088,-119.98173,Avenal
+US-6698,closed,Badger Hill Airport,35.83793,-119.94584,Avenal
+US-6699,small_airport,Stamoules Airport,36.72905,-120.47083,Mendota
+US-6700,closed,Whitesbridge Airport,36.73822,-120.42358,Mendota
+US-6701,small_airport,Goldenrod Airport,36.81334,-120.04077,Kerman
+US-6702,closed,Airaya Airport,37.90045,-121.65536,Brentwood
+US-6703,closed,McCauley Estate Airport,37.95118,-121.65034,Brentwood
+US-6704,closed,Black Airport,35.98628,-120.10897,Avenal
+US-6705,small_airport,Ranchita 2608 Airport,33.20531,-116.51319,Ranchita
+US-6706,small_airport,Mariposa Airport,33.13499,-116.13708,Borrego Springs
+US-6707,small_airport,Broadway Airport,33.10486,-116.04788,Borrego Springs
+US-6775,heliport,Santa Clarita Valley Sheriff's Station Heliport,34.40842,-118.50442,Santa Clarita
+US-6797,heliport,Los Angeles County Sheriff Lynwood Heliport,33.92746,-118.22944,Lynwood
+US-6798,heliport,Edmund D Edelman Children's Courthouse Heliport,34.05802,-118.1667,Monterey Park
+US-6799,heliport,Los Angeles County Sheriff Lancaster Station Heliport,34.70029,-118.13805,Lancaster
+US-6850,small_airport,Condit Airport,34.53393,-116.87808,Lucerne Valley
+US-6851,small_airport,Mayo Airport,34.29217,-116.37605,Landers
+US-6852,small_airport,Warren Airport,34.36688,-116.53189,Landers
+US-6896,small_airport,San Clemente Rancho Airport,36.4097,-121.72911,Carmel-by-the-Sea
+US-6949,closed,Hi Hi Sky Ranch,33.19831,-117.34693,Oceanside
+US-6967,closed,Barnes Airfield,34.86419,-117.96492,Rosamond
+US-6968,closed,Rancho Grande Airport,34.53473,-119.21492,Ojai
+US-6969,small_airport,Upper Hartman Ranch Airport,34.610164,-119.382334,Ojai
+US-6970,small_airport,Cuaslui Creek Airport,34.78462,-120.18502,Santa Maria
+US-6971,heliport,Lebec Heliport,34.81107,-118.88781,Lebec
+US-6972,small_airport,Porter Ranch Airport,35.13192,-120.35665,Arroyo Grande
+US-6973,small_airport,Pozo Airport,35.30181,-120.36211,Santa Margarita
+US-6974,small_airport,Leffler Ag Services Airport,35.29903,-120.42266,Santa Margarita
+US-6975,small_airport,Bean Canyon Airport,35.31172,-120.33956,Santa Margarita
+US-6976,small_airport,Wilson Creek Airport,35.39428,-120.416,Creston
+US-6977,small_airport,Katacreek Airport,35.4529,-120.476,Creston
+US-6978,small_airport,Double L Ranch Airport,35.28597,-120.31308,Santa Margarita
+US-6979,small_airport,Italian Bar Airport,37.16506,-119.4569,North Fork
+US-6980,small_airport,Gordon Gulch Airport,35.74478,-118.85077,Woody
+US-6982,heliport,Poso Fire Station Helipad,35.80661,-118.63364,Posey
+US-7002,heliport,Naylor Place Heliport,34.58915,-118.70306,Castaic
+US-7009,heliport,Ira J Chrisman Pumping Plant Helipad,35.01604,-118.979863,Bakersfield
+US-7010,heliport,Edmonston Pumping Plant Helipad,34.94493,-118.82542,Arvin
+US-7011,heliport,Los Angeles County Fire Department Del Valle Regional Training Center Heliport 143A,34.43106,-118.66599,Castaic
+US-7012,heliport,Pomona Farming Heliport,35.04953,-119.07389,Bakersfield
+US-7013,small_airport,Jeffrey Brown Airport,37.64926,-121.37479,Tracy
+US-7021,heliport,Buena Vista Pumping Plant Helipad,35.160179,-119.346848,Maricopa
+US-7022,small_airport,Pilibos Ranch Airport,36.67868,-120.50965,Mendota
+US-7035,heliport,Dumont Dunes Heliport,35.69526,-116.24097,Baker
+US-7099,heliport,Laguna Seca Raceway Heliport,36.586191,-121.75979,Salinas
+US-7111,balloonport,Great Park Balloon Ride,33.6726,-117.7431,Irvine
+US-7117,small_airport,Clark Ranch Airport,39.6692,-123.47953,Laytonville
+US-7118,heliport,Cal Fire Laytonville Fire Station Heliport,39.70267,-123.48628,Laytonville
+US-7119,small_airport,Capell Valley Airport,38.46194,-122.19456,Napa
+US-7150,heliport,OneLegacy Helistop,34.12885,-117.927658,Azusa
+US-7164,closed,Holtsmans Airport,38.689446,-121.524131,Rio Linda
+US-7165,heliport,VA Medical Center Livermore Heliport,37.6271,-121.75961,Livermore
+US-7166,closed,Davis Airport,35.61022,-117.67256,Ridgecrest
+US-7167,closed,Rosamond West Airstrip,34.87194,-118.22307,Rosamond
+US-7168,small_airport,Werner Airport,34.92876,-118.19864,Rosamond
+US-7173,heliport,Butte Meadows Heliport,40.08107,-121.55278,Butte Meadows
+US-7174,heliport,Feather River Hospital Heliport,39.75836,-121.57007,Paradise
+US-7176,heliport,Air Force Research Laboratory Heliport,34.92597,-117.69473,Boron
+US-7179,heliport,Round Mountain Substation Heliport,40.80885,-121.93626,Round Mountain
+US-7180,heliport,Cal Fire Manton Heliport,40.43347,-121.8747,Manton
+US-7181,heliport,Anselmo Heliport,40.51487,-121.9981,Shingletown
+US-7186,heliport,Old Station Helibase,40.66875,-121.41966,Old Station
+US-7187,heliport,Shasta County Fire Department Company 12 Heliport,40.67636,-121.42791,Old Station
+US-7241,closed,Coalinga Airport (1936),36.158043,-120.360117,
+US-7269,heliport,Skyline Helipad,37.84417,-122.19627,Oakland
+US-7270,heliport,Oak Valley Hospital Heliport,37.75695,-120.86216,Oakdale
+US-7271,heliport,Hites Cove Emergency Helicopter Landing Area,37.59509,-119.8462,Mariposa
+US-7272,heliport,Russel K. Ryan Heliport,36.00546,-121.237,Jolon
+US-7273,heliport,Balderson Station Heliport,38.93388,-120.75828,Georgetown
+US-7274,heliport,Sand Bar Flat Heliport,38.186033,-120.150588,Twain Harte
+US-7275,heliport,Strawberry Dam Emergency Helicopter Landing Area,38.20023,-119.98894,Pinecrest
+US-7324,closed,South Point Airstrip,33.90909,-120.10352,Santa Rosa Island
+US-7336,heliport,SCE Cathedral City Heliport,33.78658,-116.46442,Cathedral City
+US-7401,closed,Secret Valley Intermediate Field,40.53496,-120.25192,Litchfield
+US-7409,small_airport,Winema Airport,41.33066,-120.53359,Likely
+US-7410,closed,Wilsons Field Airport,38.78419,-123.5539,Gualala
+US-7513,closed,Homewood Seaplane Base,39.086473,-120.158836,Lake Tahoe
+US-7542,heliport,Chukchansi Gold Resort & Casino Heliport,37.21369,-119.7035,Coarsegold
+US-7750,closed,Linnville Creek Airport,41.67823,-120.37311,Davis Creek
+US-7847,closed,RI San Bernardino G/L Helistop,34.069437,-117.274186,San Bernardino
+US-7859,heliport,110 West Ash Building Helipad,32.720252,-117.168605,San Diego
+US-7860,heliport,JM Eagle Building Helipad,33.94507,-118.37061,Los Angeles
+US-7861,heliport,Richmore Gardens Twin Towers Helipad,34.05893,-118.30239,Los Angeles
+US-7862,heliport,825 South Hill Helipad,34.04409,-118.2567,Los Angeles
+US-7865,heliport,Lionsgate Estate Heliport,33.41482,-117.22679,Fallbrook
+US-7866,heliport,Majorca Vineyards Heliport,33.57362,-117.29187,Murrieta
+US-7908,closed,Fort Seward Airport,40.21446,-123.6363,Fort Seward
+US-8137,heliport,Big Dalton Dam Emergency Heliport,34.167736,-117.811244,Glendora
+US-8138,heliport,San Dimas Dam Emergency Heliport,34.154106,-117.771278,La Verne
+US-8157,closed,Downey Heliport,33.923348,-118.126456,Downey
+US-8180,heliport,Los Angeles Unified School District Headquarters Helipad,34.05649,-118.25766,Los Angeles
+US-8181,heliport,Los Angeles Unified School District North Helipad,34.0576,-118.25602,Los Angeles
+US-8186,closed,Lancaster Airport,34.71142,-118.15638,Lancaster
+US-8240,closed,Two Rivers Airport,42.5496,-124.06264,Agness
+US-8461,heliport,Harbor UCLA Medical Center Interim West Heliport,33.828386,-118.297389,Torrance
+US-8505,heliport,Adin Helicopter Base,41.189407,-120.940974,Adin
+US-8534,small_airport,Ramirez Airstrip,39.29332,-121.53176,Linda
+US-8584,closed,West Field,36.26571,-120.20346,Huron
+US-8585,small_airport,Jones Aviation Airport,39.14886,-122.17076,Williams
+US-8586,small_airport,Wheeler Ridge Aviation Airport,35.0828,-118.99797,Bakersfield
+US-8587,heliport,Coalinga Regional Medical Center Heliport,36.15281,-120.33981,Coalinga
+US-8689,heliport,Mills Peninsula Medical Center Helipad,37.591796,-122.383818,Burlingame
+US-8690,heliport,Sutter Davis Hospital EMS Landing Site,38.561547,-121.770806,Davis
+US-8693,heliport,2211 Michelson Helipad,33.67749,-117.85547,Irvine
+US-8694,heliport,Lakeshore Towers B1 Helipad,33.68009,-117.85319,Irvine
+US-8695,heliport,Lakeshore Towers III Helipad,33.68042,-117.85387,Irvine
+US-8696,heliport,Kaiser Permanente Irvine Medical Center Heliport,33.65785,-117.77435,Irvine
+US-8697,heliport,The Plaza Irvine 8000 Scholarship Helipad,33.66568,-117.85286,Irvine
+US-8698,heliport,The Plaza Irvine 5000 Scholarship Helipad,33.66653,-117.85297,Irvine
+US-8699,heliport,The Plaza Irvine 3000 Scholarship Helipad,33.66705,-117.85242,Irvine
+US-8700,heliport,18100 Von Karman Helipad,33.67769,-117.85061,Irvine
+US-8701,heliport,405 Rockefeller Helipad,33.67731,-117.84851,Irvine
+US-8702,heliport,401 Rockefeller Helipad,33.67754,-117.84795,Irvine
+US-8732,heliport,Los Angeles County Sheriff's Department Lester J White Search and Rescue Regional Training Facility Heliport,34.3684,-117.66012,Wrightwood
+US-8962,heliport,Mercy Medical Center of Mount Shasta Heliport,41.318611,-122.320056,Mount Shasta
+US-8968,heliport,Fort Irwin Heliport,35.266485,-116.686726,Fort Irwin
+US-8975,heliport,Old Canal Helipad,40.490915,-122.639315,Igo
+US-8990,closed,Sterks Ranch Airport,34.71522,-118.10208,Lancaster
+US-9002,closed,Division Street Airport,34.72511,-118.12667,Lancaster
+US-9018,heliport,Islip Canyon Helipad,34.19328,-117.86409,Glendora
+US-9019,heliport,Williams Flat Helipad,34.233879,-117.798645,Azusa
+US-9113,heliport,Santa Anita Dam Emergency Heliport,34.183925,-118.02049,Monrovia
+US-9125,heliport,Borrego Medical Center Heliport,33.193678,-116.329669,Borrego Springs
+US-9128,closed,Louisiana Pacific Mill Airport,40.98601,-121.62232,Burney
+US-9129,closed,Machado Airfield,34.98433,-120.43071,Santa Maria
+US-9130,heliport,USC Medical School Heliport,34.06202,-118.20508,Los Angeles
+US-9131,heliport,USC Norris Cancer Center Heliport,34.06139,-118.20493,Los Angeles
+US-9132,closed,Scripps Hospital East County Heliport,32.81108,-116.92102,El Cajon
+US-9133,closed,Luebkeman Airport,33.8407,-118.01746,Buena Park
+US-9134,heliport,Silver Strand Training Complex Heliport,32.59789,-117.131,Imperial Beach
+US-9136,closed,AvAg Heliport,39.74715,-122.01617,Hamilton City
+US-9137,closed,Newport Bay Airport,33.64806,-117.93505,Newport Beach
+US-9138,closed,Lompoc Municipal Airport,34.64822,-120.46231,Lompoc
+US-9140,small_airport,Hidden Valley Lake Airport,38.80757,-122.5901,Middletown
+US-9141,closed,Charleston View Airport,35.96954,-115.85437,Tecopa
+US-9145,heliport,Jerseydale Fire Station Heliport,37.54761,-119.8341,Mariposa
+US-9146,heliport,Usona Forest Fire Station Heliport,37.46237,-119.78562,Mariposa
+US-9149,heliport,Main Street Apartments Heliport,33.6852,-117.85101,Irvine
+US-9150,heliport,1901 Main Street Heliport,33.68596,-117.85418,Irvine
+US-9151,heliport,2040 Main Street Heliport,33.68281,-117.85248,Irvine
+US-9152,heliport,2050 Main Street Heliport,33.6829,-117.8518,Irvine
+US-9156,heliport,Weed Army Community Hospital Heliport,35.27247,-116.68029,Fort Irwin
+US-9204,heliport,The Tower Burbank Heliport,34.15296,-118.34277,Burbank
+US-9205,heliport,ABC Riverside Building Heliport,34.15506,-118.32418,Burbank
+US-9206,heliport,Studio Plaza Heliport,34.15218,-118.33663,Burbank
+US-9207,heliport,The Pointe Heliport,34.15648,-118.33119,Burbank
+US-9208,heliport,500 North Central Avenue Heliport,34.15318,-118.25756,Glendale
+US-9209,heliport,520 North Central Avenue Heliport,34.15372,-118.25763,Glendale
+US-9210,heliport,Topa Financial Plaza Heliport,34.22835,-119.17445,Oxnard
+US-9219,heliport,Santa Ynez Peak Heliport,34.52658,-119.98013,Goleta
+US-9220,heliport,Balm Ridge Heliport,35.20621,-120.67627,San Luis Obispo
+US-9266,closed,Grant Ranch Airport,33.22595,-116.97352,Valley Center
+US-9267,heliport,USFS Day Ranch Heliport,38.27246,-119.2881,Bridgeport
+US-9269,closed,R Ranch Airport,41.921677,-122.583125,Hornbrook
+US-9270,closed,Bennett Airport,41.77387,-122.5997,Yreka
+US-9271,closed,Gordon Field,33.26758,-117.01896,Valley Center
+US-9272,small_airport,Lamascus Airport,36.01455,-121.15942,King City
+US-9293,small_airport,Boron East Airfield,35.00558,-117.62601,Boron
+US-9295,heliport,Mark Goodson Building Heliport,34.06991,-118.37512,Los Angeles
+US-9296,heliport,Joseph Youngerman Building Heliport,34.072868,-118.374574,Los Angeles
+US-9297,closed,Ventura Harbor Heliport,34.23979,-119.26222,Ventura
+US-9298,closed,Adams Airport,36.7028,-119.74139,Fresno
+US-9300,closed,Casitas Airport,34.40751,-119.31159,Ojai
+US-9301,closed,USMC Port Hueneme Heliport,34.15774,-119.21052,Port Hueneme
+US-9302,heliport,Millerton Fire Station Heliport,36.99227,-119.70889,Friant
+US-9303,small_airport,Steele Airport,39.91457,-122.02347,Chico
+US-9304,heliport,Buckeye Heliport,37.05248,-119.39205,Auberry
+US-9305,closed,Burum Airport,35.8089,-119.13662,Richgrove
+US-9306,heliport,Trinity Helibase Helitack 506,40.78711,-122.80441,Lewiston
+US-9307,heliport,Beaver Glade Station Heliport,39.93347,-122.99445,Covelo
+US-9364,closed,Los Angeles County Sheriff's Department Heliport,34.0378,-118.153999,Los Angeles
+US-9415,closed,West Side Hospital Heliport,35.138949,-119.451463,Taft
+US-9442,closed,Drew Medical Center Heliport,33.923302,-118.241997,Los Angeles
+US-9443,closed,Northside Airpark,34.98830032,-120.4580002,Santa Maria
+US-9444,closed,Boeing Seal Beach (Rooftop) Heliport,33.756779,-118.0854,Seal Beach
+US-9445,closed,Ward Ranch Airport,33.413347,-116.843255,Aguanga
+US-9447,closed,Parking Lot Heliport,32.593834,-117.084872,Chula Vista
+US-9511,closed,Shingletown Airport,40.521955,-121.81705,Shingletown
+US-9537,closed,Joe Gottlieb Field,35.368,-119.195,Bakersfield
+US-9601,closed,Hunt Farms Airport,37.342701,-120.403999,Merced
+US-9617,closed,Doctors Medical Center Heliport,37.953698,-122.337275,San Pablo
+US-9632,closed,Palisades Ranch Airport,34.7122,-117.350999,Helendale
+US-9652,closed,Sunrise One Heliport,38.603298,-121.263,Rancho Cordova
+US-9653,closed,Aha Quin Airport,33.86732,-114.527152,Blythe
+US-9654,closed,R I Science Center Helistop,34.196962,-118.904563,Thousand Oaks
+US-9655,closed,Alameda County Parking Garage Heliport,37.800743,-122.265236,Oakland
+US-9771,closed,Lefko Airport,41.62901,-122.75876,Fort Jones
+US-9772,closed,Douthitt Strip,32.789013,-115.528535,El Centro
+US-9781,closed,Rockwell International Anaheim Helistop G/L B/201,33.85192,-117.852058,Anaheim
+US-9793,closed,Platform Holly Heliport,34.389702,-119.905998,Ellwood
+US-9803,closed,Northrop Grumman Woodland Hills Heliport,34.168598,-118.595001,Los Angeles
+US-9823,closed,Borax Heliport,35.030498,-117.708,Boron
+US-9852,closed,Cosmodyne Heliport,33.84358,-118.339797,Torrance
+US-9853,closed,Canyon Creek Heliport,37.108073,-121.79835,Morgan Hill
+US-9854,closed,McCabe Ranch Airport,39.010948,-122.097995,Arbuckle
+US-9954,closed,Lloyd's Landing Airport,34.905499,-118.302002,Rosamond
+US-9963,closed,Fiddyment Field,38.792099,-121.3730011,Roseville
+US-9972,closed,59 Ranch Airport,37.231899,-120.478996,Merced
+US-9982,closed,Blackwell Land Company Airport,35.63618,-120.009035,Lost Hills
+US-9993,closed,Cashen Airport,35.691601,-119.488998,Wasco
