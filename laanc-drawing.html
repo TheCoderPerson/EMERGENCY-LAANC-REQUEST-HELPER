@@ -469,12 +469,13 @@
           <div>
             <label for="timezone-select">Time Zone:</label>
             <select id="timezone-select">
-              <option value="-5">Eastern (EST/EDT) UTC - 5</option>
-              <option value="-6">Central (CST/CDT) UTC - 6</option>
-              <option value="-7">Mountain (MST/MDT) UTC - 7</option>
-              <option value="-8">Pacific (PST/PDT) UTC - 8</option>
-              <option value="-9">Alaska (AKST/AKDT) UTC - 9</option>
-              <option value="-10">Hawaii (HST/HDT) UTC - 10</option>
+              <option value="ET">Eastern (EST/EDT)</option>
+              <option value="CT">Central (CST/CDT)</option>
+              <option value="MT">Mountain (MST/MDT) - CO, WY, NM, UT, MT, ID</option>
+              <option value="AZ">Arizona (MST - no DST)</option>
+              <option value="PT">Pacific (PST/PDT)</option>
+              <option value="AK">Alaska (AKST/AKDT)</option>
+              <option value="HI">Hawaii (HST - no DST)</option>
             </select>
           </div>
           
@@ -1782,76 +1783,115 @@
     // Visual indicator for touch devices
     divider.innerHTML = '<div style="text-align: center; line-height: 15px; font-size: 10px; color: #555;">⬍ Drag to resize ⬆</div>';
     // -------------------------------------
+
+    // Map dropdown values to US zones and standard offsets (hours)
+    const US_TZ = {
+      "ET": { std: -5 }, // Eastern
+      "CT": { std: -6 }, // Central
+      "MT": { std: -7 }, // Mountain (DST-observing states only: CO, NM, WY, MT, UT, ID)
+      "AZ": { std: -7, noDST: true }, // Arizona (no DST)
+      "PT": { std: -8 }, // Pacific
+      "AK": { std: -9 }, // Alaska
+      "HI": { std: -10, noDST: true } // Hawaii (no DST)
+    };
+    
+    // Return true if US DST is in effect for the given date in target zone
+    function isUsDst(dateUTC, zoneKey) {
+      // Check if zone observes DST
+      if (US_TZ[zoneKey].noDST) {
+        return false;
+      }
+      
+      const y = dateUTC.getUTCFullYear();
+    
+      function nthWeekday(year, monthIndex, weekday, n) {
+        const d = new Date(Date.UTC(year, monthIndex, 1));
+        const add = (7 + weekday - d.getUTCDay()) % 7;
+        const day = 1 + add + (n - 1) * 7;
+        return new Date(Date.UTC(year, monthIndex, day));
+      }
+      
+      const stdOffset = US_TZ[zoneKey].std;
+      const dstOffset = stdOffset + 1; // DST offset for the end boundary
+      
+      const dstStartDay = nthWeekday(y, 2, 0, 2); // Second Sunday in March
+      const dstEndDay = nthWeekday(y, 10, 0, 1);  // First Sunday in November
+      
+      // DST starts at 2:00 AM local STANDARD time
+      const dstStart = new Date(dstStartDay.getTime() + (2 - stdOffset) * 3600 * 1000);
+      
+      // DST ends at 2:00 AM local DST time (uses dstOffset, not stdOffset!)
+      const dstEnd = new Date(dstEndDay.getTime() + (2 - dstOffset) * 3600 * 1000);
+    
+      return dateUTC >= dstStart && dateUTC < dstEnd;
+    }
+    
+    // Given wall clock and zoneKey, produce UTC Date
+    function wallToUTC(year, month, day, hour, minute, zoneKey) {
+      // Build a naive wall-clock timestamp (treat inputs as if they were UTC)
+      const wallMillis = Date.UTC(year, month - 1, day, hour, minute, 0, 0);
+    
+      // Start with standard offset; adjust for DST if applicable (+1 hour)
+      let offsetHours = US_TZ[zoneKey].std;
+      // Check DST using the wall time as an initial guess converted to UTC by std offset
+      const guessUTC = new Date(wallMillis - offsetHours * 3600 * 1000);
+      if (isUsDst(guessUTC, zoneKey)) {
+        offsetHours += 1; // e.g., -5 -> -4 (EDT instead of EST)
+      }
+    
+      // Final UTC = wall - offset
+      const utcMillis = wallMillis - offsetHours * 3600 * 1000;
+      return new Date(utcMillis);
+    }
     
     // Time conversion functionality
     function convertToLimaTime() {
       const timeValue = timeInput.value.trim();
       const dateValue = dateInput.value;
-      
       if (!timeValue || !dateValue) {
         limaTimeDisplay.innerHTML = "Enter date and time to see conversion";
         return;
       }
-      
-      // Parse the time - accept both HHMM and HH:MM formats
+    
       let hours, minutes;
-      
       if (timeValue.includes(':')) {
-        // HH:MM format
-        [hours, minutes] = timeValue.split(':').map(num => parseInt(num, 10));
+        [hours, minutes] = timeValue.split(':').map(n => parseInt(n, 10));
       } else {
-        // HHMM format
-        const timeStr = timeValue.padStart(4, '0');
-        hours = parseInt(timeStr.substring(0, 2), 10);
-        minutes = parseInt(timeStr.substring(2, 4), 10);
+        const t = timeValue.padStart(4, '0');
+        hours = parseInt(t.slice(0,2), 10);
+        minutes = parseInt(t.slice(2,4), 10);
       }
       
-      // Validate hours and minutes
       if (isNaN(hours) || isNaN(minutes) || hours < 0 || hours > 23 || minutes < 0 || minutes > 59) {
         limaTimeDisplay.innerHTML = "Invalid time format. Use HHMM or HH:MM";
         return;
       }
+    
+      const zoneKey = timezoneSelect.value;
+    
+      if (!US_TZ[zoneKey]) {
+        limaTimeDisplay.innerHTML = "Choose a supported U.S. time zone.";
+        return;
+      }
+    
+      // UNCOMMENT AND FIX: Extract date parts
+      const [yyyy, mm, dd] = dateValue.split('-').map(n => parseInt(n, 10));
+    
+      // Get Zulu from wall clock + zone
+      const zuluDate = wallToUTC(yyyy, mm, dd, hours, minutes, zoneKey);
+    
+      // Lima = UTC+11
+      const limaDate = new Date(zuluDate.getTime() + 11 * 3600 * 1000);
+    
+      const fmtDate = { year:'numeric', month:'numeric', day:'numeric', timeZone:'UTC' };
+      const fmtTime = { hour:'2-digit', minute:'2-digit', hour12:false, timeZone:'UTC' };
       
-      // Get the timezone offset
-      const timezoneOffset = parseInt(timezoneSelect.value, 10);
+      const zuluDateStr = zuluDate.toLocaleDateString('en-US', fmtDate);
+      const zuluTimeStr = zuluDate.toLocaleTimeString('en-US', fmtTime);
       
-      // Create a Date object for the selected date and time
-      const localDate = new Date(dateValue);
-      localDate.setHours(hours, minutes, 0, 0);
+      const limaDateStr = limaDate.toLocaleDateString('en-US', fmtDate);
+      const limaTimeStr = limaDate.toLocaleTimeString('en-US', fmtTime);
       
-      // Convert to UTC/Zulu time by adding the timezone offset
-      const zuluDate = new Date(localDate.getTime() - timezoneOffset * 60 * 60 * 1000);
-      
-      // Convert to Lima time (UTC+11)
-      const limaDate = new Date(zuluDate.getTime() + 11 * 60 * 60 * 1000);
-      
-      // Format the dates
-      const zuluDateStr = zuluDate.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'numeric',
-        day: 'numeric'
-      });
-      
-      const limaDateStr = limaDate.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'numeric',
-        day: 'numeric'
-      });
-      
-      // Format the times
-      const zuluTimeStr = zuluDate.toLocaleTimeString('en-US', {
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false
-      });
-      
-      const limaTimeStr = limaDate.toLocaleTimeString('en-US', {
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: false
-      });
-      
-      // Display the results
       limaTimeDisplay.innerHTML = `
         <div>Zulu (UTC+0): <strong>${zuluDateStr} ${zuluTimeStr}Z</strong></div>
         <div>Lima (UTC+11): <strong>${limaDateStr} ${limaTimeStr}L</strong></div>
@@ -1864,7 +1904,7 @@
     timezoneSelect.addEventListener('change', convertToLimaTime);
     
     // Initialize with default timezone
-    timezoneSelect.value = "-8"; // Default to Pacific Time
+    timezoneSelect.value = "PT"; // Default to Pacific Time
     
     // Initialize the application and load default data
     changeMode('polygon');
@@ -2208,4 +2248,3 @@
   </script>
 </body>
 </html>
-
